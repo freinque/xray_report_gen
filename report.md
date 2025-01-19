@@ -22,6 +22,9 @@ This repository is the official implementation of [My Paper Title](TBA).
 
 To install requirements:
 
+make model available
+    https://endpoints.huggingface.co/
+
 ```setup
 pip install -r requirements.txt
 ```

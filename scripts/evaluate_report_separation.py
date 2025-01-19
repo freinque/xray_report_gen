@@ -3,7 +3,6 @@ import pandas as pd
 from xray_report_gen import eval
 
 # load the processed data from storage
-
 refs = ''
 hyps = ''
 
