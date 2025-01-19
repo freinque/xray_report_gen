@@ -1,6 +1,7 @@
 # build: docker build -t xray_app .
 # run: docker run -it --rm -p 8080:8080 xray_app
-# docker run -it --rm -p 8080:8080 -v /home/freinque/pycharm_projects/xray_report_gen/data/:/xray_report_gen/data xray_app
+# docker run -it --rm -p 8080:8080 -v /home/ubuntu/xray_report_gen/data/:/xray_report_gen/data xray_app
+# docker run -it --rm -p 8080:8080 -v /home/ubuntu/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/.cache/huggingface/:/xray_report_gen/data/huggingface xray_app
 FROM pytorch/pytorch
 LABEL authors="freinque"
 

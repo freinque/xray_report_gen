@@ -4,4 +4,7 @@
     <option name="sdkName" value="Python 3.11 (xray_report_gen)" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.10.13 Docker (xray_app:latest)" project-jdk-type="Python SDK" />
+  <component name="PyPackaging">
+    <option name="earlyReleasesAsUpgrades" value="true" />
+  </component>
 </project>

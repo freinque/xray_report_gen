@@ -1,17 +1,17 @@
-plan
-- task 1: building eval (GREEN), first prompt on batch, scripting for iteration, wrapping in fastapi call, pause
-- task 2: mostly recycling eval from task 1, importing models, tracking, script training, find infra, run and 
+
+# X-Ray report generation demo
+
+Provide 2900+ chest X-Ray images, report notes and a set of annotations from the public IU X-Ray dataset for model development and validation. This demo will tackle prompt engineering (1) and efficient fine-tuning (2).
+
+General plan
+- 1: building eval (GREEN), first prompt on batch, scripting for iteration, wrapping in fastapi call, pause
+- 2: mostly recycling eval from task 1, importing models, tracking, script training, find infra, run and 
 - documenting, report writing, proper testing will stay out of scope
 
 overall structure
 - python package 'xray_report_gen' that will accomplish the tasks
 - very minimalistic fastapi app to expose and experiment
 
-# X-Ray report generation demo
-
-This repository is the official implementation of [My Paper Title](TBA). 
-
->Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
 ## Environments and Requirements
 
@@ -22,16 +22,19 @@ This repository is the official implementation of [My Paper Title](TBA).
 
 To install requirements:
 
-make model available
-    https://endpoints.huggingface.co/
+make GREEN model available
+    https://endpoints.huggingface.co/ (did not work)
+    host the model
+
+install docker, gpu drivers (ex. aws ubuntu AMI on g4dn.4xlarge suffices)
+clone repo
+build and run the various procedures in ./scripts
 
 ```setup
 pip install -r requirements.txt
 ```
 
 >Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
-
-
 
 ## Dataset
 
@@ -40,16 +43,10 @@ pip install -r requirements.txt
 
 ## Preprocessing
 
-A brief description of preprocessing method
-
-- cropping
-- intensity normalization
-- resampling
-
 Running the data preprocessing code:
 
 ```python
-python preprocessing.py --input_path <path_to_input_data> --output_path <path_to_output_data>
+python data_prep.py
 ```
 
 ## Training
