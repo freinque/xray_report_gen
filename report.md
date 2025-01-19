@@ -1,3 +1,11 @@
+plan
+- task 1: building eval (GREEN), first prompt on batch, scripting for iteration, wrapping in fastapi call, pause
+- task 2: mostly recycling eval from task 1, importing models, tracking, script training, find infra, run and 
+- documenting, report writing, proper testing will stay out of scope
+
+overall structure
+- python package 'xray_report_gen' that will accomplish the tasks
+- very minimalistic fastapi app to expose and experiment
 
 # X-Ray report generation demo
 
