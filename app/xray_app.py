@@ -12,11 +12,11 @@ app = FastAPI()
 class ReportsRequest(BaseModel):
     reports: list[str]
 
-@app.post("/report_separation/")
-async def categorize_reports(request: ReportsRequest):
+@app.post("/report_annotation/")
+async def annotate_reports(request: ReportsRequest):
 
     reports = request.reports
 
-    results = report_separation.separate_reports(reports)
+    results = report_annotation.annotate_reports(reports)
 
     return {"results": results}

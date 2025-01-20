@@ -13,7 +13,20 @@ print(len(os.environ["HUGGINGFACEHUB_API_TOKEN"] ))
 DATA_PATH = '../data/'
 MODEL_NAME_1 = "Qwen/Qwen2-VL-2B-Instruct"
 MODEL_NAME_2 = 'allenai/Molmo-7B-D-0924' #'allenai/MolmoE-1B-0924'
-REPORT_GENERATION_PROMPT = "Provide a medical analysis of the following image."
+REPORT_GENERATION_PROMPT = """
+You are a radiology assistant. Your task is to analyze the provided X-ray image and extract findings related to four predefined anatomical regions: lung, heart, mediastinal, and bone. If you cannot assign a finding to any of these regions, classify it under others.
+
+Here is an example of the expected output format:
+{
+  "lung": "Lungs are mildly hypoinflated but grossly clear of focal airspace disease, pneumothorax, or pleural effusion.",
+  "heart": "Cardiac silhouette within normal limits in size.",
+  "mediastinal": "Mediastinal contours within normal limits in size.",
+  "bone": "Mild degenerative endplate changes in the thoracic spine. No acute bony findings.",
+  "others": ""
+}
+
+Now, analyze the following X-ray image and generate findings organized into these categories.
+"""
 
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 torch.cuda.empty_cache()
@@ -55,7 +68,7 @@ def run_inference(images, task_description=REPORT_GENERATION_PROMPT, model_versi
         # process the image and text
         inputs = processor.process(
             images=images,
-            text="Describe this image."
+            text=REPORT_GENERATION_PROMPT
         )
 
         # move inputs to the correct device and make a batch of size 1
@@ -88,7 +101,7 @@ def run_inference(images, task_description=REPORT_GENERATION_PROMPT, model_versi
                 "role": "user",
                 "content": [
                                {"type": "image", "image": img} for img in images
-                           ] + [{"type": "text", "text": "Describe these images."}],
+                           ] + [{"type": "text", "text": REPORT_GENERATION_PROMPT}],
             }
         ]
 

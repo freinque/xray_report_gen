@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da0eb1de-bc18-49f4-bc7c-0d6ba918ba6d" name="Changes" comment="added finetune_report_generation.py">
-      <change afterPath="$PROJECT_DIR$/data/finetune_data_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/finetune_data_train.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/finetune_data_val.json" afterDir="false" />
+    <list default="true" id="da0eb1de-bc18-49f4-bc7c-0d6ba918ba6d" name="Changes" comment="added annotation.ipynb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_prep.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_prep.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/reports_annotations_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/reports_annotations_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/reports_annotations_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/reports_annotations_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/xray_report_gen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xray_report_gen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/xray_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/xray_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/green_score/green.py" beforeDir="false" afterPath="$PROJECT_DIR$/green_score/green.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/annotations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/annotations.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report.md" beforeDir="false" afterPath="$PROJECT_DIR$/report.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/annotate_reports.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/annotate_reports.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/data_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/data_prep.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/finetune_report_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/finetune_report_generation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xray_report_gen/report_annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/xray_report_gen/report_annotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/evaluate_report_annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/evaluate_report_annotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/generate_reports.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/generate_reports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xray_report_gen/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/xray_report_gen/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xray_report_gen/report_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/xray_report_gen/report_generation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +234,7 @@
       <workItem from="1737304463791" duration="28918000" />
       <workItem from="1737339298697" duration="2630000" />
       <workItem from="1737341937192" duration="11290000" />
-      <workItem from="1737391165329" duration="13989000" />
+      <workItem from="1737391165329" duration="20796000" />
     </task>
     <task id="LOCAL-00001" summary="added readmes">
       <option name="closed" value="true" />
@@ -310,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737402740334</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added annotation.ipynb">
+      <option name="closed" value="true" />
+      <created>1737407164643</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737407164643</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +332,8 @@
     <MESSAGE value="evaluation fits in mem..." />
     <MESSAGE value="file name changes, report generation models" />
     <MESSAGE value="added finetune_report_generation.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added finetune_report_generation.py" />
+    <MESSAGE value="added annotation.ipynb" />
+    <option name="LAST_COMMIT_MESSAGE" value="added annotation.ipynb" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -59,7 +59,7 @@ class GREEN:
         self.cpu = cpu
         self.model_name = model_name.split("/")[-1]
         self.output_dir = output_dir
-        self.batch_size = 4
+        self.batch_size = 1
         self.max_length = 2048
         self.categories = [
             "Clinically Significant Errors",

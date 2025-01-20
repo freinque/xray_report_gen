@@ -10,7 +10,7 @@ def main():
     df = pd.read_csv(os.path.join(DATA_PATH, 'data_prep.csv'))
 
     df = df[df['image_found']]
-    image_filenames = df['image_filename'][:10]
+    image_filenames = df['image_filename'][:1]
     print('image_filenames: ', image_filenames)
 
     # Load images

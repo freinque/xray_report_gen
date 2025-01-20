@@ -24,7 +24,10 @@ def get_green_scorer_res(refs, hyps):
     print('evaluation using model: ', MODEL_NAME)
     green_scorer = GREEN(MODEL_NAME, output_dir=".", cpu=False)
     mean, std, green_score_list, summary, result_df = green_scorer(refs, hyps)
-    return mean, std, green_score_list, summary, result_df
+    print('mean: ', mean)
+    print('green_score_list: ', green_score_list)
+    print('summary: ', summary)
+    return result_df
 
 def print_green_scorer_report(result_df):
     for index, row in result_df.iterrows():
