@@ -52,5 +52,36 @@ def main():
     # writing to storage
     df.to_csv(os.path.join(DATA_PATH, 'data_prep.csv'), index=False)
 
+def write_finetuning_datasets():
+    df = pd.read_csv(os.path.join(DATA_PATH, 'data_prep.csv'))
+
+    df['image_path'] = df['filename']
+    df['original_report'] = df['original_report']
+
+    df_train = df[(df['split'] == 'train') & df['image_found']][['image_path', 'original_report']]
+    data = df_train.to_dict(orient='records')
+    # Write the list of dictionaries to a JSON file
+    output_file = os.path.join(DATA_PATH, 'finetune_data_train.json')
+    with open(output_file, 'w') as f:
+        import json
+        json.dump(data, f, indent=4)
+
+    df_test = df[(df['split'] == 'test') & df['image_found']][['image_path', 'original_report']]
+    data = df_test.to_dict(orient='records')
+    # Write the list of dictionaries to a JSON file
+    output_file = os.path.join(DATA_PATH, 'finetune_data_test.json')
+    with open(output_file, 'w') as f:
+        import json
+        json.dump(data, f, indent=4)
+
+    df_val = df[(df['split'] == 'val') & df['image_found']][['image_path', 'original_report']]
+    data = df_val.to_dict(orient='records')
+    # Write the list of dictionaries to a JSON file
+    output_file = os.path.join(DATA_PATH, 'finetune_data_val.json')
+    with open(output_file, 'w') as f:
+        import json
+        json.dump(data, f, indent=4)
+
 if __name__ == '__main__':
-    main()
+    #main()
+    write_finetuning_datasets()

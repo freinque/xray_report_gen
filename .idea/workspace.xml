@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da0eb1de-bc18-49f4-bc7c-0d6ba918ba6d" name="Changes" comment="evaluation fits in mem...">
-      <change afterPath="$PROJECT_DIR$/scripts/fine_tune_multi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/generate_reports.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xray_report_gen/report_generation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="da0eb1de-bc18-49f4-bc7c-0d6ba918ba6d" name="Changes" comment="file name changes, report generation models">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/xray_report_gen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xray_report_gen.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_prep.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_prep.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/data_prep.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/data_prep.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.md" beforeDir="false" afterPath="$PROJECT_DIR$/report.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/data_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/data_prep.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/evaluate_report_separation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/evaluate_report_separation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/separate_reports.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/separate_reports.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xray_report_gen/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/xray_report_gen/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fine_tune_report_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/finetune_report_generation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +228,7 @@
       <workItem from="1737304463791" duration="28918000" />
       <workItem from="1737339298697" duration="2630000" />
       <workItem from="1737341937192" duration="11290000" />
-      <workItem from="1737391165329" duration="7367000" />
+      <workItem from="1737391165329" duration="9546000" />
     </task>
     <task id="LOCAL-00001" summary="added readmes">
       <option name="closed" value="true" />
@@ -297,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737344308484</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="file name changes, report generation models">
+      <option name="closed" value="true" />
+      <created>1737400722530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737400722531</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +308,8 @@
     <MESSAGE value="separate_reports.py added" />
     <MESSAGE value="evaluate_report_separation.py added with fake call" />
     <MESSAGE value="evaluation fits in mem..." />
-    <option name="LAST_COMMIT_MESSAGE" value="evaluation fits in mem..." />
+    <MESSAGE value="file name changes, report generation models" />
+    <option name="LAST_COMMIT_MESSAGE" value="file name changes, report generation models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -337,7 +335,7 @@
     <SUITE FILE_PATH="coverage/xray_report_gen$xray_app.coverage" NAME="xray_app Coverage Results" MODIFIED="1737304997010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/xray_report_gen$.coverage" NAME=" Coverage Results" MODIFIED="1737305490852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/xray_report_gen$evaluate_report_separation.coverage" NAME="evaluate_report_separation Coverage Results" MODIFIED="1737335817986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/xray_report_gen$data_prep.coverage" NAME="data_prep Coverage Results" MODIFIED="1737388581368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/xray_report_gen$data_prep.coverage" NAME="data_prep Coverage Results" MODIFIED="1737401559178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/xray_report_gen$separate_reports.coverage" NAME="separate_reports Coverage Results" MODIFIED="1737331619481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/xray_report_gen$test_eval.coverage" NAME="test_eval Coverage Results" MODIFIED="1737380574253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
