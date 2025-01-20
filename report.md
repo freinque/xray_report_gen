@@ -31,10 +31,18 @@ clone repo
 build and run the various procedures in ./scripts
 
 ```setup
-pip install -r requirements.txt
+docker build -t xray_app .
 ```
 
->Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+Then to run use the equivalent of
+```
+docker run -it --rm --gpus all -p 8080:8080 -v /home/ubuntu/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 finetune_report_generation.py
+```
+or 
+```
+docker run -it --rm --gpus all -p 8080:8080 -v /home/ubuntu/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 finetune_report_generation.py
+```
+
 
 ## Dataset
 
@@ -45,13 +53,23 @@ pip install -r requirements.txt
 
 Running the data preprocessing code:
 
-```python
-python data_prep.py
+```bash
+docker run -it --rm -p 8080:8080 -v /home/freinque/pycharm_projects/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 data_prep.py
 ```
-Image folders with extra '-0001' were trimmed
+Image folders with extra '-0001', etc. were trimmed
+
+Annotation
+```bash
+docker run -it --rm -p 8080:8080 -v /home/freinque/pycharm_projects/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 annotate_reports.py
+```
 
 
 ## Training
+
+1:
+
+
+
 
 To train the model(s) in the paper, run this command:
 
@@ -94,6 +112,7 @@ python eval.py --seg_data <path_to_inference_results> --gt_data <path_to_ground_
 ```
 
 >Describe how to evaluate the inference results and obtain the reported results in the paper.
+> 
 
 
 
@@ -106,6 +125,12 @@ Our method achieves the following performance on [Brain Tumor Segmentation (BraT
 | My awesome model | 90.68% |         32.71          |
 
 >Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
+
+
+## TODOs
+Isolate general config
+General clean-up
+Improve scientific, aspect, since this gives an experimental setup, mostly.
 
 
 ## Acknowledgement

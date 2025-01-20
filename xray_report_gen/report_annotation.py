@@ -106,8 +106,7 @@ def get_user_prompt(version: int) -> str:
     else:
         return USER_PROMPT_1
 
-# TODO better names
-def separate_report(report, prompt_version=1):
+def annotate_report(report, prompt_version=1):
 
     system_prompt = get_system_prompt(prompt_version)
     user_prompt = get_user_prompt(prompt_version)
@@ -132,11 +131,11 @@ def separate_report(report, prompt_version=1):
     return separated_report
 
 
-def separate_reports(reports, prompt_version=1):
+def annotate_reports(reports, prompt_version=1):
     results = []
     for report in reports:
         #try:
-        result = separate_report(report, prompt_version=prompt_version)
+        result = annotate_report(report, prompt_version=prompt_version)
         #except Exception as e:
         #    print(f"Error processing report: {e}")
         #    #raise HTTPException(status_code=500, detail=f"Error processing report: {e}")

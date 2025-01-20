@@ -2,8 +2,8 @@ import os
 import json
 import pandas as pd
 
-DATA_PATH = '../data/'
-IMAGES_DIR = '../data/images'
+DATA_PATH = '/xray_report_gen/data/'
+IMAGES_DIR = '/xray_report_gen/data/images'
 
 def main():
     # reads data from reports in train and test in storage
@@ -55,7 +55,7 @@ def main():
 def write_finetuning_datasets():
     df = pd.read_csv(os.path.join(DATA_PATH, 'data_prep.csv'))
 
-    df['image_path'] = df['filename']
+    df['image_path'] = df['image_filename']
     df['original_report'] = df['original_report']
 
     df_train = df[(df['split'] == 'train') & df['image_found']][['image_path', 'original_report']]
@@ -83,5 +83,5 @@ def write_finetuning_datasets():
         json.dump(data, f, indent=4)
 
 if __name__ == '__main__':
-    #main()
+    main()
     write_finetuning_datasets()

@@ -6,8 +6,8 @@ from transformers import Trainer, TrainingArguments
 
 from datasets import load_dataset
 
-MODEL_PATH = '..data/models/'
-DATA_PATH = '..data/'
+MODEL_PATH = '/xray_report_gen/data/models/'
+DATA_PATH = '/xray_report_gen/data/'
 
 MODEL_NAME_1 = "Qwen/Qwen2-VL-2B-Instruct"
 MODEL_NAME_2 = 'allenai/Molmo-7B-D-0924' #'allenai/MolmoE-1B-0924'
@@ -33,10 +33,10 @@ if model_name == MODEL_NAME_1:
 
     processor = AutoProcessor.from_pretrained(model_name)
 
-    train_dataset = load_dataset(os.path.join(DATA_PATH, 'finetune_data_train.json'))
-    processed_train_dataset = train_dataset.map(preprocess_data)
-    test_dataset = load_dataset(os.path.join(DATA_PATH, 'finetune_data_test.json'))
-    processed_test_dataset = test_dataset.map(preprocess_data)
+    dataset = load_dataset('json',  data_files={"train": os.path.join(DATA_PATH, 'finetune_data_train.json'),
+                                                      "test": os.path.join(DATA_PATH, 'finetune_data_test.json'),
+                                                      "validation": os.path.join(DATA_PATH, 'finetune_data_val.json')})
+    processed_dataset = dataset.map(preprocess_data)
 
     model = AutoModelForCausalLM.from_pretrained(model_name)
 
@@ -57,14 +57,14 @@ if model_name == MODEL_NAME_1:
     trainer = Trainer(
         model=model,
         args=training_args,
-        train_dataset=processed_train_dataset,
-        eval_dataset=processed_test_dataset,
+        train_dataset=processed_dataset['train'],
+        eval_dataset=processed_dataset['test'],
         tokenizer=processor,
     )
 
     trainer.train()
 
-    trainer.evaluate(processed_test_dataset)
+    trainer.evaluate(processed_dataset['test'])
 
     model.save_pretrained("fine_tuned_"+model_name)
     processor.save_pretrained("fine_tuned_"+model_name)
