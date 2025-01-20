@@ -1,0 +1,66 @@
+uid,MeSH,Problems,image,indication,comparison,findings,impression,filename,projection,im_1,im_2,id,annotation,split,original_report,annotation_1,annotation_2
+2843,Density/right/paratracheal;Opacity/lung/upper lobe/right/patchy/streaky,Density;Opacity,Xray Chest PA and Lateral,"XXXX,XXXX",,The heart is normal in size. There is right paratracheal density concerning for lymphadenopathy. There are patchy right upper lobe streaky opacities. The remainder of the lungs are clear. There is no pleural effusion.,"Patchy opacities in right upper lobe, concerning for pneumonia, given history. Right paratracheal density possibly reactive lymphadenopathy. Followup evaluation to resolution is recommended.",2843_IM-1254-1001-0002.dcm.png,Frontal,1254,1001,CXR2843_IM-1254-1001,"{'bone': '', 'heart': 'The heart is normal in size.', 'lung': 'Patchy right upper lobe streaky opacities. The remainder of the lungs are clear. There is no pleural effusion.', 'mediastinal': 'Right paratracheal density concerning for lymphadenopathy.', 'others': ''}",test,The heart is normal in size. There is right paratracheal density concerning for lymphadenopathy. There are patchy right upper lobe streaky opacities. The remainder of the lungs are clear. There is no pleural effusion.,"{
+  ""lung"": ""There are patchy right upper lobe streaky opacities. The remainder of the lungs are clear. There is no pleural effusion."",
+  ""heart"": ""The heart is normal in size."",
+  ""mediastinal"": ""There is right paratracheal density concerning for lymphadenopathy."",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""There are patchy right upper lobe streaky opacities. The remainder of the lungs are clear."",
+  ""heart"": ""The heart is normal in size."",
+  ""mediastinal"": ""There is right paratracheal density concerning for lymphadenopathy."",
+  ""bone"": """",
+  ""others"": """"
+}"
+908,Calcinosis/lung/upper lobe/right;Nodule/lung/upper lobe/right;Surgical Instruments/mediastinum/left;Surgical Instruments/neck/right,Calcinosis;Nodule;Surgical Instruments;Surgical Instruments,Xray Chest PA and Lateral,MALIGNANT NEOPLASM OF THYROID GLAND,,The lungs appear clear. There are calcified nodules projecting in the right upper lung. Mediastinal contours appear normal. The heart pulmonary XXXX appear normal. Pleural spaces are clear. Surgical clips are identified in the right neck and left mediastinum.,No acute cardiopulmonary disease.,908_IM-2413-1001.dcm.png,Frontal,2413,1001,CXR908_IM-2413,"{'bone': '', 'heart': 'Heart appears normal.', 'lung': 'Lungs appear clear. Calcified nodules in right upper lung. Pleural spaces are clear.', 'mediastinal': 'Mediastinal contours appear normal. Surgical clips identified in left mediastinum.', 'others': 'Surgical clips identified in right neck.'}",test,The lungs appear clear. There are calcified nodules projecting in the right upper lung. Mediastinal contours appear normal. The heart pulmonary XXXX appear normal. Pleural spaces are clear. Surgical clips are identified in the right neck and left mediastinum.,"{
+  ""lung"": ""The lungs appear clear. There are calcified nodules projecting in the right upper lung. Pleural spaces are clear."",
+  ""heart"": ""The heart pulmonary XXXX appear normal."",
+  ""mediastinal"": ""Mediastinal contours appear normal. Surgical clips are identified in the left mediastinum."",
+  ""bone"": """",
+  ""others"": ""Surgical clips are identified in the right neck.""
+}","{
+  ""lung"": ""The lungs appear clear. There are calcified nodules projecting in the right upper lung. Pleural spaces are clear."",
+  ""heart"": ""The heart pulmonary XXXX appear normal."",
+  ""mediastinal"": ""Mediastinal contours appear normal. Surgical clips are identified in the right neck and left mediastinum."",
+  ""bone"": """",
+  ""others"": """"
+}"
+3552,normal,normal,Xray Chest PA and Lateral,"XXXX-year-old male, XXXX",,"Heart size within normal limits, stable mediastinal and hilar contours. No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema.",No acute findings,3552_IM-1741-3001.dcm.png,Lateral,1741,3001,CXR3552_IM-1741,"{'bone': '', 'heart': 'Heart size within normal limits.', 'lung': 'No focal alveolar consolidation. No definite pleural effusion seen. No typical findings of pulmonary edema.', 'mediastinal': 'Stable mediastinal and hilar contours.', 'others': ''}",test,"Heart size within normal limits, stable mediastinal and hilar contours. No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema.","{
+  ""lung"": ""No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": ""Stable mediastinal and hilar contours."",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": ""Stable mediastinal and hilar contours."",
+  ""bone"": """",
+  ""others"": """"
+}"
+3646,normal,normal,Xray Chest PA and Lateral,,Chest 2 views. XXXX.,The lungs are clear. Heart size is normal. No pneumothorax.,Clear lungs. No acute cardiopulmonary abnormality. .,3646_IM-1808-0001-0002.dcm.png,Frontal,1808,1,CXR3646_IM-1808-0001,"{'bone': '', 'heart': 'Normal heart size.', 'lung': 'Clear lungs. No pneumothorax.', 'mediastinal': '', 'others': ''}",test,The lungs are clear. Heart size is normal. No pneumothorax.,"{
+  ""lung"": ""The lungs are clear."",
+  ""heart"": ""Heart size is normal."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""No pneumothorax.""
+}","{
+  ""lung"": ""The lungs are clear."",
+  ""heart"": ""Heart size is normal."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""No pneumothorax.""
+}"
+1627,normal,normal,Xray Chest PA and Lateral,Dyspnea. Left upper quadrant pain.,None.,The lungs and pleural spaces show no acute abnormality. Heart size and pulmonary vascularity within normal limits. .,1. No acute pulmonary abnormality.,1627_IM-0408-2001.dcm.png,Lateral,408,2001,CXR1627_IM-0408,"{'bone': '', 'heart': 'Heart size within normal limits.', 'lung': 'Lungs and pleural spaces show no acute abnormality. Pulmonary vascularity within normal limits.', 'mediastinal': '', 'others': ''}",test,The lungs and pleural spaces show no acute abnormality. Heart size and pulmonary vascularity within normal limits. .,"{
+  ""lung"": ""The lungs and pleural spaces show no acute abnormality."",
+  ""heart"": ""Heart size and pulmonary vascularity within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""The lungs and pleural spaces show no acute abnormality."",
+  ""heart"": ""Heart size and pulmonary vascularity within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}"

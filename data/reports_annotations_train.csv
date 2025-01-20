@@ -1,0 +1,66 @@
+uid,MeSH,Problems,image,indication,comparison,findings,impression,filename,projection,im_1,im_2,id,annotation,split,original_report,annotation_1,annotation_2
+3264,Calcified Granuloma/multiple;Cicatrix/lung/apex/bilateral;Diaphragm/bilateral/flattened;Deformity/thorax,Calcified Granuloma;Cicatrix;Diaphragm;Deformity,"2 view ( PA and lateral) chest radiograph dated XXXX, XXXX ",XXXX-year-old female with abnormal XXXX loss,None.,"Calcified granulomas noted. XXXX symmetric apical scarring. The diaphragms are flattened, and the chest is somewhat XXXX shaped. The cardiothymic silhouette is within normal limits for size. Pulmonary vascularity is unremarkable. No acute bony abnormality.",Radiographic findings suggestive of emphysema.,3264_IM-1550-1002.dcm.png,Lateral,1550,1002,CXR3264_IM-1550,"{'bone': 'No acute bony abnormality.', 'heart': 'Cardiothymic silhouette is within normal limits for size. Pulmonary vascularity is unremarkable.', 'lung': 'Calcified granulomas noted. Symmetric apical scarring.', 'mediastinal': 'Cardiothymic silhouette is within normal limits for size.', 'others': 'The diaphragms are flattened, and the chest is somewhat shaped.'}",train,"Calcified granulomas noted. XXXX symmetric apical scarring. The diaphragms are flattened, and the chest is somewhat XXXX shaped. The cardiothymic silhouette is within normal limits for size. Pulmonary vascularity is unremarkable. No acute bony abnormality.","{
+  ""lung"": ""Calcified granulomas noted. XXXX symmetric apical scarring. The diaphragms are flattened, and the chest is somewhat XXXX shaped. Pulmonary vascularity is unremarkable."",
+  ""heart"": ""The cardiothymic silhouette is within normal limits for size."",
+  ""mediastinal"": """",
+  ""bone"": ""No acute bony abnormality."",
+  ""others"": """"
+}","{
+  ""lung"": ""Calcified granulomas noted. XXXX symmetric apical scarring. The diaphragms are flattened, and the chest is somewhat XXXX shaped. Pulmonary vascularity is unremarkable."",
+  ""heart"": ""The cardiothymic silhouette is within normal limits for size."",
+  ""mediastinal"": """",
+  ""bone"": ""No acute bony abnormality."",
+  ""others"": """"
+}"
+1717,Granulomatous Disease;Spondylosis/thoracic vertebrae,Granulomatous Disease;Spondylosis,Xray Chest PA and Lateral,Achalasia,None.,The cardiac contours are normal. Prior granulomatous disease. The lungs are clear. Thoracic spondylosis.,No acute process.,1717_IM-0473-2001.dcm.png,Lateral,473,2001,CXR1717_IM-0473,"{'bone': 'Thoracic spondylosis.', 'heart': 'The cardiac contours are normal.', 'lung': 'The lungs are clear.', 'mediastinal': 'Prior granulomatous disease.', 'others': ''}",train,The cardiac contours are normal. Prior granulomatous disease. The lungs are clear. Thoracic spondylosis.,"{
+  ""lung"": ""The lungs are clear."",
+  ""heart"": ""The cardiac contours are normal."",
+  ""mediastinal"": ""Prior granulomatous disease."",
+  ""bone"": ""Thoracic spondylosis."",
+  ""others"": """"
+}","{
+  ""lung"": ""The lungs are clear."",
+  ""heart"": ""The cardiac contours are normal."",
+  ""mediastinal"": ""Prior granulomatous disease."",
+  ""bone"": ""Thoracic spondylosis."",
+  ""others"": """"
+}"
+102,Lung/hyperdistention;Density/sternum,Lung;Density,Xray Chest PA and Lateral ,Syncope. XXXX attack.,None.,"Normal heart size. Clear, hyperaerated lungs. No pneumothorax. No pleural effusion. XXXX substernal density may be related to a pectus deformity.",No acute cardiopulmonary abnormality.,102_IM-0016-1001.dcm.png,Frontal,16,1001,CXR102_IM-0016,"{'bone': 'Substernal density may be related to a pectus deformity.', 'heart': 'Normal heart size.', 'lung': 'Clear, hyperaerated lungs. No pneumothorax. No pleural effusion.', 'mediastinal': '', 'others': ''}",train,"Normal heart size. Clear, hyperaerated lungs. No pneumothorax. No pleural effusion. XXXX substernal density may be related to a pectus deformity.","{
+  ""lung"": ""Clear, hyperaerated lungs. No pneumothorax. No pleural effusion."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""XXXX substernal density may be related to a pectus deformity."",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""Clear, hyperaerated lungs."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""XXXX substernal density may be related to a pectus deformity."",
+  ""bone"": """",
+  ""others"": ""No pneumothorax. No pleural effusion.""
+}"
+258,"Lung/hyperdistention;Diaphragm/flattened;Pulmonary Disease, Chronic Obstructive;Spine/degenerative","Lung;Diaphragm;Pulmonary Disease, Chronic Obstructive;Spine",PA and lateral views of the chest XXXX,pt is a XXXX who presents with fatigue,,Overall hyperexpanded lungs with flattening of the diaphragms consistent with obstructive lung disease. Lungs are clear without focal consolidation. No pleural effusions or pneumothoraces. Heart and mediastinum of normal size and contour. Degenerative changes in the spine.,Hyperexpanded but clear lungs.,258_IM-1078-1002.dcm.png,Lateral,1078,1002,CXR258_IM-1078,"{'bone': 'Degenerative changes in the spine.', 'heart': 'Heart of normal size and contour.', 'lung': 'Overall hyperexpanded lungs with flattening of the diaphragms consistent with obstructive lung disease. Lungs are clear without focal consolidation. No pleural effusions or pneumothoraces.', 'mediastinal': 'Mediastinum of normal size and contour.', 'others': ''}",train,Overall hyperexpanded lungs with flattening of the diaphragms consistent with obstructive lung disease. Lungs are clear without focal consolidation. No pleural effusions or pneumothoraces. Heart and mediastinum of normal size and contour. Degenerative changes in the spine.,"{
+  ""lung"": ""Overall hyperexpanded lungs with flattening of the diaphragms consistent with obstructive lung disease. Lungs are clear without focal consolidation. No pleural effusions or pneumothoraces."",
+  ""heart"": ""Heart and mediastinum of normal size and contour."",
+  ""mediastinal"": """",
+  ""bone"": ""Degenerative changes in the spine."",
+  ""others"": """"
+}","{
+  ""lung"": ""Overall hyperexpanded lungs with flattening of the diaphragms consistent with obstructive lung disease. Lungs are clear without focal consolidation. No pleural effusions or pneumothoraces."",
+  ""heart"": ""Heart and mediastinum of normal size and contour."",
+  ""mediastinal"": """",
+  ""bone"": ""Degenerative changes in the spine."",
+  ""others"": """"
+}"
+1599,Atherosclerosis/aorta;Osteophyte/thoracic vertebrae/multiple,Atherosclerosis;Osteophyte,CHEST 2V FRONTAL/LATERAL ,syncope,None.,"Normal heart size, mediastinal and aortic contours. Normal pulmonary vascularity. Atherosclerotic calcifications identified within the aortic XXXX. The lungs are clear. No focal consolidation, visible pneumothorax or large pleural effusion. Flowing thoracic spine osteophytes noted.",1. No evidence of active cardiopulmonary disease.,1599_IM-0389-1001.dcm.png,Frontal,389,1001,CXR1599_IM-0389,"{'bone': 'Flowing thoracic spine osteophytes noted.', 'heart': 'Normal heart size.', 'lung': 'Normal pulmonary vascularity. The lungs are clear. No focal consolidation, visible pneumothorax or large pleural effusion.', 'mediastinal': 'Normal mediastinal and aortic contours. Atherosclerotic calcifications identified within the aortic XXXX.', 'others': ''}",train,"Normal heart size, mediastinal and aortic contours. Normal pulmonary vascularity. Atherosclerotic calcifications identified within the aortic XXXX. The lungs are clear. No focal consolidation, visible pneumothorax or large pleural effusion. Flowing thoracic spine osteophytes noted.","{
+  ""lung"": ""Normal pulmonary vascularity. The lungs are clear. No focal consolidation, visible pneumothorax or large pleural effusion."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""Mediastinal and aortic contours."",
+  ""bone"": ""Flowing thoracic spine osteophytes noted."",
+  ""others"": ""Atherosclerotic calcifications identified within the aortic XXXX.""
+}","{
+  ""lung"": ""The lungs are clear. No focal consolidation, visible pneumothorax or large pleural effusion. Normal pulmonary vascularity."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""Mediastinal and aortic contours."",
+  ""bone"": ""Flowing thoracic spine osteophytes noted."",
+  ""others"": ""Atherosclerotic calcifications identified within the aortic XXXX.""
+}"

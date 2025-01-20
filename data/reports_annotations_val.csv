@@ -1,0 +1,36 @@
+uid,MeSH,Problems,image,indication,comparison,findings,impression,filename,projection,im_1,im_2,id,annotation,split,original_report,annotation_1
+1488,normal,normal,PA and Lateral Chest X-XXXX dated XXXX.,Positive PPD.,XXXX.,The heart size and pulmonary vascularity appear within normal limits. The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.,1. No evidence of active disease.,1488_IM-0315-3003.dcm.png,Lateral,315,3003,CXR1488_IM-0315,,val,The heart size and pulmonary vascularity appear within normal limits. The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.,"{
+  ""lung"": ""The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen."",
+  ""heart"": ""The heart size and pulmonary vascularity appear within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}"
+977,normal,normal,Xray Chest PA and Lateral,XXXX year old left anterior chest pain today.,None.,"The heart is normal in size and contour. The lungs are clear, without evidence of infiltrate. There is no pneumothorax or effusion.",No acute cardiopulmonary disease.,977_IM-2465-1001.dcm.png,Frontal,2465,1001,CXR977_IM-2465,,val,"The heart is normal in size and contour. The lungs are clear, without evidence of infiltrate. There is no pneumothorax or effusion.","{
+  ""lung"": ""The lungs are clear, without evidence of infiltrate. There is no pneumothorax or effusion."",
+  ""heart"": ""The heart is normal in size and contour."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}"
+1779,normal,normal," PA and lateral chest XXXX, XXXX time XXXX. ",XXXX.,None.,"Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.",Normal chest,1779_IM-0509-1002.dcm.png,Lateral,509,1002,CXR1779_IM-0509,,val,"Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.","{
+  ""lung"": ""Lungs are clear. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses."",
+  ""heart"": ""Heart size normal."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""XXXX are normal.""
+}"
+3319,Thoracic Vertebrae/degenerative/multiple,Thoracic Vertebrae," Two views of the chest XXXX, XXXX XXXX hours. ",Chest pain.,None.,"Heart size and pulmonary vascular engorgement appear within limits of normal. Mediastinal contour is unremarkable. No focal consolidation, pleural effusion, or pneumothorax identified. Multilevel degenerative changes are noted within the thoracic spine.",No acute cardiopulmonary abnormality identified.,3319_IM-1588-1001.dcm.png,Frontal,1588,1001,CXR3319_IM-1588,,val,"Heart size and pulmonary vascular engorgement appear within limits of normal. Mediastinal contour is unremarkable. No focal consolidation, pleural effusion, or pneumothorax identified. Multilevel degenerative changes are noted within the thoracic spine.","{
+  ""lung"": ""No focal consolidation, pleural effusion, or pneumothorax identified."",
+  ""heart"": ""Heart size and pulmonary vascular engorgement appear within limits of normal."",
+  ""mediastinal"": ""Mediastinal contour is unremarkable."",
+  ""bone"": ""Multilevel degenerative changes are noted within the thoracic spine."",
+  ""others"": """"
+}"
+3809,normal,normal,"Chest, 2 views, frontal and lateral",Back pain and XXXX,None.,Cardiac and mediastinal contours are within normal limits. The lungs are clear. Bony structures are intact.,Negative chest x-XXXX.,3809_IM-1919-1002001.dcm.png,Frontal,1919,1002,CXR3809_IM-1919,,val,Cardiac and mediastinal contours are within normal limits. The lungs are clear. Bony structures are intact.,"{
+  ""lung"": ""The lungs are clear."",
+  ""heart"": ""Cardiac contours are within normal limits."",
+  ""mediastinal"": ""Mediastinal contours are within normal limits."",
+  ""bone"": ""Bony structures are intact."",
+  ""others"": """"
+}"

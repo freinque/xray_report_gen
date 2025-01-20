@@ -1,4 +1,5 @@
 import os
+import json
 
 PATH_DOCKER = "/xray_report_gen"
 PATH_HOST = "/home/freinque/pycharm_projects/xray_report_gen"
@@ -35,3 +36,8 @@ def set_api_keys(path_docker=PATH_DOCKER, path_host=PATH_HOST):
     else:
         print('unable to load keys from home testProject')
 
+
+def parse_annotations(df, col, regions):
+    for region in regions:
+        df[col+'_'+region] = df[col].apply(lambda x: json.loads(x.replace('\'', '\"'))[region])
+    return df

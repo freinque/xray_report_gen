@@ -22,7 +22,7 @@ reports_val = df_val['original_report']
 for prompt_version in PROMPT_VERSIONS:
     # processing df_train with various prompt variants
     reports_annotations_train = report_separation.separate_reports(reports_train, prompt_version=prompt_version)
-    df_train['annotations_{prompt_version}'.format(prompt_version=prompt_version)] = reports_annotations_train
+    df_train['annotation_{prompt_version}'.format(prompt_version=prompt_version)] = reports_annotations_train
 
 # write to data storage
 df_train.to_csv(os.path.join(DATA_PATH, 'reports_annotations_train.csv'), index=False)
@@ -32,7 +32,7 @@ df_train.to_csv(os.path.join(DATA_PATH, 'reports_annotations_train.csv'), index=
 for prompt_version in PROMPT_VERSIONS:
     # processing df_test with various prompt variants
     reports_annotations_test = report_separation.separate_reports(reports_test, prompt_version=prompt_version)
-    df_test['annotations_{prompt_version}'.format(prompt_version=prompt_version)] = reports_annotations_test
+    df_test['annotation_{prompt_version}'.format(prompt_version=prompt_version)] = reports_annotations_test
 
 # write to data storage
 df_test.to_csv(os.path.join(DATA_PATH, 'reports_annotations_test.csv'), index=False)
@@ -41,7 +41,7 @@ df_test.to_csv(os.path.join(DATA_PATH, 'reports_annotations_test.csv'), index=Fa
 # processing df_val with various prompt variants
 prompt_version = BEST_PROMPT_VERSION
 reports_annotations_val = report_separation.separate_reports(reports_val, prompt_version=prompt_version)
-df_val['annotations_{prompt_version}'.format(prompt_version=prompt_version)] = reports_annotations_val
+df_val['annotation_{prompt_version}'.format(prompt_version=prompt_version)] = reports_annotations_val
 
 # write to data storage
 df_val.to_csv(os.path.join(DATA_PATH, 'reports_annotations_val.csv'), index=False)

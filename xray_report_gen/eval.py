@@ -1,6 +1,6 @@
 # evaluation methods based on  https://stanford-aimi.github.io/green.html and references therein
 
-from green_score import GREEN
+#from green_score import GREEN
 
 MODEL_NAME = "StanfordAIMI/GREEN-radllama2-7b"
 
@@ -13,9 +13,10 @@ def get_green_scorer_res(refs, hyps):
 
     :return:
     """
-    green_scorer = GREEN(MODEL_NAME, output_dir=".", cpu=True) # TODO make more flexible
-    mean, std, green_score_list, summary, result_df = green_scorer(refs, hyps)
-    return mean, std, green_score_list, summary, result_df
+    #green_scorer = GREEN(MODEL_NAME, output_dir=".", cpu=True) # TODO make more flexible
+    #mean, std, green_score_list, summary, result_df = green_scorer(refs, hyps)
+    #return mean, std, green_score_list, summary, result_df
+    return 0
 
 def print_green_scorer_report(result_df):
     for index, row in result_df.iterrows():
