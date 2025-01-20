@@ -23,6 +23,7 @@ RUN pip install torch
 RUN pip install protobuf
 RUN pip install accelerate
 RUN pip install transformers matplotlib sentencepiece sentence-transformers datasets opencv-python dill scipy scikit-learn pandas
+RUN pip install qwen_vl_utils
 
 RUN mkdir /xray_report_gen
 COPY ./oa_token.txt /xray_report_gen/

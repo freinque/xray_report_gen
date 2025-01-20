@@ -48,6 +48,8 @@ Running the data preprocessing code:
 ```python
 python data_prep.py
 ```
+Image folders with extra '-0001' were trimmed
+
 
 ## Training
 

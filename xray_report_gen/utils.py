@@ -1,5 +1,8 @@
 import os
 import json
+from PIL import Image
+
+IMAGES_DIR = '../data/images'
 
 PATH_DOCKER = "/xray_report_gen"
 PATH_HOST = "/home/freinque/pycharm_projects/xray_report_gen"
@@ -41,3 +44,12 @@ def parse_annotations(df, col, regions):
     for region in regions:
         df[col+'_'+region] = df[col].apply(lambda x: json.loads(x.replace('\'', '\"'))[region])
     return df
+
+def load_images(image_filenames):
+    """Load images from a directory."""
+    images = []
+    for filename in image_filenames:
+        images.append(Image.open(filename))
+    return images
+
+

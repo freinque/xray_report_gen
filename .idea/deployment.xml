@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="ubuntu@3.98.94.56:22 key" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="ubuntu@15.157.11.95.22 key" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
     <option name="confirmBeforeUploading" value="false" />
     <serverData>
-      <paths name="ubuntu@3.98.94.56:22 key">
+      <paths name="ubuntu@15.157.11.95.22 key">
         <serverdata>
           <mappings>
             <mapping deploy="/home/ubuntu/xray_report_gen" local="$PROJECT_DIR$" />

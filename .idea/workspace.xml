@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da0eb1de-bc18-49f4-bc7c-0d6ba918ba6d" name="Changes" comment="evaluate_report_separation.py added with fake call">
-      <change afterPath="$PROJECT_DIR$/green_score/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/green_score/green.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/green_score/utils.py" afterDir="false" />
+    <list default="true" id="da0eb1de-bc18-49f4-bc7c-0d6ba918ba6d" name="Changes" comment="evaluation fits in mem...">
+      <change afterPath="$PROJECT_DIR$/scripts/fine_tune_multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/generate_reports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xray_report_gen/report_generation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/xray_report_gen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xray_report_gen.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_prep.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_prep.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/data_prep.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/data_prep.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.md" beforeDir="false" afterPath="$PROJECT_DIR$/report.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/data_prep.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/evaluate_report_separation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/evaluate_report_separation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/separate_reports.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/separate_reports.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xray_report_gen/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/xray_report_gen/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xray_report_gen/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/xray_report_gen/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,7 @@
     &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_eval.MyTestCase.test_get_green_scorer_res.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_eval.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_prep.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.data_prep.executor&quot;: &quot;Run&quot;,
     &quot;Python.eval.executor&quot;: &quot;Run&quot;,
     &quot;Python.evaluate_report_separation.executor&quot;: &quot;Run&quot;,
     &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
@@ -81,7 +86,30 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_eval">
+  <component name="RunManager" selected="Python.data_prep">
+    <configuration name="annotate_reports" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xray_report_gen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/annotate_reports.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="data_prep" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="xray_report_gen" />
       <option name="ENV_FILES" value="" />
@@ -105,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="evaluate_report_separation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="evaluate_report_annotation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="xray_report_gen" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +147,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/evaluate_report_separation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/evaluate_report_annotation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,29 +171,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="separate_reports" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="xray_report_gen" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/separate_reports.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,10 +204,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_eval" />
-        <item itemvalue="Python.evaluate_report_separation" />
-        <item itemvalue="Python.separate_reports" />
         <item itemvalue="Python.data_prep" />
+        <item itemvalue="Python.test_eval" />
+        <item itemvalue="Python.evaluate_report_annotation" />
+        <item itemvalue="Python.annotate_reports" />
         <item itemvalue="Python.scratch" />
       </list>
     </recent_temporary>
@@ -233,7 +238,8 @@
       <workItem from="1737293017614" duration="11207000" />
       <workItem from="1737304463791" duration="28918000" />
       <workItem from="1737339298697" duration="2630000" />
-      <workItem from="1737341937192" duration="2248000" />
+      <workItem from="1737341937192" duration="11290000" />
+      <workItem from="1737391165329" duration="7367000" />
     </task>
     <task id="LOCAL-00001" summary="added readmes">
       <option name="closed" value="true" />
@@ -283,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737331802406</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="evaluation fits in mem...">
+      <option name="closed" value="true" />
+      <created>1737344308484</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737344308484</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +310,8 @@
     <MESSAGE value="added data_prep step" />
     <MESSAGE value="separate_reports.py added" />
     <MESSAGE value="evaluate_report_separation.py added with fake call" />
-    <option name="LAST_COMMIT_MESSAGE" value="evaluate_report_separation.py added with fake call" />
+    <MESSAGE value="evaluation fits in mem..." />
+    <option name="LAST_COMMIT_MESSAGE" value="evaluation fits in mem..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -322,8 +337,8 @@
     <SUITE FILE_PATH="coverage/xray_report_gen$xray_app.coverage" NAME="xray_app Coverage Results" MODIFIED="1737304997010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/xray_report_gen$.coverage" NAME=" Coverage Results" MODIFIED="1737305490852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/xray_report_gen$evaluate_report_separation.coverage" NAME="evaluate_report_separation Coverage Results" MODIFIED="1737335817986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/xray_report_gen$data_prep.coverage" NAME="data_prep Coverage Results" MODIFIED="1737323813547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/xray_report_gen$data_prep.coverage" NAME="data_prep Coverage Results" MODIFIED="1737388581368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/xray_report_gen$separate_reports.coverage" NAME="separate_reports Coverage Results" MODIFIED="1737331619481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/xray_report_gen$test_eval.coverage" NAME="test_eval Coverage Results" MODIFIED="1737338906461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/xray_report_gen$test_eval.coverage" NAME="test_eval Coverage Results" MODIFIED="1737380574253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>
