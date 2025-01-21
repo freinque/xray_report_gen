@@ -49,6 +49,21 @@ def main(mode='train'):
                 res_df.to_csv(os.path.join(DATA_PATH, 'reports_annotations_test_eval_{prompt_version}_{region}.csv'.format(
                     prompt_version=prompt_version, region=region)), index=False)
 
+    if mode == 'val':
+        # evaluation on test set
+        for prompt_version in PROMPT_VERSIONS:
+            for region in REGIONS:
+                df_val = utils.parse_annotations(df_val, 'annotation_{prompt_version}'.format(prompt_version=prompt_version), REGIONS)
+
+                print('evaluating on {prompt_version} and {region}'.format(prompt_version=prompt_version, region=region))
+                ref = df_val[f'annotation_{region}'.format(region)]
+                hyp = df_val['annotation_{prompt_version}_{region}'.format(prompt_version=prompt_version, region=region)]
+                print('ref = {ref}'.format(ref=ref))
+                print('hyp = {hyp}'.format(hyp=hyp))
+                res_df = eval.get_green_scorer_res(ref, hyp)
+                res_df.to_csv(os.path.join(DATA_PATH, 'reports_annotations_val_eval_{prompt_version}_{region}.csv'.format(
+                    prompt_version=prompt_version, region=region)), index=False)
+
 
 if __name__ == '__main__':
     main('test')

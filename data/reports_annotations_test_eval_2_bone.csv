@@ -1,0 +1,298 @@
+reference,predictions,green_analysis,green_score,(a) False report of a finding in the candidate,(b) Missing a finding present in the reference,(c) Misidentification of a finding's anatomic location/position,(d) Misassessment of the severity of a finding,(e) Mentioning a comparison that isn't in the reference,(f) Omitting a comparison detailing a change from a prior study,Matched Findings
+"Advanced degenerative changes of the glenohumeral joints bilaterally with bone-on-bone articulation, remodeling of the glenoid, and extensive subchondral cystic change. No displaced rib fractures. Diffuse osteopenia of the thoracic spine with a mid thoracic and several lower thoracic vertebral deformities, age-indeterminate.","Marked tortuosity of the thoracic aorta. Advanced degenerative changes of the glenohumeral joints bilaterally with bone-on-bone articulation, remodeling of the glenoid, and extensive subchondral cystic change. Diffuse osteopenia of the thoracic spine with a mid thoracic and several lower thoracic deformities, age-indeterminate. No displaced rib fractures are visualized.","
+The candidate report includes an additional finding that is not present in the reference report, which is the ""Marked tortuosity of the thoracic aorta"". This is a clinically significant error as it is a false report of a finding in the candidate. The rest of the findings in the candidate report match those in the reference report.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 1. Marked tortuosity of the thoracic aorta;
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+4. Advanced degenerative changes of the glenohumeral joints bilaterally with bone-on-bone articulation, remodeling of the glenoid, and extensive subchondral cystic change; Diffuse osteopenia of the thoracic spine with a mid thoracic and several lower thoracic deformities, age-indeterminate; No displaced rib fractures are visualized.",0.8,1,0,0,0,0,0,4
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+No acute osseous abnormalities. Degenerative changes throughout the thoracic spine.,Degenerative changes throughout the thoracic spine. There are no acute osseous abnormalities.,"
+The candidate report accurately reflects the findings in the reference report. There are no discrepancies in the findings, their anatomic locations, or their severity. There are also no false reports or omissions of findings. The candidate report does not mention any comparisons that are not in the reference report, nor does it omit any comparisons detailing a change from a prior study.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. Degenerative changes throughout the thoracic spine; No acute osseous abnormalities.",1.0,0,0,0,0,0,0,2
+Visualized osseous structures appear intact.,Visualized osseous structures appear intact.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Visualized osseous structures appear intact.",1.0,0,0,0,0,0,0,1
+No acute osseous findings.,No acute osseous findings.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. No acute osseous findings.",1.0,0,0,0,0,0,0,1
+Stable postsurgical changes of the lower cervical spine.,Stable postsurgical changes of the lower cervical spine.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Stable postsurgical changes of the lower cervical spine.",1.0,0,0,0,0,0,0,1
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+No acute bony abnormalities.,No acute bony abnormalities.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. No acute bony abnormalities.",1.0,0,0,0,0,0,0,1
+No acute bony findings.,There are no acute bony findings.,"
+The candidate report is identical in meaning to the reference report. Both reports indicate that there are no acute bony findings. Therefore, there are no errors in the candidate report.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. No acute bony findings.",1.0,0,0,0,0,0,0,1
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Bony thorax and soft tissue grossly unremarkable,Bony thorax and soft tissue grossly unremarkable.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Bony thorax and soft tissue grossly unremarkable.",1.0,0,0,0,0,0,0,1
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Mild degenerative changes of the thoracic spine. Slight deformity of the lower thoracic body which is age-indeterminate.,There are mild degenerative changes of the thoracic spine. There is a slight deformity of the lower thoracic body which is age-indeterminate.,"
+The candidate report accurately reflects the findings in the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. 
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. Mild degenerative changes of the thoracic spine; Slight deformity of the lower thoracic body which is age-indeterminate.",1.0,0,0,0,0,0,0,2
+Minimally displaced right lateral 8th rib fracture. Probable nondisplaced right lateral 7th rib fracture.,There is a minimally displaced right lateral 8th rib fracture and probable nondisplaced right lateral 7th rib fracture.,"
+The candidate report accurately identifies the same findings as the reference report. There are no clinically significant or insignificant errors. Both reports mention a minimally displaced right lateral 8th rib fracture and a probable nondisplaced right lateral 7th rib fracture.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. Minimally displaced right lateral 8th rib fracture; Probable nondisplaced right lateral 7th rib fracture.",1.0,0,0,0,0,0,0,2
+No convincing acute bony findings.,No convincing acute bony findings.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. No convincing acute bony findings.",1.0,0,0,0,0,0,0,1
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+No acute bony abnormality.,No acute bony abnormality.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. No acute bony abnormality.",1.0,0,0,0,0,0,0,1
+No acute osseous abnormalities. Degenerative changes throughout the thoracic spine.,Degenerative changes throughout the thoracic spine. There are no acute osseous abnormalities.,"
+The candidate report accurately reflects the findings in the reference report. There are no discrepancies in the findings, their anatomic locations, or their severity. There are also no false reports or omissions of findings. The candidate report does not mention any comparisons that are not in the reference report, nor does it omit any comparisons detailing a change from a prior study.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. Degenerative changes throughout the thoracic spine; No acute osseous abnormalities.",1.0,0,0,0,0,0,0,2

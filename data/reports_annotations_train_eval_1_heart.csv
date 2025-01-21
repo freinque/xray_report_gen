@@ -1,0 +1,96 @@
+reference,predictions,green_analysis,green_score,(a) False report of a finding in the candidate,(b) Missing a finding present in the reference,(c) Misidentification of a finding's anatomic location/position,(d) Misassessment of the severity of a finding,(e) Mentioning a comparison that isn't in the reference,(f) Omitting a comparison detailing a change from a prior study,Matched Findings
+Cardiothymic silhouette is within normal limits for size. Pulmonary vascularity is unremarkable.,The cardiothymic silhouette is within normal limits for size.,"
+The candidate report is missing a finding that is present in the reference report. The reference report mentions that the ""Pulmonary vascularity is unremarkable"", but this is not mentioned in the candidate report.
+
+[Clinically Significant Errors]:
+(b) Missing a finding present in the reference: 1. Pulmonary vascularity is unremarkable.
+
+[Clinically Insignificant Errors]:
+None.
+
+[Matched Findings]:
+1. The cardiothymic silhouette is within normal limits for size.",0.5,0,1,0,0,0,0,1
+The cardiac contours are normal.,The cardiac contours are normal.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. The cardiac contours are normal.",1.0,0,0,0,0,0,0,1
+Normal heart size.,Normal heart size.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Normal heart size.",1.0,0,0,0,0,0,0,1
+Heart of normal size and contour.,Heart and mediastinum of normal size and contour.,"
+The candidate report includes an additional finding (""mediastinum"") that is not mentioned in the reference report. This is a clinically insignificant error as it does not change the overall interpretation of the report but it is an error nonetheless.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 1. Mediastinum is mentioned in the candidate report but not in the reference report.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Heart of normal size and contour.",1.0,0,0,0,0,0,0,1
+Normal heart size.,Normal heart size.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Normal heart size.",1.0,0,0,0,0,0,0,1

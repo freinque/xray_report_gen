@@ -1,0 +1,39 @@
+reference,predictions,green_analysis,green_score,(a) False report of a finding in the candidate,(b) Missing a finding present in the reference,(c) Misidentification of a finding's anatomic location/position,(d) Misassessment of the severity of a finding,(e) Mentioning a comparison that isn't in the reference,(f) Omitting a comparison detailing a change from a prior study,Matched Findings
+Cardiothymic silhouette is within normal limits for size.,,"
+The candidate report is missing, so it's impossible to evaluate it against the reference report. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Prior granulomatous disease.,Prior granulomatous disease.,"
+The candidate report is identical to the reference report. There are no errors, and the finding matches perfectly.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Prior granulomatous disease.",1.0,0,0,0,0,0,0,1
+,XXXX substernal density may be related to a pectus deformity.,"
+The reference report is not provided in the task. Please provide the reference report to proceed with the evaluation.",0.0,0,0,0,0,0,0,0
+Mediastinum of normal size and contour.,,"
+The candidate report is missing, so it's impossible to evaluate it against the reference report. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Normal mediastinal and aortic contours. Atherosclerotic calcifications identified within the aortic XXXX.,Mediastinal and aortic contours.,"
+The candidate report is missing a significant finding that was present in the reference report. The reference report mentions ""Atherosclerotic calcifications identified within the aortic XXXX"", which is not mentioned in the candidate report.
+
+[Clinically Significant Errors]:
+(b) Missing a finding present in the reference: 1. Atherosclerotic calcifications identified within the aortic XXXX.
+
+[Clinically Insignificant Errors]:
+None.
+
+[Matched Findings]:
+1. Mediastinal and aortic contours.",0.5,0,1,0,0,0,0,1

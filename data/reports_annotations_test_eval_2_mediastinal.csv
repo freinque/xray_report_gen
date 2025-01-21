@@ -1,0 +1,282 @@
+reference,predictions,green_analysis,green_score,(a) False report of a finding in the candidate,(b) Missing a finding present in the reference,(c) Misidentification of a finding's anatomic location/position,(d) Misassessment of the severity of a finding,(e) Mentioning a comparison that isn't in the reference,(f) Omitting a comparison detailing a change from a prior study,Matched Findings
+"There is an air-fluid level in the middle mediastinum, most likely secondary to a large hiatal hernia.","There is an air-fluid level in the middle mediastinum, most likely secondary to a large hiatal hernia.","
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. There is an air-fluid level in the middle mediastinum, most likely secondary to a large hiatal hernia.",1.0,0,0,0,0,0,0,1
+Mediastinum is normal.,Mediastinum normal.,"
+The candidate report is identical to the reference report. There are no errors, and the finding matches perfectly.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Mediastinum is normal.",1.0,0,0,0,0,0,0,1
+Calcific aorta. Normal vascular markings.,Calcific aorta.,"
+The candidate report correctly identifies the calcific aorta, which matches the reference report. However, it fails to mention the normal vascular markings, which is a significant finding in the reference report.
+
+[Clinically Significant Errors]:
+(b) Missing a finding present in the reference: 1. Normal vascular markings.
+
+[Clinically Insignificant Errors]:
+None.
+
+[Matched Findings]:
+1. Calcific aorta.",0.5,0,1,0,0,0,0,1
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Mediastinal contours are within normal limits.,,"
+The candidate report is missing, so it's impossible to evaluate it against the reference report. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+The hilar and mediastinal contours are unchanged.,The hilar and mediastinal contours are unchanged.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. The hilar and mediastinal contours are unchanged.",1.0,0,0,0,0,0,0,1
+Unremarkable.,The mediastinum is unremarkable.,"
+The candidate report is more specific than the reference report, mentioning the mediastinum, while the reference report mentions an unremarkable report without specifying any particular organ or area. However, since the mediastinum is a part of the chest and includes several important structures, this is not necessarily an error. 
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+0.",0.0,0,0,0,0,0,0,0
+Mediastinal contours are normal.,Mediastinal contours are normal.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Mediastinal contours are normal.",1.0,0,0,0,0,0,0,1
+"Mild fullness of the left hilum, small interval change from prior exam.","Mild fullness of the left hilum, small interval change from prior exam. Large hiatal hernia, increased from prior exam.","
+The candidate report includes an additional finding of a ""Large hiatal hernia, increased from prior exam"" which is not mentioned in the reference report. This is a clinically significant error as it falsely reports a finding that is not present in the reference report.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 1. Large hiatal hernia, increased from prior exam.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Mild fullness of the left hilum, small interval change from prior exam.",0.5,1,0,0,0,0,0,1
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Mediastinum appears normal,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Mediastinal contours are within normal limits.,,"
+The candidate report is missing, so it's impossible to evaluate it against the reference report. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Mediastinal contour within normal limits in size.,,"
+The candidate report is missing, so it's impossible to evaluate it against the reference report. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Mediastinum normal.,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Mediastinal contour is within normal limits.,The mediastinal contour is within normal limits.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. The mediastinal contour is within normal limits.",1.0,0,0,0,0,0,0,1
+Normal mediastinal contours.,,"
+The candidate report is missing, so it's impossible to evaluate it against the reference report. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Normal mediastinal contours.,The mediastinum is within normal limits.,"
+The candidate report is in agreement with the reference report. Both reports indicate that the mediastinal contours are normal. There are no discrepancies in the findings, and no errors were identified.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Normal mediastinal contours.",1.0,0,0,0,0,0,0,1
+Mediastinal contours are within normal limits.,,"
+The candidate report is missing, so it's impossible to evaluate it against the reference report. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Mediastinal contour is unremarkable.,Mediastinal contour is unremarkable.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Mediastinal contour is unremarkable.",1.0,0,0,0,0,0,0,1
+Mediastinum normal.,Mediastinum normal.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Mediastinum normal.",1.0,0,0,0,0,0,0,1
+Upper mediastinum is within normal limits.,The upper mediastinum is within normal limits.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. The upper mediastinum is within normal limits.",1.0,0,0,0,0,0,0,1
+Mediastinal silhouette is normal. Pulmonary vasculature is normal.,Mediastinal silhouette is normal.,"
+The candidate report is missing a finding that is present in the reference report. The reference report mentions that the ""Pulmonary vasculature is normal"", but this is not mentioned in the candidate report.
+
+[Clinically Significant Errors]:
+(b) Missing a finding present in the reference: 1. Pulmonary vasculature is normal.
+
+[Clinically Insignificant Errors]:
+None.
+
+[Matched Findings]:
+1. Mediastinal silhouette is normal.",0.5,0,1,0,0,0,0,1
+Calcific aorta. Normal vascular markings.,Calcific aorta.,"
+The candidate report correctly identifies the calcific aorta, which matches the reference report. However, it fails to mention the normal vascular markings, which is a significant finding in the reference report.
+
+[Clinically Significant Errors]:
+(b) Missing a finding present in the reference: 1. Normal vascular markings.
+
+[Clinically Insignificant Errors]:
+None.
+
+[Matched Findings]:
+1. Calcific aorta.",0.5,0,1,0,0,0,0,1

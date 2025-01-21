@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 from transformers import AutoProcessor
-from transformers import AutoModelForCausalLM
+from transformers import AutoModelForCausalLM, AutoModel
 from transformers import Trainer, TrainingArguments
 
 from datasets import load_dataset
@@ -35,10 +35,12 @@ if model_name == MODEL_NAME_1:
 
     dataset = load_dataset('json',  data_files={"train": os.path.join(DATA_PATH, 'finetune_data_train.json'),
                                                       "test": os.path.join(DATA_PATH, 'finetune_data_test.json'),
-                                                      "validation": os.path.join(DATA_PATH, 'finetune_data_val.json')})
+                                                      "validation": os.path.join(DATA_PATH, 'finetune_data_val.json')},
+                           streaming=True)
     processed_dataset = dataset.map(preprocess_data)
 
-    model = AutoModelForCausalLM.from_pretrained(model_name)
+    #model = AutoModelForCausalLM.from_pretrained(model_name)
+    model = AutoModel.from_pretrained(model_name)
 
     training_args = TrainingArguments(
         output_dir=MODEL_PATH,
