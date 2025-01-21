@@ -30,7 +30,7 @@ def preprocess_data(example):
     return inputs
 
 def preprocess_data(example):
-    image = Image.open(example["image_path"]).convert("RGB").resize((224, 224))
+    image = Image.open(example["image_path"])
     system_prompt = REPORT_GENERATION_PROMPT
     text_input = f"{system_prompt}\n{example['original_report']}"
     inputs = processor(
@@ -42,7 +42,7 @@ def preprocess_data(example):
     )
     # Debug pixel_values
     print(f"Pixel values shape: {inputs['pixel_values'].shape}")
-    import pdb; pdb.set_trace()
+
     return inputs#{
 #        "input_ids": inputs["input_ids"][0],
 #        "attention_mask": inputs["attention_mask"][0],
