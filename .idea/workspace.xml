@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da0eb1de-bc18-49f4-bc7c-0d6ba918ba6d" name="Changes" comment="finetuning for model 1, ran task 1 on validation set">
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_test_eval_1_bone.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_test_eval_1_heart.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_test_eval_1_lung.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_test_eval_1_mediastinal.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_test_eval_2_bone.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_test_eval_2_heart.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_test_eval_2_lung.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_test_eval_2_mediastinal.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_train_eval_1_bone.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_train_eval_1_heart.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_train_eval_1_lung.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_train_eval_1_mediastinal.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_train_eval_2_bone.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_train_eval_2_heart.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_train_eval_2_lung.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reports_annotations_train_eval_2_mediastinal.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/reports_annotations_val.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/reports_annotations_val.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/evaluate_report_annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/evaluate_report_annotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/finetune_report_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/finetune_report_generation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/generate_reports.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/generate_reports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xray_report_gen/report_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/xray_report_gen/report_generation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +229,7 @@
       <workItem from="1737304463791" duration="28918000" />
       <workItem from="1737339298697" duration="2630000" />
       <workItem from="1737341937192" duration="11290000" />
-      <workItem from="1737391165329" duration="24498000" />
+      <workItem from="1737391165329" duration="29299000" />
     </task>
     <task id="LOCAL-00001" summary="added readmes">
       <option name="closed" value="true" />
@@ -334,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737414582849</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="finetuning for model 1, ran task 1 on validation set">
+      <option name="closed" value="true" />
+      <created>1737422899492</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737422899492</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

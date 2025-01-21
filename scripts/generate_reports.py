@@ -5,12 +5,13 @@ from xray_report_gen import utils, report_generation
 
 DATA_PATH = '../data/'
 MODEL_VERSION = 1
+N = 4
 
 def main():
     df = pd.read_csv(os.path.join(DATA_PATH, 'data_prep.csv'))
 
-    df = df[df['image_found']]
-    image_filenames = df['image_filename'][:1]
+    df = df[df['image_found']].sample(n=N)
+    image_filenames = df['image_filename']
     print('image_filenames: ', image_filenames)
 
     # Load images

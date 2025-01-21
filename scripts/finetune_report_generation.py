@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 from transformers import AutoProcessor
-from transformers import AutoModelForCausalLM, AutoModel
+from transformers import AutoModelForCausalLM, AutoModel, Qwen2VLForConditionalGeneration, DataCollatorForSeq2Seq
 from transformers import Trainer, TrainingArguments
 
 from datasets import load_dataset
@@ -26,21 +26,50 @@ def preprocess_data(example):
         padding=True,
         return_tensors="pt"
     )
+    #import pdb; pdb.set_trace()
     return inputs
 
+def preprocess_data(example):
+    image = Image.open(example["image_path"]).convert("RGB").resize((224, 224))
+    system_prompt = REPORT_GENERATION_PROMPT
+    text_input = f"{system_prompt}\n{example['original_report']}"
+    inputs = processor(
+        images=image,
+        text=text_input,
+        padding=True,
+        truncation=True,
+        return_tensors="np"
+    )
+    # Debug pixel_values
+    print(f"Pixel values shape: {inputs['pixel_values'].shape}")
+    import pdb; pdb.set_trace()
+    return inputs#{
+#        "input_ids": inputs["input_ids"][0],
+#        "attention_mask": inputs["attention_mask"][0],
+#        "pixel_values": inputs["pixel_values"][0],
+#        "labels": inputs["input_ids"][0],
+#    }
 
 if model_name == MODEL_NAME_1:
 
-    processor = AutoProcessor.from_pretrained(model_name)
+    processor = AutoProcessor.from_pretrained(model_name, min_pixels=256*28*28, max_pixels=512*28*28, padding_side="right")
 
     dataset = load_dataset('json',  data_files={"train": os.path.join(DATA_PATH, 'finetune_data_train.json'),
                                                       "test": os.path.join(DATA_PATH, 'finetune_data_test.json'),
                                                       "validation": os.path.join(DATA_PATH, 'finetune_data_val.json')},
                            streaming=True)
-    processed_dataset = dataset.map(preprocess_data)
+    processed_dataset = dataset.map(preprocess_data, remove_columns=dataset["train"].column_names)
 
     #model = AutoModelForCausalLM.from_pretrained(model_name)
-    model = AutoModel.from_pretrained(model_name)
+    #model = AutoModel.from_pretrained(model_name)
+    model = Qwen2VLForConditionalGeneration.from_pretrained(model_name)
+
+    data_collator = DataCollatorForSeq2Seq(
+        tokenizer=processor,
+        model=model,
+        padding=True,
+        return_tensors="pt",
+    )
 
     training_args = TrainingArguments(
         output_dir=MODEL_PATH,
@@ -48,6 +77,7 @@ if model_name == MODEL_NAME_1:
         per_device_eval_batch_size=2,
         learning_rate=5e-5,
         num_train_epochs=5,
+        max_steps=5,
         evaluation_strategy="epoch",
         save_strategy="epoch",
         logging_dir="../logs",

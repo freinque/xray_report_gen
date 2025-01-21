@@ -46,7 +46,59 @@ def run_inference(images, task_description=REPORT_GENERATION_PROMPT, model_versi
     """Run inference on images using a vision-language model."""
 
     model_name = get_model_name(model_version)
-    if model_name.startswith("allen"):
+    if model_name.startswith("Qwen"):
+
+        print('running inference on images: {}'.format(images))
+        # from https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/blob/main/README.md
+        model = Qwen2VLForConditionalGeneration.from_pretrained(
+            model_name, torch_dtype="auto", device_map="auto"
+        )
+        # default processer
+        processor = AutoProcessor.from_pretrained(model_name)
+
+        for img in images:
+            messages = [
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "image", "image": img},
+                        {"type": "text", "text": task_description}],
+                }
+            ]
+
+            # Preparation for inference
+            text = processor.apply_chat_template(
+                messages, tokenize=False, add_generation_prompt=True
+            )
+            # image_inputs, video_inputs = images, None
+            # added
+            # texts = [
+            #    processor.apply_chat_template(message, tokenize=False, add_generation_prompt=True)
+            #    for message in messages
+            # ]
+
+            inputs = processor(
+                text=[text],
+                images=[img],
+                # videos=video_inputs,
+                padding=True,
+                return_tensors="pt",
+            )
+            inputs = inputs.to("cuda")
+
+            # Inference: Generation of the output
+            generated_ids = model.generate(**inputs, max_new_tokens=128)
+            generated_ids_trimmed = [
+                out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+            ]
+            generated_text = processor.batch_decode(
+                generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+            )
+
+            # print the generated text
+            print('generated text for {img}: {generated_text}'.format(img=img, generated_text=generated_text))
+
+    else:
         # from https://huggingface.co/allenai/MolmoE-1B-0924
 
         # load the processor
@@ -88,48 +140,6 @@ def run_inference(images, task_description=REPORT_GENERATION_PROMPT, model_versi
         # print the generated text
         print(generated_text)
 
-    else:
-        # from https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/blob/main/README.md
-        model = Qwen2VLForConditionalGeneration.from_pretrained(
-            model_name, torch_dtype="auto", device_map="auto"
-        )
-        # default processer
-        processor = AutoProcessor.from_pretrained(model_name)
-
-        messages = [
-            {
-                "role": "user",
-                "content": [
-                               {"type": "image", "image": img} for img in images
-                           ] + [{"type": "text", "text": REPORT_GENERATION_PROMPT}],
-            }
-        ]
-
-        # Preparation for inference
-        text = processor.apply_chat_template(
-            messages, tokenize=False, add_generation_prompt=True
-        )
-        image_inputs, video_inputs = images, None
-        inputs = processor(
-            text=[text],
-            images=image_inputs,
-            videos=video_inputs,
-            padding=True,
-            return_tensors="pt",
-        )
-        inputs = inputs.to("cuda")
-
-        # Inference: Generation of the output
-        generated_ids = model.generate(**inputs, max_new_tokens=128)
-        generated_ids_trimmed = [
-            out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
-        ]
-        generated_text = processor.batch_decode(
-            generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-        )
-
-    # print the generated text
-    print(generated_text)
 
     return generated_text
 
