@@ -57,8 +57,9 @@ def write_finetuning_datasets():
 
     df['image_path'] = df['image_filename']
     df['original_report'] = df['original_report']
+    df[('annotation')] = df['annotation']
 
-    df_train = df[(df['split'] == 'train') & df['image_found']][['image_path', 'original_report']]
+    df_train = df[(df['split'] == 'train') & df['image_found']][['image_path', 'original_report', 'annotation']]
     data = df_train.to_dict(orient='records')
     # Write the list of dictionaries to a JSON file
     output_file = os.path.join(DATA_PATH, 'finetune_data_train.json')
@@ -66,7 +67,7 @@ def write_finetuning_datasets():
         import json
         json.dump(data, f, indent=4)
 
-    df_test = df[(df['split'] == 'test') & df['image_found']][['image_path', 'original_report']]
+    df_test = df[(df['split'] == 'test') & df['image_found']][['image_path', 'original_report', 'annotation']]
     data = df_test.to_dict(orient='records')
     # Write the list of dictionaries to a JSON file
     output_file = os.path.join(DATA_PATH, 'finetune_data_test.json')
@@ -74,7 +75,7 @@ def write_finetuning_datasets():
         import json
         json.dump(data, f, indent=4)
 
-    df_val = df[(df['split'] == 'val') & df['image_found']][['image_path', 'original_report']]
+    df_val = df[(df['split'] == 'val') & df['image_found']][['image_path', 'original_report', 'annotation']]
     data = df_val.to_dict(orient='records')
     # Write the list of dictionaries to a JSON file
     output_file = os.path.join(DATA_PATH, 'finetune_data_val.json')
