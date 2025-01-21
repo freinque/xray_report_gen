@@ -11,6 +11,7 @@ REGIONS = ['bone', 'heart', 'lung', 'mediastinal']
 
 def main(mode='train'):
     # evaluating on the training set
+    print('mode:', mode)
 
     # load the processed data from storage
     df_train = pd.read_csv(os.path.join(DATA_PATH, 'reports_annotations_train.csv'))
@@ -19,6 +20,9 @@ def main(mode='train'):
     # load the processed data from storage
     df_test = pd.read_csv(os.path.join(DATA_PATH, 'reports_annotations_test.csv'))
     df_test = utils.parse_annotations(df_test, 'annotation', REGIONS)
+
+    #df_val = pd.read_csv(os.path.join(DATA_PATH, 'reports_annotations_val.csv'))
+    #df_val = utils.parse_annotations(df_val, 'annotation', REGIONS)
 
     if mode == 'train':
         # evaluation on train set
