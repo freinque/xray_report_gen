@@ -149,7 +149,7 @@ Testing everything, reviewing
 Isolate general config
 General clean-up
 Improve scientific, aspect, since this gives an experimental setup, mostly.
-
+Inference endpoint for task 2
 
 ## Acknowledgement
 

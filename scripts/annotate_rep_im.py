@@ -2,36 +2,47 @@ import os
 import click
 import pandas as pd
 
-from xray_report_gen import utils, report_generation
+from xray_report_gen import utils, rep_im_annotation
 
 DATA_PATH = '../data/'
 MODEL_VERSION = 1
-N = 25
+TRAIN_DATASET = "/xray_report_gen/data/finetune_data_train.json"
+TEST_DATASET = "/xray_report_gen/data/finetune_data_test.json"
+VAL_DATASET = "/xray_report_gen/data/finetune_data_val.json"
+TRAIN_DATASET_N = 25
+TEST_DATASET_N = 25
+VAL_DATASET_N = 2500
+
+def get_dataset_path(mode) -> str:
+    if mode == "train":
+        return TRAIN_DATASET
+    elif mode == "test":
+        return TEST_DATASET
+    else:
+        return VAL_DATASET
+
+def get_n(mode) -> int:
+    if mode == "train":
+        return TRAIN_DATASET_N
+    elif mode == "test":
+        return TEST_DATASET_N
+    else:
+        return VAL_DATASET_N
 
 @click.command()
 @click.argument('mode')
 @click.option('--version', type=int, default=MODEL_VERSION)
 def main(mode, version):
-    df = pd.read_csv(os.path.join(DATA_PATH, 'data_prep.csv'))
 
-    df = df[df['split'] == mode]
-    df = df[df['image_found']].sample(n=N)
-    image_filenames = df['image_filename']
-    print('image_filenames: ', image_filenames)
-
-    # Load images
-    images = utils.load_images(image_filenames)
-    print('images: ', images)
-
-    reports = df['original_report'].to_list()
-
+    dataset = get_dataset_path(mode)
+    n = get_n(mode)
     # Run inference
-    results = report_generation.run_inference(images, reports, version=version)
-
-    df['annotation_{version}'.format(version=version)] = results
+    ids, annotations = rep_im_annotation.run_inference(dataset, n=n, version=version)
+    df = pd.DataFrame(ids, columns=['id'])
+    df['annotation_{version}'.format(version=version)] = annotations
 
     # write to data storage
-    df.to_csv(os.path.join(DATA_PATH, 'reports_annotations_{mode}_model_{version}.csv'.format(mode=mode, version=version)), index=False)
+    df.to_csv(os.path.join(DATA_PATH, 'rep_im_annotations_{mode}_model_{version}.csv'.format(mode=mode, version=version)), index=False)
 
 if __name__ == "__main__":
     main()

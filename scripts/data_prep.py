@@ -53,10 +53,11 @@ def main():
     df.to_csv(os.path.join(DATA_PATH, 'data_prep.csv'), index=False)
 
 
-def get_data_dict(images, reports, annotations):
+def get_data_dict(images, reports, annotations, ids):
     d = []
-    for image, report, annotation in zip(images, reports, annotations):
+    for image, report, annotation, i in zip(images, reports, annotations, ids):
         d.append({
+            "id": i,
             "messages": [
                 {"role": "system", "content": "system_prompt"},
                 {
@@ -93,8 +94,9 @@ def write_finetuning_datasets():
         images = df_train.groupby('id').apply(lambda df: list(df['image_path']))
         reports = df_train.groupby('id').apply(lambda df: df['original_report'].max())
         annotations = df_train.groupby('id').apply(lambda df: df['annotation'].max())
+        ids = annotations.index.values
 
-        data = get_data_dict(images, reports, annotations)
+        data = get_data_dict(images, reports, annotations, ids)
         # Write the list of dictionaries to a JSON file
         output_file = os.path.join(DATA_PATH, f'finetune_data_{split}.json')
         with open(output_file, 'w') as f:

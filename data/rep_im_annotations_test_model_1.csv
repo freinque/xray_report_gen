@@ -1,0 +1,122 @@
+id,annotation_1
+CXR1004_IM-0005,"```json
+{
+  ""lung"": ""No pleural effusion or pneumothorax. No focal air space opacity to suggest pneumonia."",
+  ""heart"": ""Within normal limits."",
+  ""mediastinal"": ""Within normal limits."",
+  ""bone"": ""Degenerative changes of the acromioclavicular joints. Degenerative changes of the spine."",
+  ""others"": ""Aorta is tortuous and ectatic. IVC identified.""
+}
+```"
+CXR1005_IM-0006,"{'bone': 'Bony structures are intact.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'The lungs are clear.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': ''}"
+CXR1008_IM-0009,"{'bone': 'Visualized osseous structures appear intact.', 'heart': 'Heart size normal in appearance.', 'lung': 'No consolidative airspace opacities. No radiographic evidence of pleural effusion or pneumothorax.', 'mediastinal': 'Mediastinal contours normal in appearance.', 'others': ''}"
+CXR1011_IM-0013,"{'bone': '', 'heart': 'Heart size is top normal.', 'lung': 'Lungs are clear.', 'mediastinal': 'Mediastinum is unremarkable.', 'others': ''}"
+CXR1015_IM-0001,"```json
+{
+  ""lung"": ""Streaky and patchy bibasilar opacities. No definite pleural effusion seen. No typical findings of pulmonary edema."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""Stable mediastinal silhouette."",
+  ""bone"": """",
+  ""others"": ""Triangular density projected over the heart on the lateral view. Considering differences in technical factors.""
+}
+```"
+CXR1017_IM-0013,"{'bone': '', 'heart': 'Heart size normal.', 'lung': 'Both lungs are clear and expanded with no infiltrates. Basilar focal atelectasis is present in the lingula.', 'mediastinal': 'Calcified right hilar nodes are present.', 'others': ''}"
+CXR1030_IM-0024,"```json
+{
+  ""lung"": ""No focal consolidation. No pleural effusion. No pneumothorax."",
+  ""heart"": ""Normal cardiac contours."",
+  ""mediastinal"": ""Normal mediastinal contours."",
+  ""bone"": ""No acute bony abnormality. Mild degenerative changes of the spine."",
+  ""others"": """"
+}
+```"
+CXR1034_IM-0028,"```json
+{
+  ""lung"": ""Both lungs are clear and expanded. Right middle lobe calcified granuloma is unchanged."",
+  ""heart"": ""Heart unchanged."",
+  ""mediastinal"": ""Mediastinum unchanged."",
+  ""bone"": """",
+  ""others"": ""No change hiatus hernia.""
+}
+```"
+CXR1046_IM-0036,"{'bone': '', 'heart': 'Heart within normal limits.', 'lung': 'Negative for focal pulmonary consolidation, pleural effusion, or pneumothorax.', 'mediastinal': 'Mediastinum within normal limits.', 'others': ''}"
+CXR106_IM-0042,"{'bone': '', 'heart': 'Heart size is normal.', 'lung': 'Lungs are clear. No pleural effusions or pneumothoraces.', 'mediastinal': 'Mediastinal contour is normal.', 'others': ''}"
+CXR107_IM-0049,"```json
+{
+  ""lung"": ""The lungs are clear bilaterally. No evidence of focal consolidation, pneumothorax, or pleural effusion."",
+  ""heart"": ""Cardiac contours are within normal limits."",
+  ""mediastinal"": ""Mediastinal contours are within normal limits."",
+  ""bone"": ""Visualized osseous structures of the thorax are without acute abnormality."",
+  ""others"": """"
+}
+```"
+CXR1085_IM-0059,"```json
+{
+  ""lung"": ""Low lung volumes, no focal consolidation, no pneumothorax, no pleural effusion, mild streaky opacities in the left upper lobe possibly atelectatic or scar."",
+  ""heart"": ""Cardiac contours are unremarkable."",
+  ""mediastinal"": ""Mediastinal contours are unremarkable."",
+  ""bone"": ""Visualized osseous structures of the thorax are without acute abnormality."",
+  ""others"": """"
+}
+```"
+CXR1093_IM-0064,"{'bone': '', 'heart': 'Heart size appears within normal limits.', 'lung': 'Lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.', 'mediastinal': 'Pulmonary vascularity appears within normal limits.', 'others': ''}"
+CXR1094_IM-0065,"```json
+{
+  ""lung"": ""Left lower lobe density representing atelectasis. No focal area of consolidation, pleural effusion, pneumothorax."",
+  ""heart"": ""Cardiac contours are within normal limits."",
+  ""mediastinal"": ""Mediastinal contours are within normal limits. Hilar contours are within normal limits."",
+  ""bone"": ""No acute osseous abnormality."",
+  ""others"": ""The soft tissues are within normal limits.""
+}
+```"
+CXR1109_IM-0076,"```json
+{
+  ""lung"": ""No focal consolidation, suspicious pulmonary opacity, pneumothorax or definite pleural effusion."",
+  ""heart"": ""Heart size appears within normal limits."",
+  ""mediastinal"": ""Mediastinal contours appear within normal limits."",
+  ""bone"": ""Visualized osseous structures appear intact."",
+  ""others"": ""Pulmonary vascularity is within normal limits.""
+}
+```"
+CXR1110_IM-0076,"```json
+{
+  ""lung"": ""Pulmonary vascularity is normal. No focal airspace consolidation. No pleural effusion, no pneumothorax."",
+  ""heart"": ""Cardiac contours within normal limits."",
+  ""mediastinal"": ""Mediastinal contours within normal limits."",
+  ""bone"": ""Bony structures unremarkable."",
+  ""others"": ""There are scattered calcified testes bilaterally, consistent with prior granulomatous infection, stable.""
+}
+```"
+CXR1113_IM-0078,"{'bone': '', 'heart': '', 'lung': 'Lungs are clear. No focal consolidation, pneumothorax, or pleural effusion. Interval resolution of previously described right midlung opacity suggesting resolved inflammatory/infectious process. Lungs are hyperexpanded with flattened diaphragms.', 'mediastinal': '', 'others': 'Previous sulcal is normal in size and contour. XXXX and soft tissue are unremarkable.'}"
+CXR1117_IM-0079,"{'bone': '', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'There is ill-defined airspace opacity in the posterior left lower lobe. There is focal opacity in the right upper lobe which suggests scar and/or granulomatous calcification. There is no pneumothorax or pleural effusion.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': ''}"
+CXR1126_IM-0082,"```json
+{
+  ""lung"": ""No focal areas of pulmonary consolidation. Scattered right basilar subsegmental atelectasis. The left lung appears clear. No pneumothorax or pleural effusion present."",
+  ""heart"": ""Cardiac contours are stable in appearance."",
+  ""mediastinal"": ""Mediastinal surgical clips remain in situ. Mediastinal contours are stable in appearance. The thoracic aorta is tortuous and calcified with stable appearance."",
+  ""bone"": ""Moderate degenerative changes of the thoracic spine. Osteopenia. Mild loss of height of a mid thoracic vertebral body."",
+  ""others"": ""Sternotomy remains in situ.""
+}
+```"
+CXR1130_IM-0087,"{'bone': '', 'heart': 'Heart size within normal limits.', 'lung': 'Pulmonary vascularity within normal limits. Calcified granuloma present in the right base. No pneumothorax or pleural effusion seen. Ill-defined somewhat oblong opacity in the lateral right base. The remainder of the lungs appear clear.', 'mediastinal': '', 'others': ''}"
+CXR1133_IM-0090,"```json
+{
+  ""lung"": ""Lungs are hyperexpanded. No infiltrates or masses."",
+  ""heart"": """",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""The eventration of the left hemidiaphragm identified previously is largely unchanged since the previous computed tomogram. Pulmonary XXXX are normal.""
+}
+```"
+CXR1158_IM-0107,"{'bone': '', 'heart': 'Heart size remains slightly large.', 'lung': 'No infiltrates or masses in the lungs.', 'mediastinal': 'Aorta remains tortuous.', 'others': ''}"
+CXR1175_IM-0119,"{'bone': '', 'heart': 'Heart is normal.', 'lung': 'Lungs are clear and expanded.', 'mediastinal': 'Mediastinum is normal.', 'others': ''}"
+CXR1176_IM-0119,"{'bone': '', 'heart': 'Heart size within normal limits.', 'lung': 'No acute abnormality. Pulmonary vascularity within normal limits.', 'mediastinal': '', 'others': ''}"
+CXR1180_IM-0123,"```json
+{
+  ""lung"": ""The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen. No discrete nodules or adenopathy are noted."",
+  ""heart"": ""Heart size and pulmonary vascularity appear within normal limits."",
+  ""mediastinal"": ""There is mild tortuosity to the descending thoracic aorta."",
+  ""bone"": ""Degenerative changes are present in the spine."",
+  ""others"": """"
+}
+```"
