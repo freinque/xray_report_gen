@@ -1,3 +1,11 @@
+"""
+invocation of evaluation routines on
+- report LLM annotation inference on preprocessed datasets
+- report+image multimodal annotation inference on preprocessed datasets
+using GREEN (https://stanford-aimi.github.io/green.html)
+"""
+
+
 import os
 import pandas as pd
 import json

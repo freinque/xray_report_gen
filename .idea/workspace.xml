@@ -4,15 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da0eb1de-bc18-49f4-bc7c-0d6ba918ba6d" name="Changes" comment="inference finetuned model 1 and 2">
-      <change afterPath="$PROJECT_DIR$/data/rep_im_annotations_val_model_1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rep_im_annotations_val_model_2.csv" afterDir="false" />
+    <list default="true" id="da0eb1de-bc18-49f4-bc7c-0d6ba918ba6d" name="Changes" comment="evaluating finetuned model 1 and 2">
+      <change afterPath="$PROJECT_DIR$/data/rep_im_annotations_test_eval_1_bone.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/rep_im_annotations_test_eval_1_heart.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/rep_im_annotations_test_eval_1_lung.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/rep_im_annotations_test_eval_1_mediastinal.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/rep_im_annotations_test_eval_2_bone.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/rep_im_annotations_test_eval_2_heart.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/rep_im_annotations_test_eval_2_lung.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/rep_im_annotations_test_eval_2_mediastinal.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/annotations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/evaluate_annotations.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/data_prep.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/data_prep.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.md" beforeDir="false" afterPath="$PROJECT_DIR$/report.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/green_score/green.py" beforeDir="false" afterPath="$PROJECT_DIR$/green_score/green.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/green_score/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/green_score/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/data_prep.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scratch_data_prep.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/evaluate_annotations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/evaluate_annotations.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/annotate_rep_im.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/annotate_rep_im.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/annotate_reports.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/annotate_reports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/data_prep.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/evaluate_report_annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/evaluate_report_annotation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xray_report_gen/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/xray_report_gen/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/finetune_rep_im_annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/finetune_rep_im_annotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xray_report_gen/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/xray_report_gen/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xray_report_gen/rep_im_annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/xray_report_gen/rep_im_annotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xray_report_gen/report_annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/xray_report_gen/report_annotation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +250,7 @@
       <workItem from="1737341937192" duration="11290000" />
       <workItem from="1737391165329" duration="44285000" />
       <workItem from="1737514315377" duration="22938000" />
-      <workItem from="1737575966254" duration="3144000" />
+      <workItem from="1737575966254" duration="6752000" />
     </task>
     <task id="LOCAL-00001" summary="added readmes">
       <option name="closed" value="true" />
@@ -404,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737573035465</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="evaluating finetuned model 1 and 2">
+      <option name="closed" value="true" />
+      <created>1737579277097</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1737579277097</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +451,8 @@
     <MESSAGE value="copied and adapted finetuning script" />
     <MESSAGE value="finetuning model 1" />
     <MESSAGE value="inference finetuned model 1 and 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="inference finetuned model 1 and 2" />
+    <MESSAGE value="evaluating finetuned model 1 and 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="evaluating finetuned model 1 and 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

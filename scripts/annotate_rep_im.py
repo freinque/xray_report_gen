@@ -1,3 +1,7 @@
+"""
+script intented to invoke report+image multimodal annotation inference on preprocessed datasets
+"""
+
 import os
 import click
 import pandas as pd

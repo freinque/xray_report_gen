@@ -1,0 +1,260 @@
+reference,predictions,green_analysis,green_score,(a) False report of a finding in the candidate,(b) Missing a finding present in the reference,(c) Misidentification of a finding's anatomic location/position,(d) Misassessment of the severity of a finding,(e) Mentioning a comparison that isn't in the reference,(f) Omitting a comparison detailing a change from a prior study,Matched Findings
+Degenerative changes of the acromioclavicular joints. Degenerative changes of the spine.,Degenerative changes of the acromioclavicular joints. Degenerative changes of the spine.,"
+The candidate report accurately reflects the findings in the reference report. There are no discrepancies in the findings, their anatomic locations, or their severity. There are also no additional comparisons or omissions of comparisons from prior studies.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. Degenerative changes of the acromioclavicular joints; Degenerative changes of the spine.",1.0,0,0,0,0,0,0,2
+Bony structures are intact.,Bony structures are intact.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Bony structures are intact.",1.0,0,0,0,0,0,0,1
+Visualized osseous structures appear intact.,Visualized osseous structures appear intact.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Visualized osseous structures appear intact.",1.0,0,0,0,0,0,0,1
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+No acute bony abnormality. Mild degenerative changes of the spine.,No acute bony abnormality. Mild degenerative changes of the spine.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. No acute bony abnormality; Mild degenerative changes of the spine.",1.0,0,0,0,0,0,0,2
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Visualized osseous structures of the thorax are without acute abnormality.,Visualized osseous structures of the thorax are without acute abnormality.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Visualized osseous structures of the thorax are without acute abnormality.",1.0,0,0,0,0,0,0,1
+Visualized osseous structures of the thorax are without acute abnormality.,Visualized osseous structures of the thorax are without acute abnormality.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Visualized osseous structures of the thorax are without acute abnormality.",1.0,0,0,0,0,0,0,1
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+No acute osseous abnormality.,No acute osseous abnormality.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. No acute osseous abnormality.",1.0,0,0,0,0,0,0,1
+Visualized osseous structures appear intact.,Visualized osseous structures appear intact.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Visualized osseous structures appear intact.",1.0,0,0,0,0,0,0,1
+Bony structures unremarkable.,Bony structures unremarkable.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Bony structures unremarkable.",1.0,0,0,0,0,0,0,1
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Moderate degenerative changes of the thoracic spine. Osteopenia. Mild loss of height of a mid thoracic vertebral body.,Moderate degenerative changes of the thoracic spine. Osteopenia. Mild loss of height of a mid thoracic vertebral body.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+3. Moderate degenerative changes of the thoracic spine; Osteopenia; Mild loss of height of a mid thoracic vertebral body.",1.0,0,0,0,0,0,0,3
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+,,"
+The candidate report is not provided in the task. Please provide the candidate report for evaluation.",0.0,0,0,0,0,0,0,0
+Degenerative changes are present in the spine.,Degenerative changes are present in the spine.,"
+The candidate report accurately matches the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. 
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Degenerative changes are present in the spine.",1.0,0,0,0,0,0,0,1

@@ -1,15 +1,14 @@
 """
+finetuning of Qwen/Qwen2-VL-2B-Instruct on preprocessed report+image dataset for the anatomical region task
+
 adapted from
 https://github.com/zhangfaen/finetune-Qwen2-VL/blob/main/finetune.py
 """
 
 import torch
-import json
 import os
 
 from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
-from torch.utils.data import Dataset
-from torch.optim import AdamW
 from torch.utils.data import DataLoader
 from functools import partial
 

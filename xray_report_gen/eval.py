@@ -36,16 +36,3 @@ def print_green_scorer_report(result_df):
             print(f"{col_name}: {row[col_name]}\n")
         print('-' * 80)
 
-"""
-from transformers import pipeline
-
-def
-messages = [
-    {"role": "user", "content": "Who are you?"},
-]
-trans_pipeline = pipeline("text-generation", model="StanfordAIMI/GREEN-RadLlama2-7b")
-print(trans_pipeline(messages))
-
-print(trans_pipeline(messages))
-
-"""

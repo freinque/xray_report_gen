@@ -1,7 +1,14 @@
+"""
+methods intended for report annotation using OpenAI LLMs
+configured as gpt-4o-mini
+"""
+
 import os
 from openai import OpenAI
 
 from xray_report_gen import utils
+
+MODEL_NAME = "gpt-4o-mini"
 
 utils.set_api_keys()
 
@@ -112,7 +119,7 @@ def annotate_report(report, prompt_version=1):
     user_prompt = get_user_prompt(prompt_version)
     try:
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=MODEL_NAME,
             messages=[
                 {"role": "system",
                  "content": system_prompt},

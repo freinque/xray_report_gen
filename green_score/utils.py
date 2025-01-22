@@ -1,3 +1,7 @@
+"""
+adapted from https://stanford-aimi.github.io/green.html
+"""
+
 import torch.distributed as dist
 import os
 import sys

@@ -1,6 +1,8 @@
 """
+methods intended for report+image multimodal annotation
+
 adapted from
-https://github.com/zhangfaen/finetune-Qwen2-VL/blob/main/finetune.py
+https://github.com/zhangfaen/finetune-Qwen2-VL/
 """
 
 import torch
@@ -12,11 +14,8 @@ from itertools import islice
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 
-from transformers import AutoTokenizer, AutoProcessor, AutoModelForVision2Seq
-from transformers import AutoProcessor, AutoModelForImageTextToText, AutoModelForCausalLM, GenerationConfig
 from transformers import Qwen2VLForConditionalGeneration, AutoTokenizer, AutoProcessor
 
-from xray_report_gen.utils import process_vision_info, init_logger, get_logger
 from xray_report_gen import utils
 
 utils.set_api_keys()
@@ -108,7 +107,7 @@ def write_chat_template(processor, output_dir):
     chat_template_json_string = json.dumps({"chat_template": processor.chat_template}, indent=2, sort_keys=True) + "\n"
     with open(output_chat_template_file, "w", encoding="utf-8") as writer:
         writer.write(chat_template_json_string)
-        logger.info(f"chat template saved in {output_chat_template_file}")
+        print.info(f"chat template saved in {output_chat_template_file}")
 
 
 def find_assistant_content_sublist_indexes(l):

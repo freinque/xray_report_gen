@@ -1,3 +1,7 @@
+"""
+script that preprocesses data found in DATA_PATH for usage in annotation, evaluation and finetuning scripts
+
+"""
 import os
 import json
 import pandas as pd

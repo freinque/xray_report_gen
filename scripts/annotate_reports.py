@@ -1,5 +1,10 @@
+"""
+script intented to invoke report LLM annotation inference on preprocessed datasets
+"""
+
 import os
 import pandas as pd
+import click
 
 from xray_report_gen import report_annotation
 
@@ -8,7 +13,9 @@ PROMPT_VERSIONS = [1,2]
 BEST_PROMPT_VERSION = 1
 N = 25
 
-def main(mode='train'):
+@click.command()
+@click.argument('mode', type=str, default='train')
+def main(mode):
     # reads data from reports in train and test in storage
     df = pd.read_csv(os.path.join(DATA_PATH, 'data_prep.csv'))
     df_train = df[df['split'] == 'train'].sample(n=N)
@@ -49,4 +56,4 @@ def main(mode='train'):
         df_val.to_csv(os.path.join(DATA_PATH, 'reports_annotations_val.csv'), index=False)
 
 if __name__ == '__main__':
-    main('val')
+    main()

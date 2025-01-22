@@ -1,0 +1,526 @@
+reference,predictions,green_analysis,green_score,(a) False report of a finding in the candidate,(b) Missing a finding present in the reference,(c) Misidentification of a finding's anatomic location/position,(d) Misassessment of the severity of a finding,(e) Mentioning a comparison that isn't in the reference,(f) Omitting a comparison detailing a change from a prior study,Matched Findings
+No pleural effusion or pneumothorax. No focal air space opacity to suggest pneumonia.,No pleural effusion or pneumothorax. No focal air space opacity to suggest pneumonia.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. No pleural effusion; No pneumothorax.",1.0,0,0,0,0,0,0,2
+The lungs are clear.,The lungs are clear.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. The lungs are clear.",1.0,0,0,0,0,0,0,1
+No consolidative airspace opacities. No radiographic evidence of pleural effusion or pneumothorax.,No consolidative airspace opacities. No radiographic evidence of pleural effusion or pneumothorax.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. No consolidative airspace opacities; No radiographic evidence of pleural effusion or pneumothorax.",1.0,0,0,0,0,0,0,2
+Lungs are clear.,Lungs are clear.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Lungs are clear.",1.0,0,0,0,0,0,0,1
+Streaky and patchy bibasilar opacities. No definite pleural effusion seen. No typical findings of pulmonary edema.,Streaky and patchy bibasilar opacities. No definite pleural effusion seen. No typical findings of pulmonary edema.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+3. Streaky and patchy bibasilar opacities; No definite pleural effusion seen; No typical findings of pulmonary edema.",1.0,0,0,0,0,0,0,3
+Both lungs are clear and expanded with no infiltrates. Basilar focal atelectasis is present in the lingula.,Both lungs are clear and expanded with no infiltrates. Basilar focal atelectasis is present in the lingula.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. Both lungs are clear and expanded with no infiltrates; Basilar focal atelectasis is present in the lingula.",1.0,0,0,0,0,0,0,2
+No focal consolidation. No pleural effusion. No pneumothorax.,No focal consolidation. No pleural effusion. No pneumothorax.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+3. No focal consolidation; No pleural effusion; No pneumothorax.",1.0,0,0,0,0,0,0,3
+Both lungs are clear and expanded. Right middle lobe calcified granuloma is unchanged.,Both lungs are clear and expanded. Right middle lobe calcified granuloma is unchanged.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. 
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. Both lungs are clear and expanded; Right middle lobe calcified granuloma is unchanged.",1.0,0,0,0,0,0,0,2
+"Negative for focal pulmonary consolidation, pleural effusion, or pneumothorax.","Negative for focal pulmonary consolidation, pleural effusion, or pneumothorax.","
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+3. Negative for focal pulmonary consolidation; Negative for pleural effusion; Negative for pneumothorax.",1.0,0,0,0,0,0,0,3
+Lungs are clear. No pleural effusions or pneumothoraces.,Lungs are clear. No pleural effusions or pneumothoraces.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. Lungs are clear; No pleural effusions or pneumothoraces.",1.0,0,0,0,0,0,0,2
+"The lungs are clear bilaterally. No evidence of focal consolidation, pneumothorax, or pleural effusion.","The lungs are clear bilaterally. No evidence of focal consolidation, pneumothorax, or pleural effusion.","
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+3. The lungs are clear bilaterally; No evidence of focal consolidation; No evidence of pneumothorax or pleural effusion.",1.0,0,0,0,0,0,0,3
+"Low lung volumes, no focal consolidation, no pneumothorax, no pleural effusion, mild streaky opacities in the left upper lobe possibly atelectatic or scar.","Low lung volumes, no focal consolidation, no pneumothorax, no pleural effusion, mild streaky opacities in the left upper lobe possibly atelectatic or scar.","
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+5. Low lung volumes; No focal consolidation; No pneumothorax; No pleural effusion; Mild streaky opacities in the left upper lobe possibly atelectatic or scar.",1.0,0,0,0,0,0,0,5
+Lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.,Lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. Lungs are free of focal airspace disease; No pleural effusion or pneumothorax is seen.",1.0,0,0,0,0,0,0,2
+"Left lower lobe density representing atelectasis. No focal area of consolidation, pleural effusion, pneumothorax.","Left lower lobe density representing atelectasis. No focal area of consolidation, pleural effusion, pneumothorax.","
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. Left lower lobe density representing atelectasis; No focal area of consolidation, pleural effusion, pneumothorax.",1.0,0,0,0,0,0,0,2
+"No focal consolidation, suspicious pulmonary opacity, pneumothorax or definite pleural effusion.","No focal consolidation, suspicious pulmonary opacity, pneumothorax or definite pleural effusion.","
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+4. No focal consolidation; No suspicious pulmonary opacity; No pneumothorax; No definite pleural effusion.",1.0,0,0,0,0,0,0,4
+"Pulmonary vascularity is normal. No focal airspace consolidation. No pleural effusion, no pneumothorax.","Pulmonary vascularity is normal. No focal airspace consolidation. No pleural effusion, no pneumothorax.","
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+4. Pulmonary vascularity is normal; No focal airspace consolidation; No pleural effusion; No pneumothorax.",1.0,0,0,0,0,0,0,4
+"Lungs are clear. No focal consolidation, pneumothorax, or pleural effusion. Interval resolution of previously described right midlung opacity suggesting resolved inflammatory/infectious process. Lungs are hyperexpanded with flattened diaphragms.","Lungs are clear. No focal consolidation, pneumothorax, or pleural effusion. Interval resolution of previously described right midlung opacity suggesting resolved inflammatory/infectious process. Lungs are hyperexpanded with flattened diaphragms.","
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+4. Lungs are clear; No focal consolidation; No pneumothorax; No pleural effusion; Interval resolution of previously described right midlung opacity suggesting resolved inflammatory/infectious process; Lungs are hyperexpanded with flattened diaphragms.",1.0,0,0,0,0,0,0,4
+There is ill-defined airspace opacity in the posterior left lower lobe. There is focal opacity in the right upper lobe which suggests scar and/or granulomatous calcification. There is no pneumothorax or pleural effusion.,There is ill-defined airspace opacity in the posterior left lower lobe. There is focal opacity in the right upper lobe which suggests scar and/or granulomatous calcification. There is no pneumothorax or pleural effusion.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+3. Ill-defined airspace opacity in the posterior left lower lobe; Focal opacity in the right upper lobe suggesting scar and/or granulomatous calcification; Absence of pneumothorax or pleural effusion.",1.0,0,0,0,0,0,0,3
+No focal areas of pulmonary consolidation. Scattered right basilar subsegmental atelectasis. The left lung appears clear. No pneumothorax or pleural effusion present.,No focal areas of pulmonary consolidation. Scattered right basilar subsegmental atelectasis. The left lung appears clear. No pneumothorax or pleural effusion present.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+4. No focal areas of pulmonary consolidation; Scattered right basilar subsegmental atelectasis; The left lung appears clear; No pneumothorax or pleural effusion present.",1.0,0,0,0,0,0,0,4
+Pulmonary vascularity within normal limits. Calcified granuloma present in the right base. No pneumothorax or pleural effusion seen. Ill-defined somewhat oblong opacity in the lateral right base. The remainder of the lungs appear clear.,Pulmonary vascularity within normal limits. Calcified granuloma present in the right base. No pneumothorax or pleural effusion seen. Ill-defined somewhat oblong opacity in the lateral right base. The remainder of the lungs appear clear.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+4. Pulmonary vascularity within normal limits; Calcified granuloma present in the right base; No pneumothorax or pleural effusion seen; Ill-defined somewhat oblong opacity in the lateral right base.",1.0,0,0,0,0,0,0,4
+Lungs are hyperexpanded. No infiltrates or masses.,Lungs are hyperexpanded. No infiltrates or masses.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. 
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. Lungs are hyperexpanded; No infiltrates or masses.",1.0,0,0,0,0,0,0,2
+No infiltrates or masses in the lungs.,No infiltrates or masses in the lungs.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. No infiltrates or masses in the lungs.",1.0,0,0,0,0,0,0,1
+Lungs are clear and expanded.,Lungs are clear and expanded.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+1. Lungs are clear and expanded.",1.0,0,0,0,0,0,0,1
+No acute abnormality. Pulmonary vascularity within normal limits.,No acute abnormality. Pulmonary vascularity within normal limits.,"
+The candidate report is identical to the reference report. There are no discrepancies between the two reports.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+2. No acute abnormality; Pulmonary vascularity within normal limits.",1.0,0,0,0,0,0,0,2
+The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen. No discrete nodules or adenopathy are noted.,The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen. No discrete nodules or adenopathy are noted.,"
+The candidate report is identical to the reference report. There are no discrepancies in the findings, their anatomic locations, severity, or comparisons. Therefore, there are no errors, either clinically significant or insignificant.
+
+[Clinically Significant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Clinically Insignificant Errors]:
+(a) False report of a finding in the candidate: 0.
+(b) Missing a finding present in the reference: 0.
+(c) Misidentification of a finding's anatomic location/position: 0.
+(d) Misassessment of the severity of a finding: 0.
+(e) Mentioning a comparison that isn't in the reference: 0.
+(f) Omitting a comparison detailing a change from a prior study: 0.
+
+[Matched Findings]:
+3. The lungs are free of focal airspace disease; No pleural effusion or pneumothorax is seen; No discrete nodules or adenopathy are noted.",1.0,0,0,0,0,0,0,3
