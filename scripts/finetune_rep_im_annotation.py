@@ -133,7 +133,7 @@ def train():
     os.makedirs(output_dir, exist_ok=True)
     model.save_pretrained(output_dir)
     processor.save_pretrained(output_dir)
-    write_chat_template(processor, output_dir)
+    rep_im_annotation.write_chat_template(processor, output_dir)
 
 
 if __name__ == "__main__":
