@@ -72,23 +72,37 @@ def main(version):
     """Run inference on images using a vision-language model."""
 
     model_name = get_model_name(version)
+    print('model_name finetned:', model_name)
     if model_name.startswith("Qwen"):
 
         # from https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/blob/main/README.md
         model = Qwen2VLForConditionalGeneration.from_pretrained(
             model_name, torch_dtype="auto", device_map="auto"
         )
+        min_pixels = 256 * 28 * 28
+        max_pixels = 1280 * 28 * 28
         # default processer
-        processor = AutoProcessor.from_pretrained(model_name)
+        processor = AutoProcessor.from_pretrained(model_name, min_pixels=min_pixels, max_pixels=max_pixels)
 
         def preprocess_data(example):
+
             image = Image.open(example["image_path"]).resize(size=(512, 512))
-            text_input = REPORT_GENERATION_PROMPT.format(report=example["original_report"])
+            messages = [
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "image", "image": example["image_path"]},
+                        {"type": "text", "text": REPORT_GENERATION_PROMPT.format(report=example["original_report"])}],
+                }
+            ]
+            text = processor.apply_chat_template(
+                messages, tokenize=False, add_generation_prompt=True
+            )
             inputs = processor(
-                images=image,
-                text=text_input,
+                text=[text],
+                images=[image],
                 padding=True,
-                truncation=True,
+                #truncation=True,
                 return_tensors="np"
             )
             inputs = inputs.to("cuda")
@@ -101,7 +115,7 @@ def main(version):
                                                    "validation": os.path.join(DATA_PATH, 'finetune_data_val.json')},
                                streaming=True)
 
-        processed_dataset = dataset.map(preprocess_data, remove_columns=dataset["train"].column_names)
+        processed_dataset = dataset.map(preprocess_data)
 
         training_args = TrainingArguments(
             output_dir=MODEL_PATH,

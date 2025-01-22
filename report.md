@@ -158,3 +158,5 @@ Ref report template used:
 https://github.com/JunMa11/MICCAI-Reproducibility-Checklist/blob/ebd879ec740962e37ed99eb0fee84cb4c96a4b8f/templates/MICCAI-Code-Checklist.md
 
 green_score taken from https://stanford-aimi.github.io/green.html
+
+finetuning script taken from https://github.com/zhangfaen/finetune-Qwen2-VL/blob/main/finetune.py

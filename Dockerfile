@@ -26,6 +26,9 @@ RUN pip install transformers matplotlib sentencepiece sentence-transformers data
 RUN pip install qwen_vl_utils
 RUN pip install datasets
 RUN pip install tensorboardX
+RUN pip install peft accelerate bitsandbytes
+#RUN pip install --upgrade pip
+#RUN pip install flash-attn --no-build-isolation
 
 RUN mkdir /xray_report_gen
 COPY ./oa_token.txt /xray_report_gen/
