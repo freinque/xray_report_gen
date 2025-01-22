@@ -17,19 +17,47 @@ from peft import LoraConfig, get_peft_model
 from bitsandbytes.optim import Adam8bit
 
 from xray_report_gen.utils import process_vision_info, init_logger, get_logger
+from xray_report_gen import utils
+utils.set_api_keys()
+import os
+print(len(os.environ["HUGGINGFACEHUB_API_TOKEN"] ))
 
-output_dir = f'train_output/{datetime.datetime.now().strftime("%Y%m%d%H%M%S")}/'
+MODEL_PATH = '/xray_report_gen/data/models/'
+DATA_PATH = '/xray_report_gen/data/'
+
+output_dir = os.path.join(MODEL_PATH, "Qwen/Qwen2-VL-2B-Instruct-finetuned")
 init_logger(output_dir)
 logger = get_logger()
 
 device = "cuda"
 
+REPORT_GENERATION_PROMPT = """
+You are an advanced medical assistant designed to analyze radiology report findings and chest x-ray images. Your task is to extract sentences from a chest X-Ray radiology report and a chest x-ray images into four predefined anatomical regions: lung, heart, mediastinal, and bone. If a finding cannot be confidently assigned to any of these regions, categorize it under others.
 
-class ToyDataSet(Dataset):  # for toy demo
+### Instructions:
+1. Consider the input radiology report sentence by sentence, and the corresponding chest X-Ray images.
+2. Extract findings for the following categories:
+   - **lung**: Findings related to lungs, pulmonary vasculature, or pleura.
+   - **heart**: Findings related to the cardiac silhouette or heart size.
+   - **mediastinal**: Findings related to the mediastinum or its contours.
+   - **bone**: Findings related to bony structures such as the spine, ribs, or other skeletal elements.
+   - **others**: Findings or sentences that cannot be confidently classified under the above categories.
+3. If multiple findings belong to the same category, concatenate them into a single string within that category in the output.
+4. Format the output as a JSON object with the keys: "lung", "heart", "mediastinal", "bone", and "others". If no finding were found for a given category, the output value for its JSON key should be empty.
+
+Now, analyze the following X-ray images and report, and generate findings organized into these categories.
+
+**Input:**
+"""
+
+
+class DataSet(Dataset):  # for toy demo
     def __init__(self, data_path):
         super().__init__()
         with open(data_path, "r") as f:
             self.data = json.load(f)
+        for p in self.data:
+            p['messages'][0]['content'] = REPORT_GENERATION_PROMPT
 
     def __len__(self):
         return len(self.data)
@@ -235,7 +263,7 @@ def train():
                                               max_pixels=512 * 28 * 28, padding_side="right")
 
     train_loader = DataLoader(
-        ToyDataSet("../data/fake_data.json"),
+        DataSet("../data/finetune_data_train.json"),
         batch_size=1,
         collate_fn=partial(collate_fn, processor=processor, device=device)
     )

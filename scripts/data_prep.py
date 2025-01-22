@@ -52,6 +52,34 @@ def main():
     # writing to storage
     df.to_csv(os.path.join(DATA_PATH, 'data_prep.csv'), index=False)
 
+
+def get_data_dict(images, reports, annotations):
+    d = []
+    for image, report, annotation in zip(images, reports, annotations):
+        d.append({
+            "messages": [
+                {"role": "system", "content": "system_prompt"},
+                {
+                    "role": "user",
+                    "content": [
+                                   {"type": "image", "image": im} for im in image
+                               ]
+                               +
+                               [
+                                   {"type": "text", "text": report}
+                               ]
+                },
+                {
+                    "role": "assistant",
+                    "content": [
+                        {"type": "text", "text": annotation}
+                    ]
+                }
+            ]
+        })
+    return d
+
+
 def write_finetuning_datasets():
     df = pd.read_csv(os.path.join(DATA_PATH, 'data_prep.csv'))
 
@@ -59,29 +87,19 @@ def write_finetuning_datasets():
     df['original_report'] = df['original_report']
     df[('annotation')] = df['annotation']
 
-    df_train = df[(df['split'] == 'train') & df['image_found']][['image_path', 'original_report', 'annotation']]
-    data = df_train.to_dict(orient='records')
-    # Write the list of dictionaries to a JSON file
-    output_file = os.path.join(DATA_PATH, 'finetune_data_train.json')
-    with open(output_file, 'w') as f:
-        import json
-        json.dump(data, f, indent=4)
+    for split in ['train', 'test', 'val']:
+        df_train = df[(df['split'] == split) & df['image_found']][['id', 'image_path', 'original_report', 'annotation']]
 
-    df_test = df[(df['split'] == 'test') & df['image_found']][['image_path', 'original_report', 'annotation']]
-    data = df_test.to_dict(orient='records')
-    # Write the list of dictionaries to a JSON file
-    output_file = os.path.join(DATA_PATH, 'finetune_data_test.json')
-    with open(output_file, 'w') as f:
-        import json
-        json.dump(data, f, indent=4)
+        images = df_train.groupby('id').apply(lambda df: list(df['image_path']))
+        reports = df_train.groupby('id').apply(lambda df: df['original_report'].max())
+        annotations = df_train.groupby('id').apply(lambda df: df['annotation'].max())
 
-    df_val = df[(df['split'] == 'val') & df['image_found']][['image_path', 'original_report', 'annotation']]
-    data = df_val.to_dict(orient='records')
-    # Write the list of dictionaries to a JSON file
-    output_file = os.path.join(DATA_PATH, 'finetune_data_val.json')
-    with open(output_file, 'w') as f:
-        import json
-        json.dump(data, f, indent=4)
+        data = get_data_dict(images, reports, annotations)
+        # Write the list of dictionaries to a JSON file
+        output_file = os.path.join(DATA_PATH, f'finetune_data_{split}.json')
+        with open(output_file, 'w') as f:
+            json.dump(data, f, indent=4)
+
 
 if __name__ == '__main__':
     main()
