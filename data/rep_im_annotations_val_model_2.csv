@@ -1,0 +1,1921 @@
+id,annotation_2
+CXR1020_IM-0017,"{
+  ""lung"": ""Low lung volumes"",
+  ""heart"": ""Normal heart size"",
+  ""mediastinal"": ""No focal infiltrates"",
+  ""bone"": ""No findings""
+}"
+CXR1027_IM-0021,"{
+  ""lung"": ""No focal areas of pulmonary consolidation."",
+  ""heart"": ""Cardiomediastinal silhouette is within normal limits for appearance."",
+  ""mediastinal"": ""Thoracic spine appears intact."",
+  ""bone"": ""No large pleural effusion.""
+}"
+CXR1037_IM-0029,"{
+  ""lung"": ""hyperexpanded"",
+  ""heart"": ""normal size"",
+  ""mediastinal"": ""unremarkable"",
+  ""bone"": ""unremarkable"",
+  ""others"": ""tortuous, calcified thoracic aorta""
+}"
+CXR103_IM-0023,"{
+  ""lung"": ""clear without evidence of focal airspace disease"",
+  ""heart"": ""within normal limits"",
+  ""mediastinal"": ""prominence of the mediastinal contour near the right hilum"",
+  ""bone"": ""mild degenerative changes of the thoracic spine""
+}"
+CXR1054_IM-0040,"{
+  ""lung"": ""No focal airspace consolidation, suspicious pulmonary opacity, pneumothorax, or pleural effusion."",
+  ""heart"": ""Heart size is normal."",
+  ""mediastinal"": ""Stable mediastinal contour."",
+  ""bone"": ""No focal abnormalities detected."",
+  ""others"": ""No findings""
+}"
+CXR1055_IM-0040,"{
+  ""lung"": ""Clear lungs without evidence of infiltrate."",
+  ""heart"": ""Heart is normal in size and contour."",
+  ""mediastinal"": ""No pneumothorax or effusion."",
+  ""bone"": ""No findings related to bony structures.""
+}"
+CXR1067_IM-0048,"{
+  ""lung"": ""Clear lungs without focal consolidation, effusion, or pneumothorax."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""No suspicious pulmonary nodules or masses."",
+  ""bone"": ""Bony thorax and soft tissues grossly unremarkable.""
+}"
+CXR1078_IM-0055,"```json
+{
+  ""lung"": ""Clear lungs with no pleural effusion or pneumothorax."",
+  ""heart"": ""Normal heart and mediastinum."",
+  ""mediastinal"": ""Normal mediastinum."",
+  ""bone"": ""Normal skeletal structures.""
+}
+```"
+CXR1124_IM-0081,"{
+  ""lung"": ""mildly hyperexpanded"",
+  ""heart"": ""within normal limits"",
+  ""mediastinal"": ""diffuse degenerative changes of the spine"",
+  ""bone"": ""no focal airspace consolidation"",
+  ""others"": ""postoperative changes of sternotomy""
+}"
+CXR1139_IM-0095,"{
+  ""lung"": ""cardiomegaly"",
+  ""heart"": ""normal limits"",
+  ""mediastinal"": ""interstitial opacities"",
+  ""bone"": ""no acute osseous abnormality""
+}"
+CXR1141_IM-0096,"{
+  ""lung"": ""Both lungs are clear and expanded. Heart and mediastinum normal."",
+  ""heart"": ""Heart and mediastinum normal."",
+  ""mediastinal"": ""Mediastinum normal."",
+  ""bone"": ""No bone findings."",
+  ""others"": ""No other findings.""
+}"
+CXR1146_IM-0098,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR1170_IM-0115,"{
+  ""lung"": ""No pneumothorax, pleural effusion, or focal airspace disease."",
+  ""heart"": ""Mild cardiomegaly."",
+  ""mediastinal"": ""Cardio mediastinal silhouette unremarkable."",
+  ""bone"": ""Bony structures appear intact.""
+}"
+CXR1171_IM-0116,"{
+  ""lung"": ""Normal lung volumes with no signs of consolidation or atelectasis."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": ""No signs of mediastinal widening or compression."",
+  ""bone"": ""No fractures or other bony abnormalities."",
+  ""others"": ""No findings that cannot be confidently classified.""
+}"
+CXR1173_IM-0118,"{
+  ""lung"": ""No evidence of focal airspace consolidation"",
+  ""heart"": ""Stable moderate cardiomediastinal silhouette with atherosclerotic calcifications of the aortic"",
+  ""mediastinal"": ""Emphysematous changes with flattening of the hemidiaphragms"",
+  ""bone"": ""Visualized osseous structures appear intact""
+}"
+CXR1202_IM-0136,"{
+  ""lung"": ""Engorged pulmonary vessels"",
+  ""heart"": ""Large heart"",
+  ""mediastinal"": ""Engorged pulmonary vessels"",
+  ""bone"": ""No findings""
+}"
+CXR1207_IM-0140-0001,"{
+  ""lung"": ""clear"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""no pneumothorax""
+}"
+CXR1220_IM-0148,"```json
+{
+  ""lung"": ""Hyperexpansion, hyperlucency of both lungs, flattening of the diaphragm"",
+  ""heart"": ""No focal consolidation, pneumothorax, or large pleural effusion"",
+  ""mediastinal"": ""Stable calcified mediastinal and hilar lymph nodes and a left basilar calcified granuloma"",
+  ""bone"": ""Acute osseous abnormality"",
+  ""others"": ""Stable calcified mediastinal and hilar lymph nodes and a left basilar calcified granuloma""
+}
+```"
+CXR1248_IM-0168,"{
+  ""lung"": ""No focal consolidations"",
+  ""heart"": ""Heart size is normal"",
+  ""mediastinal"": ""No pneumothorax or pleural effusion"",
+  ""bone"": ""No degenerative changes throughout the midlower thoracic spine""
+}"
+CXR1261_IM-0177,"{
+  ""lung"": ""No focal infiltrate, pneumothorax or pleural effusion."",
+  ""heart"": ""Mild cardiomegaly."",
+  ""mediastinal"": ""Normal pulmonary vascularity."",
+  ""bone"": ""No focal infiltrate, pneumothorax or pleural effusion.""
+}"
+CXR1262_IM-0178,"{
+  ""lung"": ""low lung volumes"",
+  ""heart"": ""no focal consolidation"",
+  ""mediastinal"": ""no large pleural effusion"",
+  ""bone"": ""no prominent right anterior first rib end""
+}"
+CXR127_IM-0181,"{
+  ""lung"": ""Calcified granuloma in the left lung base"",
+  ""heart"": ""Heart size and mediastinal contour within normal limits"",
+  ""mediastinal"": ""Calcified granuloma in the left lung base"",
+  ""bone"": ""No acute osseous abnormality""
+}"
+CXR1291_IM-0190,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Cardiac silhouette within normal limits"",
+  ""mediastinal"": ""Cardiac contours within normal limits"",
+  ""bone"": ""Bony structures intact"",
+  ""others"": """"
+}"
+CXR1301_IM-0198,"{
+  ""lung"": ""No focal alveolar consolidation, no definite pleural effusion seen."",
+  ""heart"": ""Heart size within normal limits, stable mediastinal and hilar contours."",
+  ""mediastinal"": ""No typical findings of pulmonary edema."",
+  ""bone"": ""No focal alveolar consolidation, no definite pleural effusion seen."",
+  ""others"": ""No typical findings of pulmonary edema.""
+}"
+CXR1334_IM-0214,"{
+  ""lung"": ""clear"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""none""
+}"
+CXR1356_IM-0231,"{
+  ""lung"": ""Normal heart size. Normal mediastinal contour. No pneumothorax, airspace consolidation, or pleural effusion. No chest XXXX XXXX. No acute bony abnormality.""
+}"
+CXR1391_IM-0250,"{
+  ""lung"": ""Low lung volumes"",
+  ""heart"": ""Stable cardiomediastinal silhouette"",
+  ""mediastinal"": ""Low lung volumes"",
+  ""bone"": ""Negative for acute bone abnormality""
+}"
+CXR1405_IM-0259,"{
+  ""lung"": ""Scarring in the right mid and upper lung zone with surgical clips identified as well."",
+  ""heart"": ""No significant enlargement of the heart."",
+  ""mediastinal"": ""No pleural effusion or pneumothorax."",
+  ""bone"": ""Atherosclerotic changes of the aorta and arthritic changes of the skeletal structures.""
+}"
+CXR1406_IM-0259,"{
+  ""lung"": ""Hyperexpanded lungs"",
+  ""heart"": ""Unremarkable"",
+  ""mediastinal"": ""Unremarkable"",
+  ""bone"": ""No findings"",
+  ""others"": ""No findings""
+}"
+CXR1407_IM-0260,"{
+  ""lung"": ""Right lung base granuloma"",
+  ""heart"": ""Cardiac and mediastinal contours are within normal limits"",
+  ""mediastinal"": ""Thoracic spondylosis"",
+  ""bone"": ""nan""
+}"
+CXR1448_IM-0289,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR1469_IM-0303,"{
+  ""lung"": ""No focal airspace consolidation or pleural effusion."",
+  ""heart"": ""Heart size is normal."",
+  ""mediastinal"": ""No pneumothorax.""
+}"
+CXR1477_IM-0309,"{
+  ""lung"": ""No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema. No pneumothorax."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": ""No typical findings of pulmonary edema. No pneumothorax."",
+  ""bone"": ""No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema. No pneumothorax."",
+  ""others"": ""No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema. No pneumothorax.""
+}"
+CXR1488_IM-0315,"{
+  ""lung"": ""No focal airspace disease"",
+  ""heart"": ""Within normal limits"",
+  ""mediastinal"": ""No pleural effusion or pneumothorax"",
+  ""bone"": ""No findings""
+}"
+CXR1502_IM-0328,"{
+  ""lung"": ""Clear lungs, no pleural effusion or pneumothorax"",
+  ""heart"": ""Normal heart and mediastinum"",
+  ""mediastinal"": ""Normal skeletal structures"",
+  ""bone"": ""Normal skeletal structures""
+}"
+CXR150_IM-0325-0001,"{
+  ""lung"": ""No focal consolidation, suspicious pulmonary opacity, large pleural effusion, or pneumothorax is identified."",
+  ""heart"": ""Visualized osseous structures appear intact."",
+  ""mediastinal"": ""No focal consolidation, suspicious pulmonary opacity, large pleural effusion, or pneumothorax is identified."",
+  ""bone"": ""No focal consolidation, suspicious pulmonary opacity, large pleural effusion, or pneumothorax is identified."",
+  ""others"": """"
+}"
+CXR1533_IM-0344,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Cardiomediastinal silhouette within normal limits"",
+  ""mediastinal"": ""No pleural effusion"",
+  ""bone"": ""No findings""
+}"
+CXR1553_IM-0360,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal"",
+  ""others"": ""spine marginal osteophytes""
+}"
+CXR1561_IM-0367,"{
+  ""lung"": ""Clear without focal consolidation, effusion, or pneumothorax."",
+  ""heart"": ""Normal size."",
+  ""mediastinal"": ""Soft tissues unremarkable.""
+}"
+CXR1594_IM-0385,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR1630_IM-0411,"{
+  ""lung"": ""Right upper lobe nodule"",
+  ""heart"": ""Normal heart size"",
+  ""mediastinal"": ""No abnormal mediastinal structures"",
+  ""bone"": ""No abnormal bony structures"",
+  ""others"": ""None""
+}"
+CXR1649_IM-0426,"{
+  ""lung"": ""moderate left pleural effusion, moderate right pleural effusion, bibasilar airspace disease"",
+  ""heart"": ""within normal limits"",
+  ""mediastinal"": ""mild degenerative changes of the spine"",
+  ""bone"": ""no pneumothorax"",
+  ""others"": ""no findings""
+}"
+CXR1659_IM-0434,"{
+  ""lung"": ""No focal airspace disease"",
+  ""heart"": ""Heart size within normal limits"",
+  ""mediastinal"": ""No displaced rib fractures"",
+  ""bone"": ""No pneumothorax, no pleural effusion""
+}"
+CXR1666_IM-0440-0001,"{
+  ""lung"": ""scattered bilateral XXXX opacities, most notably in the right middle lobe, XXXX XXXX of subsegmental atelectasis"",
+  ""heart"": ""mildly enlarged cardiac silhouette"",
+  ""mediastinal"": ""diffuse degenerative changes of the spine"",
+  ""bone"": ""no pneumothorax is identified"",
+  ""others"": ""no pleural effusion""
+}"
+CXR1682_IM-0449,"{
+  ""lung"": ""lobulated contour to the right paratracheal stripe"",
+  ""heart"": ""cardiomediastinal silhouette is otherwise within normal limits for appearance"",
+  ""mediastinal"": ""no focal areas of pulmonary consolidation"",
+  ""bone"": ""no pneumothorax"",
+  ""others"": ""no pleural effusion""
+}"
+CXR1684_IM-0449,"{
+  ""lung"": ""No focal air space opacities."",
+  ""heart"": ""Normal in size."",
+  ""mediastinal"": ""No acute bony abnormalities."",
+  ""bone"": ""No focal air space opacities."",
+  ""others"": ""No acute bony abnormalities.""
+}"
+CXR1687_IM-0450,"{
+  ""lung"": ""Feeding tube noted with tip XXXX distal to the gastroesophageal junction. No focal areas of consolidation. Heart size within normal limits. No pleural effusions. Osseous structures intact."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": ""Osseous structures intact."",
+  ""bone"": ""No focal areas of consolidation. Heart size within normal limits. No pleural effusions. Osseous structures intact.""
+}"
+CXR1698_IM-0458,"{
+  ""lung"": ""No focal air space opacities, pleural effusion, or pneumothorax."",
+  ""heart"": ""Cardiac and mediastinal contours are unremarkable."",
+  ""mediastinal"": ""Pulmonary vascularity is within normal limits."",
+  ""bone"": ""XXXX are grossly unremarkable.""
+}"
+CXR1699_IM-0459,"{
+  ""lung"": ""mild lung consolidation"",
+  ""heart"": ""no visible pneumothorax"",
+  ""mediastinal"": ""no visible pneumothorax"",
+  ""bone"": ""no visible pneumothorax"",
+  ""others"": ""no visible pneumothorax""
+}"
+CXR1702_IM-0463,"{
+  ""lung"": ""No acute osseous abnormality. Soft tissues are within normal limits. Borderline enlargement of the heart. Normal hilar vasculature. No focal area of consolidation, pleural effusion, or pneumothorax.""
+}"
+CXR1712_IM-0470,"{
+  ""lung"": ""Bilateral lower lobe bronchial thickening consistent with bronchitis"",
+  ""heart"": ""Normal cardiac contours"",
+  ""mediastinal"": ""No pleural effusion or pneumothorax"",
+  ""bone"": ""No findings""
+}"
+CXR1720_IM-0475-0001,"{
+  ""lung"": ""low lung volumes, central bronchovascular crowding, left hemidiaphragm elevation, colon XXXX, bowel XXXX pattern, atelectasis, no definite infectious infiltrate, scoliosis, thoracic kyphosis"",
+  ""heart"": ""no pneumothorax or definite pleural effusion"",
+  ""mediastinal"": ""no definite findings"",
+  ""bone"": ""no definite findings"",
+  ""others"": ""no findings""
+}"
+CXR1735_IM-0484,"{
+  ""lung"": ""No abnormal findings"",
+  ""heart"": ""Cardiomegaly"",
+  ""mediastinal"": ""No abnormal findings"",
+  ""bone"": ""No abnormal findings""
+}"
+CXR1750_IM-0493,"{
+  ""lung"": ""Flattened diaphragms, increased retrosternal clear space, emphysema, scarring, hyperexpanded lungs"",
+  ""heart"": ""Within normal limits"",
+  ""mediastinal"": ""Increased retrosternal clear space, scarring, hyperexpanded lungs"",
+  ""bone"": ""No acute bony abnormalities"",
+  ""others"": ""Scattered calcified granulomas bilaterally""
+}"
+CXR1752_IM-0494,"{
+  ""lung"": ""Vague opacity in the right infrailar region"",
+  ""heart"": ""5 mm well circumscribed nodule in the right upper lung"",
+  ""mediastinal"": ""Vague opacity in the right infrailar region"",
+  ""bone"": ""No findings"",
+  ""others"": ""No findings""
+}"
+CXR1766_IM-0500,"{
+  ""lung"": ""No convincing acute bony findings."",
+  ""heart"": ""Heart size and pulmonary vascular engorgement appear within limits of normal."",
+  ""mediastinal"": ""Mediastinal contour is unremarkable."",
+  ""bone"": ""No focal consolidation, pleural effusion, or pneumothorax identified.""
+}"
+CXR1776_IM-0508,"{
+  ""lung"": ""No focal consolidation"",
+  ""heart"": ""Heart size and mediastinal contours are stable"",
+  ""mediastinal"": ""Pulmonary vasculature is unremarkable"",
+  ""bone"": ""No visible pleural effusion or pneumothorax"",
+  ""others"": ""No displaced rib fractures are seen"",
+  ""Thoracic spine"": ""Mild degenerative changes""
+}"
+CXR1779_IM-0509,"{
+  ""lung"": ""No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses."",
+  ""heart"": ""Heart size normal."",
+  ""mediastinal"": ""Lungs are clear."",
+  ""bone"": ""No abnormalities detected.""
+}"
+CXR1791_IM-0515,"{
+  ""lung"": ""large calcified granuloma within the medial right lung base"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""within normal limits"",
+  ""bone"": ""no visible acute fracture"",
+  ""others"": ""no visible free intraperitoneal air under the diaphragm""
+}"
+CXR1807_IM-0524,"```json
+{
+  ""lung"": ""Multiple nodules and areas of consolidation"",
+  ""heart"": ""Mild enlargement"",
+  ""mediastinal"": ""No significant changes"",
+  ""bone"": ""No fractures or abnormalities"",
+  ""others"": ""No findings""
+}
+```"
+CXR1810_IM-0524,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""unremarkable"",
+  ""bone"": ""unremarkable""
+}"
+CXR1815_IM-0527,"{
+  ""lung"": ""No focal consolidation"",
+  ""heart"": ""No pneumothorax or large pleural effusion"",
+  ""mediastinal"": ""Grossly unremarkable"",
+  ""bone"": ""No thoracic spine degenerative changes"",
+  ""others"": """"
+}"
+CXR1829_IM-0537,"{
+  ""lung"": ""no acute findings"",
+  ""heart"": ""no enlargement"",
+  ""mediastinal"": ""no enlargement"",
+  ""bone"": ""no fractures"",
+  ""others"": ""no findings""
+}"
+CXR1835_IM-0539,"{
+  ""lung"": ""Low lung volumes. The heart size and mediastinal silhouette are within normal limits for contour. The lungs are clear. No pneumothorax or pleural effusions. The XXXX are intact."",
+  ""heart"": ""nan"",
+  ""mediastinal"": ""nan"",
+  ""bone"": ""nan"",
+  ""others"": ""Low lung volumes. The heart size and mediastinal silhouette are within normal limits for contour. The lungs are clear. No pneumothorax or pleural effusions. The XXXX are intact.""
+}"
+CXR1840_IM-0545,"{
+  ""lung"": ""Asymmetric opacity to left suprahilar chest"",
+  ""heart"": ""Cardiomediastinal silhouette is normal in size and configuration"",
+  ""mediastinal"": ""No discrete correlate is seen on lateral view"",
+  ""bone"": ""No pneumothorax"",
+  ""others"": ""No pleural effusion""
+}"
+CXR1878_IM-0569,"{
+  ""lung"": ""calcified granuloma"",
+  ""heart"": ""normal size and contour"",
+  ""mediastinal"": ""aortic XXXX"",
+  ""bone"": ""no acute findings"",
+  ""others"": ""no effusion or pneumothorax""
+}"
+CXR1886_IM-0574,"{
+  ""lung"": ""No focal airspace consolidation, pneumothorax, or large pleural effusion."",
+  ""heart"": ""Heart size and mediastinal contour within normal limits."",
+  ""mediastinal"": ""Atherosclerotic calcification within the aorta."",
+  ""bone"": ""Calcified granulomas in bilateral XXXX and overlying the T9 vertebral body(lateral view)."",
+  ""others"": ""Degenerative changes of thoracic spine.""
+}"
+CXR1901_IM-0585,"{
+  ""lung"": ""No focal consolidation, pleural effusion, or pneumothorax identified."",
+  ""heart"": ""Cardiomediastinal contours are within normal limits."",
+  ""mediastinal"": ""Surgical clips are again seen in the epigastric region."",
+  ""bone"": ""Visualized osseous structures are unremarkable.""
+}"
+CXR1913_IM-0595,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal"",
+  ""others"": ""normal""
+}"
+CXR1922_IM-0598,"{
+  ""lung"": ""unremarkable"",
+  ""heart"": ""unremarkable"",
+  ""mediastinal"": ""unremarkable"",
+  ""bone"": ""unremarkable"",
+  ""others"": ""unremarkable""
+}"
+CXR1930_IM-0602-1001,"```json
+{
+  ""lung"": ""mildly hypoinflated lungs"",
+  ""heart"": ""cardiomediastinal silhouette and pulmonary vasculature within normal limits"",
+  ""mediastinal"": ""no acute bony findings"",
+  ""bone"": ""no acute bony findings""
+}
+```"
+CXR1947_IM-0616,"{
+  ""lung"": ""No focal alveolar consolidation, no definite pleural effusion seen."",
+  ""heart"": ""Heart size within normal limits, stable mediastinal contours."",
+  ""mediastinal"": ""No typical findings of pulmonary edema."",
+  ""bone"": ""No pneumothorax."",
+  ""others"": ""A dense nodule in the right base suggests a previous granulomatous process.""
+}"
+CXR194_IM-0609,"{
+  ""lung"": ""No findings"",
+  ""heart"": ""Small amount of left basilar airspace disease"",
+  ""mediastinal"": ""No findings"",
+  ""bone"": ""No findings""
+}"
+CXR1954_IM-0622,"{
+  ""lung"": ""Clear"",
+  ""heart"": ""Normal"",
+  ""mediastinal"": ""Unremarkable"",
+  ""bone"": ""None""
+}"
+CXR1959_IM-0625,"```json
+{
+  ""lung"": ""Normal heart size. Normal mediastinal silhouette. No pneumothorax, pleural effusion or suspicious focal air space opacity. Prior granulomatous disease appears stable."",
+  ""heart"": ""nan"",
+  ""mediastinal"": ""nan"",
+  ""bone"": ""nan"",
+  ""others"": ""nan""
+}
+```"
+CXR1974_IM-0633,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Cardiomediastinal silhouette within normal limits"",
+  ""mediastinal"": ""No pneumothorax or pleural effusion""
+}"
+CXR197_IM-0631,"{
+  ""lung"": ""Hyperexpanded lungs without evidence of effusion or infiltrate"",
+  ""heart"": ""Cardiomediastinal silhouette is normal"",
+  ""mediastinal"": ""No acute bony abnormality"",
+  ""bone"": ""No pneumothorax or pneumomediastinum""
+}"
+CXR1984_IM-0641-4001,"{
+  ""lung"": ""No focal consolidation, suspicious pulmonary opacity, large pleural effusion, or pneumothorax is identified."",
+  ""heart"": ""Heart size and mediastinal contour are within normal limits."",
+  ""mediastinal"": ""Wedge-shaped XXXX fracture of T12."",
+  ""bone"": ""No findings."",
+  ""others"": ""No findings.""
+}"
+CXR1987_IM-0644,"{
+  ""lung"": ""No focal consolidation, suspicious pulmonary opacity, pneumothorax, or definite pleural effusion."",
+  ""heart"": ""Heart size and mediastinal contours appear within normal limits."",
+  ""mediastinal"": ""Visualized osseous structures appear intact."",
+  ""bone"": ""No findings.""
+}"
+CXR1991_IM-0648,"{
+  ""lung"": ""Hypoinflated lungs with streaky opacities and B-lines"",
+  ""heart"": ""Normal size"",
+  ""mediastinal"": ""Stable mediastinum"",
+  ""bone"": ""No findings"",
+  ""others"": ""No large effusion""
+}"
+CXR201_IM-0660,"{
+  ""lung"": ""Minimal XXXX airspace opacity in the right middle lobe, XXXX atelectasis"",
+  ""heart"": ""Cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size"",
+  ""mediastinal"": ""Minimal XXXX airspace opacity in the right middle lobe, XXXX atelectasis"",
+  ""bone"": ""Moderate degenerative endplate changes in the thoracic spine"",
+  ""others"": ""No acute bony findings""
+}"
+CXR2045_IM-0687,"{
+  ""lung"": ""Clear lungs without infiltrate."",
+  ""heart"": ""Heart upper limits of normal in size."",
+  ""mediastinal"": ""No effusion or pneumothorax."",
+  ""bone"": ""No findings related to bony structures.""
+}"
+CXR2056_IM-0694-1001,"{
+  ""lung"": ""Upper limits of normal"",
+  ""heart"": ""Upper limits of normal"",
+  ""mediastinal"": ""Within normal limits"",
+  ""bone"": ""No findings"",
+  ""others"": ""No findings""
+}"
+CXR2060_IM-0698,"{
+  ""lung"": ""Prominence of the left hilum may represent adenopathy or engorged vasculature."",
+  ""heart"": ""Cardiac silhouette is within normal limits of size and contour."",
+  ""mediastinal"": ""No pneumothorax or large pleural effusion."",
+  ""bone"": ""No acute bone abnormality.""
+}"
+CXR2068_IM-0701,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Cardiomediastinal silhouette within normal limits"",
+  ""mediastinal"": ""No pneumothorax or pleural effusion""
+}"
+CXR2083_IM-0715,"{
+  ""lung"": ""Clear lungs bilaterally"",
+  ""heart"": ""Cardiac and mediastinal silhouettes are normal"",
+  ""mediastinal"": ""Pulmonary vasculature is normal"",
+  ""bone"": ""No pneumothorax or pleural effusion"",
+  ""others"": ""No acute bony abnormality""
+}"
+CXR2120_IM-0747,"{
+  ""lung"": ""clear"",
+  ""heart"": ""normal in size"",
+  ""mediastinal"": ""unremarkable"",
+  ""bone"": ""nan""
+}"
+CXR2124_IM-0749,"{
+  ""lung"": """",
+  ""heart"": """",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}"
+CXR2135_IM-0757,"{
+  ""lung"": ""No focal consolidation"",
+  ""heart"": ""Mild blunting of the posterior costophrenic XXXX XXXX"",
+  ""mediastinal"": ""No pneumothorax"",
+  ""bone"": ""Moderate cardiomegaly"",
+  ""others"": ""No findings""
+}"
+CXR2167_IM-0783,"{
+  ""lung"": ""Hyperexpansion with mild flattening of diaphragm"",
+  ""heart"": ""Cardiomediastinal silhouette is normal"",
+  ""mediastinal"": ""Pulmonary vasculature and XXXX are normal"",
+  ""bone"": ""No consolidation, pneumothorax or large pleural effusion"",
+  ""others"": ""Contrast retained within the renal collecting XXXX""
+}"
+CXR2186_IM-0796,"{
+  ""lung"": ""Clear lungs, low lung volumes, normal heart and pulmonary vessels, clear pleural spaces"",
+  ""heart"": ""Normal heart and pulmonary vessels"",
+  ""mediastinal"": ""Clear mediastinum"",
+  ""bone"": ""No significant bone abnormalities""
+}"
+CXR2208_IM-0815,"{
+  ""lung"": ""Persistent cardiomegaly"",
+  ""heart"": ""No abnormal airspace consolidation"",
+  ""mediastinal"": ""Resolved interstitial edema"",
+  ""bone"": ""No pneumothorax or pleural effusion""
+}"
+CXR2222_IM-0826,"{
+  ""lung"": ""Clear lungs, no focal consolidation, pleural effusion, or pneumothoraces."",
+  ""heart"": ""Cardiomediastinal silhouette within normal limits."",
+  ""mediastinal"": ""Calcified densities within right paratracheal region and left perihilar region, may represent calcified granulomas."",
+  ""bone"": ""Unremarkable."",
+  ""others"": ""XXXX are unremarkable.""
+}"
+CXR2238_IM-0835,"{
+  ""lung"": ""Clear"",
+  ""heart"": ""Normal in size"",
+  ""mediastinal"": ""Unremarkable"",
+  ""bone"": ""None""
+}"
+CXR2260_IM-0852,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR2262_IM-0852,"{
+  ""lung"": ""Right basal airspace opacity"",
+  ""heart"": ""Heart size and mediastinal silhouette are within normal limits for contour"",
+  ""mediastinal"": ""XXX are intact""
+}"
+CXR2279_IM-0865,"{
+  ""lung"": ""Streaky bibasilar opacities"",
+  ""heart"": ""Heart size is enlarged"",
+  ""mediastinal"": ""Mediastinal contour is normal"",
+  ""bone"": ""No visible free intraperitoneal air under the diaphragm""
+}"
+CXR2286_IM-0871,"{
+  ""lung"": ""Emphysema"",
+  ""heart"": ""Normal"",
+  ""mediastinal"": ""No large pleural effusions"",
+  ""bone"": ""No focal airspace opacities""
+}"
+CXR2316_IM-0889,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Cardiomediastinal silhouette within normal limits"",
+  ""mediastinal"": ""No pneumothorax or pleural effusion""
+}"
+CXR2320_IM-0894,"{
+  ""lung"": ""No pneumothorax. No pneumonia. No pleural effusion."",
+  ""heart"": ""Cardio mediastinal silhouette, pulmonary vascular pattern are within normal limits."",
+  ""mediastinal"": ""No degenerative changes mid thoracic spine."",
+  ""bone"": ""No pneumothorax. No pneumonia. No pleural effusion."",
+  ""others"": ""Mild degenerative changes mid thoracic spine.""
+}"
+CXR2335_IM-0902,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""anterior osteophyte formation""
+}"
+CXR2351_IM-0917,"{
+  ""lung"": ""Scattered calcifications are noted, compatible with prior granulomatous disease."",
+  ""heart"": ""The heart is normal in size and contour."",
+  ""mediastinal"": ""The lungs are clear, without evidence of infiltrate."",
+  ""bone"": ""There is no pneumothorax or effusion.""
+}"
+CXR2371_IM-0932,"{
+  ""lung"": ""T-spine osteophytes"",
+  ""heart"": ""cardiomediastinal silhouette and pulmonary vasculature are within normal limits"",
+  ""mediastinal"": ""no pneumothorax or pleural effusion"",
+  ""bone"": ""no focal areas of consolidation"",
+  ""others"": ""low lung volumes""
+}"
+CXR2375_IM-0936,"{
+  ""lung"": ""Normal"",
+  ""heart"": ""Upper limits of normal"",
+  ""mediastinal"": ""Normal"",
+  ""bone"": ""No findings"",
+  ""others"": ""Healed granulomatous disease in the right hemithorax""
+}"
+CXR2379_IM-0939,"{
+  ""lung"": ""Hyperexpanded lungs"",
+  ""heart"": ""Cardiomediastinal silhouette within normal limits"",
+  ""mediastinal"": ""Cardiomediastinal silhouette within normal limits"",
+  ""bone"": ""No acute abnormality"",
+  ""others"": ""No acute abnormality""
+}"
+CXR237_IM-0930,"{
+  ""lung"": ""calcified granuloma in the right perihilar region"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""multilevel degenerative changes in the thoracic spine"",
+  ""bone"": ""no findings""
+}"
+CXR2381_IM-0941,"{
+  ""lung"": ""Granulomatous calcifications are present."",
+  ""heart"": ""Cardiac and mediastinal contours are within normal limits."",
+  ""mediastinal"": ""Granulomatous calcifications are present."",
+  ""bone"": ""Bony structures are intact."",
+  ""others"": ""Prior cholecystectomy.""
+}"
+CXR2395_IM-0944,"{
+  ""lung"": ""Clear lungs without abnormal findings."",
+  ""heart"": ""Cardiac silhouette and contours are normal."",
+  ""mediastinal"": ""Cardiac silhouette and contours are normal."",
+  ""bone"": ""No bony abnormalities detected."",
+  ""others"": ""No findings or sentences that cannot be confidently classified.""
+}"
+CXR2398_IM-0947,"```json
+{
+  ""lung"": ""No focal infiltrate"",
+  ""heart"": ""Mild cardiomegaly"",
+  ""mediastinal"": ""Mild cardiomegaly"",
+  ""bone"": ""No pneumothorax"",
+  ""others"": ""Patient is rotated""
+}
+```"
+CXR2412_IM-0958,"{
+  ""lung"": ""Clear lungs without focal consolidations"",
+  ""heart"": ""Heart size and mediastinal silhouette within normal limits"",
+  ""mediastinal"": ""No pneumothorax or pleural effusions"",
+  ""bone"": ""Osseous structures intact"",
+  ""others"": ""Calcification in the right upper quadrant of the abdomen consistent with gallstone""
+}"
+CXR2427_IM-0969,"{
+  ""lung"": ""Clear lungs without evidence of acute infiltrate or effusion."",
+  ""heart"": ""Cardiomediastinal silhouette is normal and unchanged compared to prior examination."",
+  ""mediastinal"": ""No acute abnormalities in the visualized bony structures."",
+  ""bone"": ""No acute abnormalities in the visualized bony structures."",
+  ""others"": ""Hiatal hernia""
+}"
+CXR2428_IM-0970,"{
+  ""lung"": ""mildly hyperinflated lungs with flattened posterior diaphragm and increased retrosternal airspace"",
+  ""heart"": ""within normal limits with prominent right atrial convexity and no typical findings of pulmonary edema"",
+  ""mediastinal"": ""no focal alveolar consolidation or definite pleural effusion"",
+  ""bone"": ""left hilar calcifications and dense left lower lobe nodules"",
+  ""others"": ""no focal alveolar consolidation, no definite pleural effusion, left hilar calcifications, dense left lower lobe nodules""
+}"
+CXR2431_IM-0973,"{
+  ""lung"": ""clear"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""no"",
+  ""bone"": ""no"",
+  ""others"": ""calcified lymph""
+}"
+CXR2432_IM-0974,"{
+  ""lung"": ""Clear of focal airspace disease, pneumothorax, or pleural effusion"",
+  ""heart"": ""Cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size"",
+  ""mediastinal"": ""No acute bony findings"",
+  ""bone"": ""No acute bony findings""
+}"
+CXR2443_IM-0980,"{
+  ""lung"": ""No focal airspace disease"",
+  ""heart"": ""Heart size and pulmonary vascularity appear within normal limits"",
+  ""mediastinal"": ""No pleural effusion or pneumothorax"",
+  ""bone"": ""Vascular calcification is noted""
+}"
+CXR2448_IM-0983,"{
+  ""lung"": ""no findings"",
+  ""heart"": ""no findings"",
+  ""mediastinal"": ""no findings"",
+  ""bone"": ""no findings""
+}"
+CXR2459_IM-0991,"```json
+{
+  ""lung"": ""Clear lungs without infiltrate."",
+  ""heart"": ""Heart and mediastinum unremarkable."",
+  ""mediastinal"": ""Lungs clear without infiltrate."",
+  ""bone"": ""No effusion or pneumothorax."",
+  ""others"": ""No findings.""
+}
+```"
+CXR2462_IM-0995,"{
+  ""lung"": ""stable cardiomegaly, aorta calcified and tortuous, multiple pleural calcifications"",
+  ""heart"": ""cardiomegaly"",
+  ""mediastinal"": ""no pneumothorax, pleural effusion, or focal airspace consolidation"",
+  ""bone"": ""no"",
+  ""others"": ""no""
+}"
+CXR2469_IM-0999,"{
+  ""lung"": ""mild opacification over both lungs, no focal air space opacities"",
+  ""heart"": ""cardiomediastinal silhouette is within normal limits"",
+  ""mediastinal"": ""no free subdiaphragmatic air"",
+  ""bone"": ""no focal air space opacities"",
+  ""others"": ""no free subdiaphragmatic air""
+}"
+CXR2477_IM-1006,"{
+  ""lung"": ""No acute bony abnormalities"",
+  ""heart"": ""Stable cardiomegaly with grossly unchanged rightward mediastinal shift"",
+  ""mediastinal"": ""Unchanged appearance of left perihilar calcified lymph XXXX and left basilar calcified granuloma"",
+  ""bone"": ""Relatively unchanged appearance of prominent interstitial markings with patchy bibasilar atelectasis"",
+  ""others"": ""No pneumothorax, focal infiltrate, or large pleural effusion""
+}"
+CXR2484_IM-1012,"{
+  ""lung"": ""scattered nodular opacities"",
+  ""heart"": ""normal size and configuration of the cardiac silhouette"",
+  ""mediastinal"": ""scattered nodular opacities"",
+  ""bone"": ""no focal airspace consolidation or pleural effusion""
+}"
+CXR2499_IM-1023,"{
+  ""lung"": ""Low lung volumes bilaterally with bibasilar airspace opacities, right greater than left. There is blunting of the bilateral costophrenic sulci. Cardiac device overlies left chest, leads intact, tips overlying right atrium and right ventricle. No pneumothorax. Cardiomegaly. Degenerative changes of the spine."",
+  ""heart"": ""Cardiomegaly."",
+  ""mediastinal"": ""No pneumothorax."",
+  ""bone"": ""Degenerative changes of the spine.""
+}"
+CXR24_IM-0949,"{
+  ""lung"": ""unremarkable"",
+  ""heart"": ""within normal limits"",
+  ""mediastinal"": ""within normal limits"",
+  ""bone"": ""no acute abnormality"",
+  ""others"": ""incompletely evaluated lumbar levoscoliosis""
+}"
+CXR2510_IM-1033,"```json
+{
+  ""lung"": ""Clear lungs with no pleural effusions or pneumothoraces."",
+  ""heart"": ""Heart and mediastinum of normal size and contour."",
+  ""mediastinal"": ""Thoracic spine with degenerative changes."",
+  ""bone"": ""No findings related to bone structures.""
+}
+```"
+CXR2567_IM-1069,"{
+  ""lung"": ""Clear"",
+  ""heart"": ""Normal"",
+  ""mediastinal"": ""Unremarkable"",
+  ""bone"": ""None""
+}"
+CXR2583_IM-1081,"{
+  ""lung"": ""Clear"",
+  ""heart"": ""Normal"",
+  ""mediastinal"": ""Unremarkable"",
+  ""bone"": ""None""
+}"
+CXR2588_IM-1083,"{
+  ""lung"": ""No focal consolidation, pneumothorax or definite pleural effusion."",
+  ""heart"": ""Nodular density projected over the left base with no lateral view correlate XXXX secondary to soft tissue overlay."",
+  ""mediastinal"": ""Heart size and pulmonary vascularity within normal limits, no mediastinal widening characteristic in appearance of vascular injury."",
+  ""bone"": ""No acute osseous injury XXXX demonstrated.""
+}"
+CXR2596_IM-1086,"{
+  ""lung"": ""Clear of focal airspace disease, pneumothorax, or pleural effusion"",
+  ""heart"": ""Cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size"",
+  ""mediastinal"": ""No acute bony findings"",
+  ""bone"": ""No acute bony findings""
+}"
+CXR2600_IM-1091,"{
+  ""lung"": ""Both lungs are clear and expanded."",
+  ""heart"": ""Heart and mediastinum normal."",
+  ""mediastinal"": ""Note XXXX of placement of a retention XXXX in the lower cervical spine."",
+  ""bone"": ""No findings."",
+  ""others"": ""No findings.""
+}"
+CXR2637_IM-1122,"```json
+{
+  ""lung"": ""Moderate-to-marked enlargement of the cardiac silhouette"",
+  ""heart"": ""Mild bilateral posterior sulcus blunting"",
+  ""mediastinal"": ""Indistinct vascular margination"",
+  ""bone"": ""No findings"",
+  ""others"": ""No findings""
+}
+```"
+CXR2652_IM-1136,"{
+  ""lung"": ""No acute findings"",
+  ""heart"": ""No enlarged heart silhouette or mediastinal contours"",
+  ""mediastinal"": ""No enlarged mediastinum"",
+  ""bone"": ""No calcified mediastinal lymph nodes"",
+  ""others"": ""No acute findings, no effusion, no pneumothorax""
+}"
+CXR2653_IM-1137,"{
+  ""lung"": ""No focal consolidation, suspicious pulmonary opacity, pneumothorax, or definite pleural effusion."",
+  ""heart"": ""Heart size and mediastinal contours appear within normal limits."",
+  ""mediastinal"": ""Pulmonary vascularity is within normal limits."",
+  ""bone"": ""No focal consolidation, suspicious pulmonary opacity, pneumothorax, or definite pleural effusion."",
+  ""others"": ""Mild degenerative changes of the thoracic spine.""
+}"
+CXR2663_IM-1144,"{
+  ""lung"": ""Clear lungs with no pleural effusion or pneumothorax."",
+  ""heart"": ""Normal heart and mediastinum."",
+  ""mediastinal"": ""Normal mediastinum."",
+  ""bone"": ""Normal skeletal structures and soft tissues.""
+}"
+CXR2665_IM-1145,"{
+  ""lung"": """",
+  ""heart"": """",
+  ""mediastinal"": """",
+  ""bone"": """"
+}"
+CXR2668_IM-1147,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""unremarkable"",
+  ""bone"": ""no findings""
+}"
+CXR26_IM-1090,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Cardiac contours are normal"",
+  ""mediastinal"": ""Thoracic spondylosis"",
+  ""bone"": ""No findings""
+}"
+CXR2701_IM-1169,"{
+  ""lung"": ""Both lungs are clear and expanded."",
+  ""heart"": ""Heart and mediastinum normal."",
+  ""mediastinal"": ""Both lungs are clear and expanded."",
+  ""bone"": ""Heart and mediastinum normal.""
+}"
+CXR270_IM-1168,"{
+  ""lung"": ""Clear of focal airspace disease, pneumothorax, or pleural effusion"",
+  ""heart"": ""Cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size"",
+  ""mediastinal"": ""No acute bony findings"",
+  ""bone"": ""No acute bony findings""
+}"
+CXR2715_IM-1180,"{
+  ""lung"": ""Right lower lobe pulmonary nodule"",
+  ""heart"": ""No focal airspace consolidation or effusion"",
+  ""mediastinal"": ""Posttraumatic deformities of the right posterior ribs"",
+  ""bone"": ""No focal airspace consolidation or effusion"",
+  ""others"": ""No focal airspace consolidation or effusion""
+}"
+CXR2723_IM-1185,"{
+  ""lung"": ""Minimal subsegmental atelectasis at the left base otherwise negative for focal confluent airspace disease."",
+  ""heart"": ""Negative for cardiac enlargement or vascular congestion."",
+  ""mediastinal"": ""Visualized bony structures are intact."",
+  ""bone"": ""No pneumothorax."",
+  ""others"": ""Minimal degenerative disc changes of the mid/lower thoracic spine.""
+}"
+CXR2724_IM-1186,"{
+  ""lung"": ""Clear lungs, no pleural effusions or pneumothoraces."",
+  ""heart"": ""Heart size is normal."",
+  ""mediastinal"": ""Aorta has some tortuosity."",
+  ""bone"": ""Thoracic spine has degenerative changes.""
+}"
+CXR2730_IM-1189,"{
+  ""lung"": ""No convincing acute bony findings."",
+  ""heart"": ""Heart size and pulmonary vascular engorgement appear within limits of normal."",
+  ""mediastinal"": ""Mediastinal contour is unremarkable."",
+  ""bone"": ""No focal consolidation, pleural effusion, or pneumothorax identified.""
+}"
+CXR2735_IM-1189,"{
+  ""lung"": ""Both lungs are clear and expanded. Heart and mediastinum normal."",
+  ""heart"": ""Heart and mediastinum normal."",
+  ""mediastinal"": ""Mediastinum normal."",
+  ""bone"": ""No bone findings."",
+  ""others"": ""No other findings.""
+}"
+CXR273_IM-1188,"{
+  ""lung"": ""mild right hemidiaphragm elevation with mild bronchovascular crowding, right greater than left, indistinct vascular margination"",
+  ""heart"": ""mildly to moderately enlarged"",
+  ""mediastinal"": ""no definite focal alveolar consolidation, no pleural effusion"",
+  ""bone"": ""no"",
+  ""others"": ""no""
+}"
+CXR274_IM-1194,"{
+  ""lung"": ""No focal areas of pulmonary consolidation."",
+  ""heart"": ""Degenerative endplate changes of the thoracic spine with an age-indeterminate, mild wedge XXXX deformity of a midthoracic vertebral body."",
+  ""mediastinal"": ""No pneumothorax."",
+  ""bone"": ""No pleural effusion.""
+}"
+CXR2759_IM-1207,"{
+  ""lung"": ""No findings"",
+  ""heart"": ""No findings"",
+  ""mediastinal"": ""No findings"",
+  ""bone"": ""Minimal degenerative changes of the thoracic spine with a mild wedge XXXX deformity of a midthoracic vertebral body"",
+  ""others"": ""No findings""
+}"
+CXR2767_IM-1212,"{
+  ""lung"": ""Clear lungs with no signs of pleural effusion or pneumothorax."",
+  ""heart"": ""Cardiomediastinal silhouette is normal."",
+  ""mediastinal"": ""Minimal degenerative changes of the spine."",
+  ""bone"": ""No findings related to bone structures.""
+}"
+CXR2769_IM-1212,"{
+  ""lung"": ""Biapical bullous emphysematous changes"",
+  ""heart"": ""Cardiomediastinal silhouette are normal in size and contour"",
+  ""mediastinal"": ""No focal consolidation, pneumothorax, or pleural effusion"",
+  ""bone"": ""Mild multilevel degenerative changes of the thoracic spine""
+}"
+CXR2781_IM-1219,"{
+  ""lung"": ""Clear lungs. No pneumothorax. No pleural effusion."",
+  ""heart"": ""Normal heart."",
+  ""mediastinal"": ""Clear lungs. No pneumothorax. No pleural effusion."",
+  ""bone"": ""No findings."",
+  ""others"": ""No findings.""
+}"
+CXR2791_IM-1225,"{
+  ""lung"": ""No focal airspace disease"",
+  ""heart"": ""Within normal limits"",
+  ""mediastinal"": ""Free of pleural effusion or pneumothorax"",
+  ""bone"": ""No findings""
+}"
+CXR2806_IM-1236,"{
+  ""lung"": ""No edema or effusions."",
+  ""heart"": ""Heart size is normal."",
+  ""mediastinal"": ""Lungs are clear."",
+  ""bone"": ""No findings.""
+}"
+CXR2818_IM-1242,"{
+  ""lung"": ""Stable cavity in the right apex, related to prior tuberculosis infection. Increased opacity in the left upper lobe, peripherally. Pulmonary hyperexpansion."",
+  ""heart"": ""No large effusion or pneumothorax."",
+  ""mediastinal"": ""No findings."",
+  ""bone"": ""No findings."",
+  ""others"": ""No findings.""
+}"
+CXR2822_IM-1244,"{
+  ""lung"": ""Calcified granuloma posteriorly in the medial right lower lobe"",
+  ""heart"": ""Normal heart size"",
+  ""mediastinal"": ""Stable left subclavian chest XXXX catheter tip in mid SVC"",
+  ""bone"": ""Lungs are well expanded. Thoracic spine demonstrates mild degenerative changes with some mild XXXX loss of T4 and T7 vertebral bodies"",
+  ""others"": ""No focal consolidation, effusion, or pneumothorax. Normal heart size. Stable left subclavian chest XXXX catheter tip in mid SVC. Lungs are well expanded. Calcified granuloma posteriorly in the medial right lower lobe. Postsurgical changes of anterior lower cervical spine fusion. Thoracic spine demonstrates mild degenerative changes with some mild XXXX loss of T4 and T7 vertebral bodies.""
+}"
+CXR2832_IM-1249,"{
+  ""lung"": ""stable cardiomegaly"",
+  ""heart"": ""mediastinum is unremarkable"",
+  ""mediastinal"": ""atherosclerotic calcifications are present within the thoracic aorta"",
+  ""bone"": ""no pleural effusion, pneumothorax, or focal airspace disease"",
+  ""others"": ""chronic degenerative changes are present in the thoracic spine""
+}"
+CXR2833_IM-1249,"{
+  ""lung"": ""No abnormal findings"",
+  ""heart"": ""Within normal limits"",
+  ""mediastinal"": ""Within normal limits"",
+  ""bone"": ""Within normal limits""
+}"
+CXR283_IM-1248,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Cardiomediastinal silhouette within normal limits"",
+  ""mediastinal"": ""No pleural effusion"",
+  ""bone"": ""No findings""
+}"
+CXR284_IM-1252,"{
+  ""lung"": ""No discrete XXXX projectile visualized."",
+  ""heart"": ""Cardiomediastinal silhouette is normal in size and contour."",
+  ""mediastinal"": ""No focal consolidation, pneumothorax or large pleural effusion."",
+  ""bone"": ""Negative for acute displaced rib fracture."",
+  ""others"": ""Contrast within the bilateral renal collecting systems. Contrast also probably within the left colon.""
+}"
+CXR2856_IM-1263,"```json
+{
+  ""lung"": ""Normal heart size. No focal airspace consolidation, pneumothorax, pleural effusion, or pulmonary edema. No focal bony abnormality."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""Normal mediastinum."",
+  ""bone"": ""No bony abnormality."",
+  ""others"": ""No other findings.""
+}
+```"
+CXR2882_IM-1286,"{
+  ""lung"": ""No focal areas of consolidation."",
+  ""heart"": ""No suspicious bony opacities."",
+  ""mediastinal"": ""Heart size slightly enlarged."",
+  ""bone"": ""No evidence of pneumothorax."",
+  ""others"": ""Degenerative changes of the thoracic spine.""
+}"
+CXR2893_IM-1295,"{
+  ""lung"": ""Clear lungs with no focal infiltrate, pleural effusion, or pneumothoraces."",
+  ""heart"": ""Cardiomediastinal silhouette within normal limits."",
+  ""mediastinal"": ""Soft tissues unremarkable."",
+  ""bone"": ""No findings related to bone structures.""
+}"
+CXR2899_IM-1301,"{
+  ""lung"": ""Clear of focal airspace disease, pneumothorax, or pleural effusion"",
+  ""heart"": ""Cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size"",
+  ""mediastinal"": ""No acute bony findings"",
+  ""bone"": ""No acute bony findings""
+}"
+CXR289_IM-1292-0001,"{
+  ""lung"": ""Right lung appears normal in size and shape."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": ""Mediastinal and hilar contours stable."",
+  ""bone"": ""No focal alveolar consolidation or pleural effusion."",
+  ""others"": ""Monitoring device artifacts.""
+}"
+CXR2903_IM-1307,"{
+  ""lung"": ""mildly hypoinflated lungs"",
+  ""heart"": ""cardiac silhouette within normal limits"",
+  ""mediastinal"": ""no acute bony findings"",
+  ""bone"": ""no acute bony findings""
+}"
+CXR2904_IM-1308,"{
+  ""lung"": ""No definite pleural effusion seen."",
+  ""heart"": ""Stable cardiomediastinal silhouette with borderline heart size and aortic ectasia/tortuosity."",
+  ""mediastinal"": ""Stable hyperinflation without focal alveolar consolidation."",
+  ""bone"": ""No typical findings of pulmonary edema."",
+  ""others"": ""Healed left rib fractures again noted.""
+}"
+CXR2930_IM-1333,"{
+  ""lung"": ""T-spine osteophytes"",
+  ""heart"": ""cardiomediastinal silhouette and pulmonary vasculature are within normal limits"",
+  ""mediastinal"": ""no pneumothorax or pleural effusion"",
+  ""bone"": ""no focal areas of consolidation""
+}"
+CXR2933_IM-1336,"{
+  ""lung"": ""Normal heart size. No focal air space consolidation, pneumothorax, pleural effusion, or pulmonary edema. No focal bony abnormality."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""Normal mediastinum."",
+  ""bone"": ""No focal bony abnormality.""
+}"
+CXR2961_IM-1355,"{
+  ""lung"": ""Patchy opacity in the left base concerning for atelectasis versus pneumonitis"",
+  ""heart"": ""Atherosclerotic changes of the aorta"",
+  ""mediastinal"": ""Curvilinear lucency in the right hemidiaphragm and a small amount of free intraperitoneal air"",
+  ""bone"": ""Arthritic changes of the skeletal structures"",
+  ""others"": ""There is a small left pleural effusion""
+}"
+CXR2964_IM-1357,"{
+  ""lung"": ""Clear lungs with no focal airspace consolidation, no pleural effusion or pneumothorax."",
+  ""heart"": ""Heart size and mediastinal contour are normal."",
+  ""mediastinal"": ""Normal mediastinal contours."",
+  ""bone"": ""No findings related to bone structures."",
+  ""others"": ""No findings or sentences that cannot be confidently classified.""
+}"
+CXR2966_IM-1359,"{
+  ""lung"": ""No focal airspace disease"",
+  ""heart"": ""Within normal limits"",
+  ""mediastinal"": ""No pleural effusion or pneumothorax"",
+  ""bone"": ""No scoliosis or degenerative changes""
+}"
+CXR2976_IM-1365,"{
+  ""lung"": ""Hyperexpanded lungs"",
+  ""heart"": ""Heart size and vascularity normal"",
+  ""mediastinal"": ""Normal mediastinal contour"",
+  ""bone"": ""No findings""
+}"
+CXR2982_IM-1371,"{
+  ""lung"": ""clear"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""unremarkable"",
+  ""bone"": ""none""
+}"
+CXR2988_IM-1375,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR2993_IM-1380,"{
+  ""lung"": ""Clear lungs without focal consolidation, effusion, or pneumothorax."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""Grossly unremarkable bony thorax and soft tissues."",
+  ""bone"": ""No findings."",
+  ""others"": ""No findings.""
+}"
+CXR2998_IM-1382,"{
+  ""lung"": ""Clear lungs, no evidence of focal consolidation, pneumothorax, or pleural effusion."",
+  ""heart"": ""Cardio mediastinal silhouette is unremarkable."",
+  ""mediastinal"": ""Visualized osseous structures of the thorax are without acute abnormality."",
+  ""bone"": ""No displaced rib fractures identified.""
+}"
+CXR2999_IM-1383-0001,"{
+  ""lung"": ""Patchy opacities are demonstrated in the left lung base."",
+  ""heart"": ""Cardiac silhouette is at the upper limits of normal for size."",
+  ""mediastinal"": ""Minimal degenerative changes of the thoracic spine."",
+  ""bone"": ""No focal pulmonary consolidation."",
+  ""others"": ""No pneumothorax.""
+}"
+CXR3001_IM-1387,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR3018_IM-1393,"{
+  ""lung"": ""No focal airspace disease"",
+  ""heart"": ""Heart size within normal limits"",
+  ""mediastinal"": ""No pneumothorax or pleural effusion"",
+  ""bone"": ""No focal airspace disease"",
+  ""others"": ""No focal airspace disease""
+}"
+CXR3054_IM-1422,"{
+  ""lung"": ""No findings"",
+  ""heart"": ""No findings"",
+  ""mediastinal"": ""No findings"",
+  ""bone"": ""Degenerative changes in the spine"",
+  ""others"": ""Ureteral stents on the right""
+}"
+CXR3058_IM-1425,"{
+  ""lung"": ""Left midlung opacity noted, not visualized on prior"",
+  ""heart"": ""Heart size within normal limits"",
+  ""mediastinal"": ""No pleural effusions"",
+  ""bone"": ""Osseous structures intact""
+}"
+CXR3061_IM-1427,"{
+  ""lung"": ""No findings"",
+  ""heart"": ""No findings"",
+  ""mediastinal"": ""No findings"",
+  ""bone"": ""No findings"",
+  ""others"": ""No findings""
+}"
+CXR3074_IM-1435,"{
+  ""lung"": ""Vague patchy opacity in the right midlung which may represent early pneumonia."",
+  ""heart"": ""Heart and mediastinum of normal size and contour."",
+  ""mediastinal"": ""No pleural effusions or pneumothoraces."",
+  ""bone"": ""Degenerative changes in the spine.""
+}"
+CXR3076_IM-1437,"{
+  ""lung"": ""Bronchovascular crowding"",
+  ""heart"": ""Borderline enlarged"",
+  ""mediastinal"": ""Kyphotic and rotated"",
+  ""bone"": ""No definite airspace consolidation or pleural effusion""
+}"
+CXR3087_IM-1444,"{
+  ""lung"": ""Clear"",
+  ""heart"": ""Enlarged"",
+  ""mediastinal"": ""Stable"",
+  ""bone"": ""None""
+}"
+CXR3090_IM-1445,"{
+  ""lung"": ""Right sided pleural effusion"",
+  ""heart"": ""Clear left lung"",
+  ""mediastinal"": ""No pneumothorax"",
+  ""bone"": ""No findings""
+}"
+CXR3122_IM-1467,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR3135_IM-1474,"{
+  ""lung"": ""Clear lungs bilaterally without evidence of focal consolidation, pneumothorax, or pleural effusion."",
+  ""heart"": ""Cardiomediastinal silhouette is unremarkable."",
+  ""mediastinal"": ""Visualized osseous structures of the thorax are without acute abnormality.""
+}"
+CXR3143_IM-1477,"{
+  ""lung"": ""No acute findings"",
+  ""heart"": ""Normal in size and contour"",
+  ""mediastinal"": ""Aortic XXXX appear unremarkable"",
+  ""bone"": ""No effusion or pneumothorax""
+}"
+CXR3149_IM-1480,"{
+  ""lung"": ""Hyperexpanded"",
+  ""heart"": ""Within normal limits"",
+  ""mediastinal"": ""Silhouette"",
+  ""bone"": ""No findings""
+}"
+CXR3150_IM-1482,"{
+  ""lung"": ""Atelectasis"",
+  ""heart"": ""None"",
+  ""mediastinal"": ""None"",
+  ""bone"": ""None""
+}"
+CXR3166_IM-1491,"{
+  ""lung"": ""No findings"",
+  ""heart"": ""Heart size normal. No pneumothorax, pleural effusion, or focal airspace disease. Nodular densities consistent with chronic granulomatous disease. Bony structures appear intact."",
+  ""mediastinal"": ""No findings"",
+  ""bone"": ""Bony structures appear intact""
+}"
+CXR3167_IM-1491,"{
+  ""lung"": ""Clear lungs bilaterally"",
+  ""heart"": ""Cardiac and mediastinal silhouettes are normal"",
+  ""mediastinal"": ""Pulmonary vasculature is normal"",
+  ""bone"": ""No pneumothorax or pleural effusion"",
+  ""others"": ""No acute bony abnormality""
+}"
+CXR3169_IM-1492,"{
+  ""lung"": ""Hyperlucent hyperinflated lungs with flattened diaphragms. Granulomas. Small sized heart. Minimal apical capping slightly greater at the left."",
+  ""heart"": ""XXXX unremarkable."",
+  ""mediastinal"": ""Minimal apical capping slightly greater at the left."",
+  ""bone"": ""unremarkable.""
+}"
+CXR3172_IM-1494,"{
+  ""lung"": ""Clear lungs without evidence of acute infiltrate or effusion."",
+  ""heart"": ""Cardiomediastinal silhouette is normal."",
+  ""mediastinal"": ""No evidence of acute infiltrate or effusion."",
+  ""bone"": ""No evidence of tuberculous disease."",
+  ""others"": ""Dextroscoliosis of the lower thoracic spine.""
+}"
+CXR3177_IM-1497,"{
+  ""lung"": ""Clear lungs with hyperinflation"",
+  ""heart"": ""Normal heart and mediastinum"",
+  ""mediastinal"": ""Normal mediastinum"",
+  ""bone"": ""No findings"",
+  ""others"": ""Mild arthritic changes of the spine""
+}"
+CXR319_IM-1505,"{
+  ""lung"": ""Clear lungs. No pneumothorax. No pleural effusion."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""Clear lungs. No pneumothorax. No pleural effusion."",
+  ""bone"": ""Clear lungs. No pneumothorax. No pleural effusion."",
+  ""others"": ""Clear lungs. No pneumothorax. No pleural effusion.""
+}"
+CXR322_IM-1521,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR3232_IM-1529,"{
+  ""lung"": ""small lung nodule"",
+  ""heart"": ""no focal airspace disease"",
+  ""mediastinal"": ""no pleural effusion or pneumothorax"",
+  ""bone"": ""no findings""
+}"
+CXR3238_IM-1534,"{
+  ""lung"": ""mildly hypoinflated with increased peripheral lung markings predominantly in the right upper and lower lung"",
+  ""heart"": ""normal in size"",
+  ""mediastinal"": ""within normal limits"",
+  ""bone"": ""no acute infiltrate or significant pleural effusion"",
+  ""others"": ""mild eventration of left hemidiaphragm""
+}"
+CXR3257_IM-1544,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Cardiac contours are normal"",
+  ""mediastinal"": ""Thoracic spondylosis"",
+  ""bone"": ""No findings""
+}"
+CXR3261_IM-1547,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR3266_IM-1551,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Cardiomediastinal silhouette and pulmonary vasculature are within normal limits"",
+  ""mediastinal"": ""No acute osseous findings"",
+  ""bone"": ""No pneumothorax or pleural effusion""
+}"
+CXR3287_IM-1568,"{
+  ""lung"": ""2.5 cm vague nodular density in the right mid lung"",
+  ""heart"": ""left retrocardiac density"",
+  ""mediastinal"": ""subtle left retrocardiac density"",
+  ""bone"": ""no pleural effusions or pneumothorax""
+}"
+CXR3289_IM-1570,"```json
+{
+  ""lung"": ""Normal pulmonary XXXX"",
+  ""heart"": ""Normal cardiac size and contour"",
+  ""mediastinal"": ""Normal mediastinal silhouette"",
+  ""bone"": ""No findings"",
+  ""others"": ""No findings""
+}
+```"
+CXR3298_IM-1575,"{
+  ""lung"": ""No findings"",
+  ""heart"": ""Heart size is within normal limits. No focal airspace consolidations. No pneumothorax or pleural effusion."",
+  ""mediastinal"": ""No findings"",
+  ""bone"": ""No findings""
+}"
+CXR3304_IM-1581,"{
+  ""lung"": ""Normal lungs with no signs of consolidation or atelectasis."",
+  ""heart"": ""Cardiac silhouette is normal size and configuration."",
+  ""mediastinal"": ""Cardiac silhouette is normal size and configuration."",
+  ""bone"": ""No fractures or abnormalities detected."",
+  ""others"": ""No findings""
+}"
+CXR330_IM-1577-0001,"{
+  ""lung"": ""No focal consolidation, suspicious pulmonary opacity, large pleural effusion, or pneumothorax is identified."",
+  ""heart"": ""Visualized osseous structures appear intact."",
+  ""mediastinal"": ""No focal consolidation, suspicious pulmonary opacity, large pleural effusion, or pneumothorax is identified."",
+  ""bone"": ""No focal consolidation, suspicious pulmonary opacity, large pleural effusion, or pneumothorax is identified."",
+  ""others"": ""No focal consolidation, suspicious pulmonary opacity, large pleural effusion, or pneumothorax is identified.""
+}"
+CXR3318_IM-1587,"{
+  ""lung"": ""Clear lungs without abnormal findings."",
+  ""heart"": ""Cardiac silhouette within normal limits."",
+  ""mediastinal"": ""Cardiac contours and mediastinum within normal limits."",
+  ""bone"": ""Bony structures intact."",
+  ""others"": ""No findings or sentences that cannot be confidently classified.""
+}"
+CXR3319_IM-1588,"{
+  ""lung"": ""No findings"",
+  ""heart"": ""Heart size and pulmonary vascular engorgement appear within limits of normal. Mediastinal contour is unremarkable. No focal consolidation, pleural effusion, or pneumothorax identified. Multilevel degenerative changes are noted within the thoracic spine."",
+  ""mediastinal"": ""No findings"",
+  ""bone"": ""No findings"",
+  ""others"": ""No findings""
+}"
+CXR3346_IM-1604,"{
+  ""lung"": ""Clear lungs bilaterally without evidence of focal consolidation, pneumothorax, or pleural effusion."",
+  ""heart"": ""Cardio mediastinal silhouette is unremarkable."",
+  ""mediastinal"": ""Visualized osseous structures of the thorax are without acute abnormality.""
+}"
+CXR3369_IM-1621,"{
+  ""lung"": ""large pleural air collection on the right"",
+  ""heart"": ""mediastinum shifted to the left"",
+  ""mediastinal"": ""right lower lobe is totally opaque"",
+  ""bone"": ""no findings"",
+  ""others"": ""no findings""
+}"
+CXR3417_IM-1652,"{
+  ""lung"": ""Hyperexpanded lungs"",
+  ""heart"": ""Cardiomegaly"",
+  ""mediastinal"": ""No focal lung consolidation"",
+  ""bone"": ""No pneumothorax or pleural effusion"",
+  ""others"": ""Aortic calcifications""
+}"
+CXR3418_IM-1653,"{
+  ""lung"": ""Prominent interstitial markings. There are no focal areas of consolidation. No suspicious pulmonary opacities. Heart size within normal limits. No pleural effusions. No evidence of pneumothorax."",
+  ""heart"": ""nan"",
+  ""mediastinal"": ""nan"",
+  ""bone"": ""nan"",
+  ""others"": ""Prominent interstitial markings. There are no focal areas of consolidation. No suspicious pulmonary opacities. Heart size within normal limits. No pleural effusions. No evidence of pneumothorax.""
+}"
+CXR3441_IM-1666,"{
+  ""lung"": ""No focal airspace consolidation, pneumothorax, or large pleural effusion."",
+  ""heart"": ""Heart size and mediastinal contour within normal limits."",
+  ""mediastinal"": ""No acute osseous abnormality."",
+  ""bone"": ""No focal airspace consolidation, pneumothorax, or large pleural effusion."",
+  ""others"": ""No acute osseous abnormality.""
+}"
+CXR3451_IM-1674,"{
+  ""lung"": ""Calcified AP XXXX lymph XXXX"",
+  ""heart"": ""Normal in size"",
+  ""mediastinal"": ""Stable"",
+  ""bone"": ""Right inferior rib deformities""
+}"
+CXR345_IM-1672,"{
+  ""lung"": ""clear"",
+  ""heart"": ""within normal limits"",
+  ""mediastinal"": ""within normal limits"",
+  ""bone"": ""no acute osseous findings"",
+  ""others"": ""XXXX degenerative changes of the thoracic spine""
+}"
+CXR3462_IM-1683,"{
+  ""lung"": ""Clear"",
+  ""heart"": ""Normal"",
+  ""mediastinal"": ""Stable"",
+  ""bone"": ""No""
+}"
+CXR3468_IM-1684-0001,"{
+  ""lung"": ""Hyperexpanded lungs"",
+  ""heart"": ""Normal heart size"",
+  ""mediastinal"": ""Normal mediastinum"",
+  ""bone"": ""No significant findings"",
+  ""others"": ""No significant findings""
+}"
+CXR3491_IM-1698,"{
+  ""lung"": ""No findings"",
+  ""heart"": ""No findings"",
+  ""mediastinal"": ""No findings"",
+  ""bone"": ""Degenerative changes in the spine"",
+  ""others"": ""No findings""
+}"
+CXR3498_IM-1702,"{
+  ""lung"": ""Right lung is clear and expanded."",
+  ""heart"": ""Heart and mediastinum normal."",
+  ""mediastinal"": ""No pleural air collection."",
+  ""bone"": ""Right shoulder, right humerus, and soft tissues are intact."",
+  ""others"": ""No findings in the specified categories.""
+}"
+CXR3514_IM-1715,"{
+  ""lung"": ""No focal lung consolidation."",
+  ""heart"": ""A XXXX density overlying the left costophrenic XXXX is XXXX due to overlying soft tissues."",
+  ""mediastinal"": ""Heart size and pulmonary vascularity are within normal limits."",
+  ""bone"": ""No pneumothorax or pleural effusion."",
+  ""others"": ""Osseous structures are grossly intact.""
+}"
+CXR3525_IM-1722,"{
+  ""lung"": ""No pneumothorax, pleural effusion, or focal airspace disease."",
+  ""heart"": ""Heart size normal."",
+  ""mediastinal"": ""Visualized bony structures appear intact."",
+  ""bone"": ""Scattered calcified granulomas."",
+  ""others"": ""XXXX radiodensity overlying the right shoulder""
+}"
+CXR3526_IM-1723,"{
+  ""lung"": ""diminished lung volumes with hypoventilatory changes"",
+  ""heart"": ""cardiac silhouette not enlarged"",
+  ""mediastinal"": ""mild tortuosity of the thoracic aorta"",
+  ""bone"": ""no acute osseous abnormalities demonstrated""
+}"
+CXR3535_IM-1728-0001,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR3575_IM-1757,"{
+  ""lung"": ""central left midlung granuloma with calcified left hilar adenopathy"",
+  ""heart"": ""no pneumothorax, pleural effusion, or focal airspace disease"",
+  ""mediastinal"": ""bony structures appear intact"",
+  ""bone"": ""none""
+}"
+CXR3577_IM-1758,"{
+  ""lung"": """",
+  ""heart"": """",
+  ""mediastinal"": """",
+  ""bone"": """"
+}"
+CXR357_IM-1753,"{
+  ""lung"": ""No findings"",
+  ""heart"": ""No findings"",
+  ""mediastinal"": ""No findings"",
+  ""bone"": ""No findings"",
+  ""others"": ""No findings""
+}"
+CXR3586_IM-1764,"{
+  ""lung"": ""Clear"",
+  ""heart"": ""Mildly enlarged"",
+  ""mediastinal"": ""Stable"",
+  ""bone"": ""No findings""
+}"
+CXR3588_IM-1766,"{
+  ""lung"": ""No acute findings"",
+  ""heart"": ""Normal in size and contour"",
+  ""mediastinal"": ""Aortic XXXX appear unremarkable"",
+  ""bone"": ""No effusion or pneumothorax""
+}"
+CXR3598_IM-1775,"{
+  ""lung"": ""No focal alveolar consolidation, no definite pleural effusion seen."",
+  ""heart"": ""Heart size within normal limits, stable mediastinal and hilar contours."",
+  ""mediastinal"": ""No typical findings of pulmonary edema."",
+  ""bone"": ""XXXX convexity also present on the previous exam.""
+}"
+CXR3618_IM-1790,"{
+  ""lung"": ""Clear lungs without focal consolidations"",
+  ""heart"": ""Heart size and silhouette within normal limits"",
+  ""mediastinal"": ""No pneumothorax or pleural effusions"",
+  ""bone"": ""Osseous structures intact""
+}"
+CXR3621_IM-1792,"{
+  ""lung"": ""low lung volumes, no infiltrates"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""no abnormalities""
+}"
+CXR3633_IM-1800,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Heart size normal"",
+  ""mediastinal"": ""No pneumothorax or pleural effusion"",
+  ""bone"": ""No findings"",
+  ""others"": ""Degenerative changes of the thoracic spine""
+}"
+CXR3634_IM-1801,"{
+  ""lung"": ""No focal pulmonary opacity, pleural effusion or pneumothorax."",
+  ""heart"": ""Stable cardiomediastinal silhouette."",
+  ""mediastinal"": ""No acute bony abnormality."",
+  ""bone"": ""No focal pulmonary opacity, pleural effusion or pneumothorax."",
+  ""others"": ""No acute bony abnormality.""
+}"
+CXR3636_IM-1803,"{
+  ""lung"": ""Normal"",
+  ""heart"": ""Normal"",
+  ""mediastinal"": ""Normal"",
+  ""bone"": ""Normal"",
+  ""others"": ""No acute osseous abnormality.""
+}"
+CXR3664_IM-1822,"{
+  ""lung"": ""Clear lungs without focal area of consolidation, pleural effusion, pneumothorax"",
+  ""heart"": ""Normal heart size and hilar vascular markings"",
+  ""mediastinal"": ""No acute osseous abnormalities"",
+  ""bone"": ""Soft tissue structures are within normal limits"",
+  ""others"": ""No acute osseous abnormalities""
+}"
+CXR3679_IM-1831,"{
+  ""lung"": ""Clear lungs."",
+  ""heart"": ""Normal heart."",
+  ""mediastinal"": ""Clear lungs."",
+  ""bone"": ""Clear lungs."",
+  ""others"": ""Clear lungs.""
+}"
+CXR3699_IM-1846,"```json
+{
+  ""lung"": ""No focal airspace consolidation"",
+  ""heart"": ""Normal heart size"",
+  ""mediastinal"": ""Mediastinal contours"",
+  ""bone"": ""Degenerative disc disease in the thoracic spine with osteophyte formation bridging""
+}
+```"
+CXR36_IM-1776,"{
+  ""lung"": ""Clear lungs bilaterally without focal consolidation, pneumothorax, or pleural effusion."",
+  ""heart"": ""Cardio mediastinal silhouette is unremarkable."",
+  ""mediastinal"": ""Visualized osseous structures of the thorax are without acute abnormality.""
+}"
+CXR3717_IM-1856,"{
+  ""lung"": ""Low lung volumes"",
+  ""heart"": ""Normal heart size"",
+  ""mediastinal"": ""No pneumothorax"",
+  ""bone"": ""No large effusion"",
+  ""others"": ""No focal infiltrate""
+}"
+CXR3727_IM-1863,"{
+  ""lung"": ""Low lung volumes, no focal infiltrates"",
+  ""heart"": ""Heart and pulmonary system normal"",
+  ""mediastinal"": ""No abnormalities"",
+  ""bone"": ""No abnormalities"",
+  ""others"": ""Indwelling catheter from the left""
+}"
+CXR372_IM-1858-0001,"```json
+{
+  ""lung"": ""Right lung atelectasis"",
+  ""heart"": ""Normal heart size"",
+  ""mediastinal"": ""Normal mediastinum"",
+  ""bone"": ""No significant bone abnormalities"",
+  ""others"": ""No significant findings""
+}
+```"
+CXR3733_IM-1866,"{
+  ""lung"": ""Left upper lobe granuloma"",
+  ""heart"": ""Cardiomediastinal contours are unchanged since previous exam. There is blunting of the right costophrenic XXXX XXXX old pleural scar. Lungs are otherwise clear bilaterally."",
+  ""mediastinal"": ""Kyphosis of the thoracic spine with anterior osteophyte formations. Aortic ectasia is seen in the ascending aorta and the XXXX."",
+  ""bone"": ""No findings"",
+  ""others"": ""No findings""
+}"
+CXR3777_IM-1894,"{
+  ""lung"": ""Low lung volumes"",
+  ""heart"": ""Normal heart size"",
+  ""mediastinal"": ""No abnormal findings"",
+  ""bone"": ""No abnormal findings"",
+  ""others"": ""Stable cholecystectomy clips in the right upper quadrant""
+}"
+CXR3804_IM-1914,"{
+  ""lung"": ""No findings"",
+  ""heart"": ""No findings"",
+  ""mediastinal"": ""No findings"",
+  ""bone"": ""No findings"",
+  ""others"": ""No findings""
+}"
+CXR3809_IM-1919,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Cardiac silhouette within normal limits"",
+  ""mediastinal"": ""Mediastinal contours within normal limits"",
+  ""bone"": ""Bony structures intact""
+}"
+CXR3826_IM-1932,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR3829_IM-1932,"{
+  ""lung"": ""Stable moderate cardiomegaly. Mediastinal contours are unchanged. Stable prominence of the central pulmonary vasculature with coarse central interstitial markings. Decreased left basilar airspace disease. No visible pleural effusion or pneumothorax."",
+  ""heart"": ""nan"",
+  ""mediastinal"": ""Stable moderate cardiomegaly. Mediastinal contours are unchanged. Stable prominence of the central pulmonary vasculature with coarse central interstitial markings. Decreased left basilar airspace disease. No visible pleural effusion or pneumothorax."",
+  ""bone"": ""nan"",
+  ""others"": ""Stable moderate cardiomegaly. Mediastinal contours are unchanged. Stable prominence of the central pulmonary vasculature with coarse central interstitial markings. Decreased left basilar airspace disease. No visible pleural effusion or pneumothorax.""
+}"
+CXR382_IM-1927,"{
+  ""lung"": ""Marked bullous emphysematous changes and traction bronchiectasis, again most notable involving the bilateral upper lobes."",
+  ""heart"": ""Stable, normal cardiac size, mediastinum, and central pulmonary vasculature."",
+  ""mediastinal"": ""Stable prominent ovoid opacity (4.3 x 2.8 XXXX) XXXX a large left upper lobe XXXX, XXXX reflecting a superimposed aspergilloma-as more readily demonstrated on the previous CT chest study from XXXX."",
+  ""bone"": ""No XXXX areas of alveolar airspace consolidation are identified."",
+  ""others"": ""No evidence of pleural effusion or pneumothorax.""
+}"
+CXR3831_IM-1934,"{
+  ""lung"": ""Clear lungs. No infiltrates or suspicious pulmonary opacity. No pleural effusion or pneumothorax."",
+  ""heart"": ""Cardiomediastinal silhouette within normal limits."",
+  ""mediastinal"": ""Within normal limits."",
+  ""bone"": ""No findings."",
+  ""others"": ""No findings.""
+}"
+CXR3840_IM-1941,"{
+  ""lung"": ""stable prominent mediastinal contours"",
+  ""heart"": ""stable enlargement of the heart"",
+  ""mediastinal"": ""stable prominent mediastinal contours"",
+  ""bone"": ""no acute osseous abnormality"",
+  ""others"": ""no acute osseous abnormality""
+}"
+CXR3851_IM-1948,"{
+  ""lung"": ""No pneumothorax, pleural effusion, or focal airspace disease."",
+  ""heart"": ""Nodular densities consistent with chronic granulomatous disease."",
+  ""mediastinal"": ""Bony structures appear intact."",
+  ""bone"": ""Heart size normal.""
+}"
+CXR3869_IM-1962,"{
+  ""lung"": ""No focal consolidation, suspicious pulmonary opacity, large pleural effusion, or pneumothorax is identified."",
+  ""heart"": ""Stable mild cardiomegaly."",
+  ""mediastinal"": ""Visualized osseous structures appear intact."",
+  ""bone"": ""No findings.""
+}"
+CXR388_IM-1968,"{
+  ""lung"": ""cardiomegaly"",
+  ""heart"": ""stable superior mediastinal contour with tortuous calcified aorta"",
+  ""mediastinal"": ""normal pulmonary vascularity"",
+  ""bone"": ""no acute bony abnormality"",
+  ""others"": ""no focal air space consolidation, pleural effusion, or pneumothorax""
+}"
+CXR3909_IM-1986,"{
+  ""lung"": ""Right granulomatous disease"",
+  ""heart"": ""Cardiac and mediastinal contours are within normal limits"",
+  ""mediastinal"": ""Right chest XXXX tip in the low SVC"",
+  ""bone"": ""Bony structures are intact""
+}"
+CXR3926_IM-2000,"```json
+{
+  ""lung"": ""No focal infiltrate or effusion"",
+  ""heart"": ""Large, unchanged from prior exam"",
+  ""mediastinal"": ""Widened mediastinum"",
+  ""bone"": ""No acute abnormalities""
+}
+```"
+CXR3938_IM-2009,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR3942_IM-2013,"{
+  ""lung"": ""Clear lungs, no pleural effusion or pneumothorax"",
+  ""heart"": ""Cardiac silhouette at upper limits of normal"",
+  ""mediastinal"": ""No abnormal mediastinal structures"",
+  ""bone"": ""No abnormal bony structures"",
+  ""others"": ""Interval worsening of thoracolumbar dextroscoliosis with mild exaggeration of normal thoracic kyphosis""
+}"
+CXR3944_IM-2014,"{
+  ""lung"": ""No abnormal findings"",
+  ""heart"": ""No abnormal findings"",
+  ""mediastinal"": ""No abnormal findings"",
+  ""bone"": ""No abnormal findings""
+}"
+CXR3947_IM-2016,"{
+  ""lung"": ""clear"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""no findings""
+}"
+CXR3959_IM-2023,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Normal heart size"",
+  ""mediastinal"": ""No pneumothorax"",
+  ""bone"": ""No abnormalities""
+}"
+CXR3974_IM-2034,"{
+  ""lung"": ""hyperexpanded"",
+  ""heart"": ""within normal limits"",
+  ""mediastinal"": ""no pneumothorax or pleural effusion"",
+  ""bone"": ""spine""
+}"
+CXR414_IM-2057,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Normal heart size"",
+  ""mediastinal"": ""Clear lungs"",
+  ""bone"": ""Clear lungs""
+}"
+CXR441_IM-2078,"{
+  ""lung"": ""Multiple scattered calcified pulmonary nodules"",
+  ""heart"": ""Heart size is within normal limits"",
+  ""mediastinal"": ""Mediastinal contours are normal"",
+  ""bone"": ""No bony abnormality""
+}"
+CXR444_IM-2079,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""within normal limits"",
+  ""bone"": ""normal""
+}"
+CXR456_IM-2087,"{
+  ""lung"": ""No focal consolidation, large pleural effusion, or pneumothorax is identified."",
+  ""heart"": ""Stable cardiomediastinal silhouette."",
+  ""mediastinal"": ""Evidence of prior granulomatous disease."",
+  ""bone"": ""Visualized osseous structures appear intact.""
+}"
+CXR483_IM-2107,"{
+  ""lung"": ""Flattening of hemidiaphragms, prominent interstitial markings, no focal consolidation to suggest pneumonia, atherosclerotic institutions of the aorta, heart of the first limits of normal size, no pneumothorax or pleural effusion"",
+  ""heart"": ""No findings"",
+  ""mediastinal"": ""No findings"",
+  ""bone"": ""No findings"",
+  ""others"": ""No findings""
+}"
+CXR4_IM-2050,"{
+  ""lung"": ""Diffuse bilateral interstitial and alveolar opacities consistent with chronic obstructive lung disease and bullous emphysema."",
+  ""heart"": ""Normal in size and contour."",
+  ""mediastinal"": ""No pneumothorax or large pleural effusion."",
+  ""bone"": ""No findings."",
+  ""others"": ""No findings.""
+}"
+CXR508_IM-2125,"{
+  ""lung"": ""No focal airspace consolidation."",
+  ""heart"": ""Normal heart size and mediastinal contours."",
+  ""mediastinal"": ""No focal airspace consolidation."",
+  ""bone"": ""Visualized osseous structures are unremarkable.""
+}"
+CXR580_IM-2177,"{
+  ""lung"": ""Clear"",
+  ""heart"": ""Normal"",
+  ""mediastinal"": ""Unremarkable"",
+  ""bone"": ""Atherosclerotic calcifications of the aortic XXXX""
+}"
+CXR619_IM-2202,"{
+  ""lung"": ""No findings"",
+  ""heart"": ""Near top normal in size with unfolding of the aorta"",
+  ""mediastinal"": ""Grossly clear with no focal airspace opacity, pleural effusion, or pneumothorax"",
+  ""bone"": ""Grossly normal""
+}"
+CXR624_IM-2206,"{
+  ""lung"": ""Hyperinflated lungs with flattening of the diaphragms and tapering of the distal pulmonary vasculature"",
+  ""heart"": ""Cardiac contours are normal"",
+  ""mediastinal"": ""Thoracic spondylosis and mild dextroscoliosis of the spine"",
+  ""bone"": ""Prior anterior cervical fusion""
+}"
+CXR631_IM-2212,"{
+  ""lung"": ""Hypoinflation, bibasilar opacities, atelectasis"",
+  ""heart"": ""Normal size"",
+  ""mediastinal"": ""Within normal limits"",
+  ""bone"": ""No findings"",
+  ""others"": ""Possible healing deformity, superimposition of structures""
+}"
+CXR667_IM-2241,"{
+  ""lung"": ""Streaky bibasilar atelectasis and bronchovascular crowding"",
+  ""heart"": ""Normal"",
+  ""mediastinal"": ""No acute abnormalities"",
+  ""bone"": ""No acute abnormalities""
+}"
+CXR726_IM-2286,"{
+  ""lung"": ""Prominent right perihilar density consistent with lymphadenopathy"",
+  ""heart"": ""Heart size within normal limits"",
+  ""mediastinal"": ""Prominent right perihilar density consistent with lymphadenopathy"",
+  ""bone"": ""TIPS noted""
+}"
+CXR731_IM-2291,"{
+  ""lung"": ""clear lungs without focal air space opacity"",
+  ""heart"": ""cardiomediastinal silhouette is normal in size and contour"",
+  ""mediastinal"": ""no pneumothorax or large pleural effusion""
+}"
+CXR734_IM-2293-0001,"{
+  ""lung"": ""No pneumothorax. Heart size is normal. No large pleural effusions. No focal airspace consolidation."",
+  ""heart"": ""No pneumothorax. Heart size is normal. No large pleural effusions. No focal airspace consolidation."",
+  ""mediastinal"": ""No pneumothorax. Heart size is normal. No large pleural effusions. No focal airspace consolidation."",
+  ""bone"": ""No pneumothorax. Heart size is normal. No large pleural effusions. No focal airspace consolidation."",
+  ""others"": ""No pneumothorax. Heart size is normal. No large pleural effusions. No focal airspace consolidation.""
+}"
+CXR737_IM-2295,"{
+  ""lung"": ""No focal consolidation, pleural effusion, or pneumothorax identified."",
+  ""heart"": ""Heart size and pulmonary vascular engorgement appear within limits of normal."",
+  ""mediastinal"": ""Mediastinal contour is unremarkable."",
+  ""bone"": ""No acute bony changes.""
+}"
+CXR752_IM-2305,"{
+  ""lung"": ""Scattered calcified granulomas are stable as are calcified mediastinal lymph nodes."",
+  ""heart"": ""The heart and pulmonary vessels are normal."",
+  ""mediastinal"": ""Mediastinal contours are normal."",
+  ""bone"": ""Pleural spaces are clear.""
+}"
+CXR791_IM-2330,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Stable cardiomegaly"",
+  ""mediastinal"": ""Tortuous aorta"",
+  ""bone"": ""Intact ribs and spine""
+}"
+CXR799_IM-2333,"{
+  ""lung"": ""No focal airspace consolidation."",
+  ""heart"": ""Heart size and mediastinal contours are within normal limits."",
+  ""mediastinal"": ""No evidence of pleural effusion or pneumothorax."",
+  ""bone"": ""No evidence of acute osseous abnormality.""
+}"
+CXR809_IM-2342,"{
+  ""lung"": ""clear"",
+  ""heart"": ""stable"",
+  ""mediastinal"": ""at the upper limits of normal in size"",
+  ""bone"": ""no pneumothorax or large pleural effusion""
+}"
+CXR812_IM-2343,"{
+  ""lung"": ""Chronic bilateral emphysematous changes"",
+  ""heart"": ""Within normal limits for contour"",
+  ""mediastinal"": ""Lungs are clear"",
+  ""bone"": ""XXXX are intact"",
+  ""others"": ""Stable splenic artery embolism coils""
+}"
+CXR839_IM-2363,"{
+  ""lung"": ""No abnormal findings"",
+  ""heart"": ""Heart size normal"",
+  ""mediastinal"": ""No abnormal findings"",
+  ""bone"": ""No abnormal findings"",
+  ""others"": ""No abnormal findings""
+}"
+CXR842_IM-2366,"{
+  ""lung"": ""Clear lungs with no signs of pneumonia or other lung disease."",
+  ""heart"": ""Cardiac silhouette within normal limits."",
+  ""mediastinal"": ""No abnormal mediastinal structures or masses."",
+  ""bone"": ""No acute osseous findings."",
+  ""others"": ""No findings or sentences that cannot be confidently classified.""
+}"
+CXR856_IM-2377,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Stable mild cardiomegaly"",
+  ""mediastinal"": ""Normal pulmonary vascularity"",
+  ""bone"": ""No focal consolidation, visible pneumothorax or large pleural effusions"",
+  ""others"": ""Degenerative changes of the spine""
+}"
+CXR85_IM-2372,"{
+  ""lung"": ""Scattered calcified granulomas"",
+  ""heart"": ""No focal infiltrate"",
+  ""mediastinal"": ""No pleural effusion or pneumothorax"",
+  ""bone"": ""Degenerative changes of the spine""
+}"
+CXR860_IM-2381,"{
+  ""lung"": ""No findings"",
+  ""heart"": ""No findings"",
+  ""mediastinal"": ""No findings"",
+  ""bone"": ""No findings"",
+  ""others"": ""No findings""
+}"
+CXR863_IM-2383,"{
+  ""lung"": ""No focal consolidation. No visualized pneumothorax. The heart size is normal. No large pleural effusions. The cardiomediastinal silhouette is grossly unremarkable."",
+  ""heart"": ""nan"",
+  ""mediastinal"": ""nan"",
+  ""bone"": ""nan""
+}"
+CXR872_IM-2391,"{
+  ""lung"": ""Clear lungs"",
+  ""heart"": ""Cardiac contours within normal limits"",
+  ""mediastinal"": ""Cardiac contours within normal limits"",
+  ""bone"": ""Bony structures intact"",
+  ""others"": ""Prior granulomatous disease""
+}"
+CXR881_IM-2396,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal""
+}"
+CXR909_IM-2414,"{
+  ""lung"": ""Clear lungs bilaterally without evidence of focal consolidation, pneumothorax, or pleural effusion."",
+  ""heart"": ""Cardio mediastinal silhouette is unremarkable."",
+  ""mediastinal"": ""Visualized osseous structures of the thorax are without acute abnormality.""
+}"
+CXR917_IM-2419,"{
+  ""lung"": ""clear without focal infiltrate"",
+  ""heart"": ""unchanged"",
+  ""mediastinal"": ""unchanged"",
+  ""bone"": ""no finding""
+}"
+CXR963_IM-2454,"{
+  ""lung"": ""normal"",
+  ""heart"": ""normal"",
+  ""mediastinal"": ""normal"",
+  ""bone"": ""normal"",
+  ""others"": """"
+}"
+CXR970_IM-2460,"{
+  ""lung"": ""Clear lungs with no focal infiltrate, pleural effusion, or pneumothoraces."",
+  ""heart"": ""Cardiomediastinal silhouette within normal limits."",
+  ""mediastinal"": ""Soft tissues unremarkable."",
+  ""bone"": ""No findings related to bone structures.""
+}"
+CXR971_IM-2461,"```json
+{
+  ""lung"": ""Normal heart size mediastinal contours. No focal airspace consolidation. No hyperexpansion of the lungs. No pleural effusion or pneumothorax.""
+}
+```"
+CXR977_IM-2465,"{
+  ""lung"": ""Clear lungs without evidence of infiltrate."",
+  ""heart"": ""Normal in size and contour."",
+  ""mediastinal"": ""No pneumothorax or effusion."",
+  ""bone"": ""No findings related to bony structures.""
+}"

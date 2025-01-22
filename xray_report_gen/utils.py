@@ -42,7 +42,7 @@ def set_api_keys(path_docker=PATH_DOCKER, path_host=PATH_HOST):
 
 def parse_annotations(df, col, regions):
     for region in regions:
-        df[col+'_'+region] = df[col].apply(lambda x: json.loads(x.replace('\'', '\"'))[region])
+        df[col+'_'+region] = df[col].apply(lambda x: json.loads(x.replace('\'', '\"').replace("```json\n","").replace("```",""))[region])
     return df
 
 def load_images(image_filenames):
@@ -317,3 +317,4 @@ def process_vision_info(
     if len(video_inputs) == 0:
         video_inputs = None
     return image_inputs, video_inputs
+    

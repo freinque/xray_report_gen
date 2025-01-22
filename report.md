@@ -65,7 +65,7 @@ Evaluate annotations on train and test samples, using 2 prompts examples suggest
 ```bash
 docker run -it --rm --gpus all -p 8080:8080 -v /home/ubuntu/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 evaluate_report_annotation.py
 ```
-The scores are inspected with the annotations.ipynb notebook. The following results are found:
+The scores are inspected with the evaluate_annotations.ipynb notebook. The following results are found:
 
 average GREEN scores on sample of training set
 
@@ -111,26 +111,22 @@ That finetuning routine taken and adapted from https://github.com/zhangfaen/fine
 
 ## Inference
 
-To infer the testing cases, run this command:
+To infer the validation cases, run this command:
 
-```python
-python inference.py --input-data <path_to_data> --model_path <path_to_trained_model> --output_path <path_to_output_data>
+```bash
+docker run -it --rm --gpus device=0 -p 8080:8080 -v /home/ubuntu/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 annotate_rep_im.py <test/val> --version <version>
 ```
-
-> Describe how to infer on testing cases with the trained models.
 
 
 
 ## Evaluation
 
-To compute the evaluation metrics, run:
+To compute the multimodal evaluation metrics, run:
 
-```eval
-python eval.py --seg_data <path_to_inference_results> --gt_data <path_to_ground_truth>
+```bash
+docker run -it --rm --gpus device=0 -p 8080:8080 -v /home/ubuntu/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 evaluate_report_annotation.py test --multi 1
 ```
 
->Describe how to evaluate the inference results and obtain the reported results in the paper.
-> 
 
 
 
@@ -141,6 +137,7 @@ Our method achieves the following performance on [Brain Tumor Segmentation (BraT
 | Model name       |  DICE  | 95% Hausdorff Distance |
 | ---------------- | :----: | :--------------------: |
 | My awesome model | 90.68% |         32.71          |
+| My awesome model | 90.68% |         32.71          |
 
 
 
@@ -149,6 +146,7 @@ Testing everything, reviewing
 Isolate general config
 General clean-up
 Improve scientific, aspect, since this gives an experimental setup, mostly.
+Parallelize finetunings.
 Inference endpoint for task 2
 
 ## Acknowledgement
@@ -159,3 +157,5 @@ https://github.com/JunMa11/MICCAI-Reproducibility-Checklist/blob/ebd879ec740962e
 green_score taken from https://stanford-aimi.github.io/green.html
 
 finetuning script taken from https://github.com/zhangfaen/finetune-Qwen2-VL/blob/main/finetune.py
+
+some code snippets were modified from ChatGPT
