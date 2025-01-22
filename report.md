@@ -97,18 +97,17 @@ prompt_version  | region    |  score
 Prompt version 1 is then chosen, and annotations on the validation set are put in data/reports_annotations_val.csv
 
 
-## 2) Fine-tuning multimodal models
+## 2) Fine-tuning multimodal model
 
-In this task, we want to extract the same torax region information from an xray image instead, using a image+text to text model. The two models compared are https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct and https://huggingface.co/allenai/Molmo-7B-D-0924.
+In this task, we want to extract the same torax region information from an xray image instead, using a image+text to text model. The two models compared are https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct (and potentially https://huggingface.co/allenai/Molmo-7B-D-0924).
 
 To train the model(s) in the paper, run this command:
 
 ```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
+ocker run -it --rm --gpus all -p 8080:8080 -v /home/ubuntu/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 finetune_rep_im_annotation.py
 ```
 
->Describe how to train the models, with example commands, including the full training procedure and appropriate hyper-parameters.
-
+That finetuning routine taken and adapted from https://github.com/zhangfaen/finetune-Qwen2-VL/blob/main/finetune.py, uses the transformers library and QLoRA (peft).
 
 ## Inference
 

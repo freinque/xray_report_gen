@@ -27,8 +27,9 @@ RUN pip install qwen_vl_utils
 RUN pip install datasets
 RUN pip install tensorboardX
 RUN pip install peft accelerate bitsandbytes
-#RUN pip install --upgrade pip
-#RUN pip install flash-attn --no-build-isolation
+RUN pip3 install --upgrade pip
+RUN pip install packaging ninja
+#RUN MAX_JOBS=4 pip install flash-attn --no-build-isolation
 
 RUN mkdir /xray_report_gen
 COPY ./oa_token.txt /xray_report_gen/

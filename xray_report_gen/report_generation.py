@@ -10,9 +10,10 @@ utils.set_api_keys()
 import os
 print(len(os.environ["HUGGINGFACEHUB_API_TOKEN"] ))
 
-DATA_PATH = '../data/'
+DATA_PATH = '/xray_report_gen/data/'
+MODEL_PATH = '/xray_report_gen/data/models'
 MODEL_NAME_1 = "Qwen/Qwen2-VL-2B-Instruct"
-MODEL_NAME_2 = 'allenai/Molmo-7B-D-0924' #'allenai/MolmoE-1B-0924'
+MODEL_NAME_2 = os.path.join(MODEL_PATH,"Qwen/Qwen2-VL-2B-Instruct-finetuned/checkpoint_epoch_0_step_100") #'allenai/MolmoE-1B-0924'
 REPORT_GENERATION_PROMPT = """
 You are an advanced medical assistant designed to analyze radiology report findings and chest x-ray images. Your task is to extract sentences from a chest X-Ray radiology report and a chest x-ray image into four predefined anatomical regions: lung, heart, mediastinal, and bone. If a finding cannot be confidently assigned to any of these regions, categorize it under others.
 
@@ -33,10 +34,6 @@ Now, analyze the following X-ray image and report, and generate findings organiz
 {report}
 """
 
-"""
-### Expected Output:
-{{ "lung": "...", "heart": "...", "mediastinal": "...", "bone": "...", "others": "..." }}
-"""
 
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 torch.cuda.empty_cache()
@@ -56,6 +53,7 @@ def run_inference(images, reports, task_description=REPORT_GENERATION_PROMPT, ve
     """Run inference on images using a vision-language model."""
 
     model_name = get_model_name(version)
+    print('running inference using : {}'.format(model_name))
     if model_name.startswith("Qwen"):
 
         print('running inference on images: {}'.format(images))
@@ -122,9 +120,10 @@ def run_inference(images, reports, task_description=REPORT_GENERATION_PROMPT, ve
             device_map='auto'
         )
 
-        # load the model
+        # load the model Qwen2VLForConditionalGeneration
         model = AutoModelForCausalLM.from_pretrained(
-            model_name,
+        #model=Qwen2VLForConditionalGeneration.from_pretrained(
+                model_name,
             trust_remote_code=True,
             torch_dtype='auto',
             device_map='auto'

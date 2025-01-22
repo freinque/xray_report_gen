@@ -1,10 +1,10 @@
 """
+adapted from
 https://github.com/zhangfaen/finetune-Qwen2-VL/blob/main/finetune.py
 """
 
 import torch
 import json
-import datetime
 import os
 
 from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
@@ -19,11 +19,11 @@ from bitsandbytes.optim import Adam8bit
 from xray_report_gen.utils import process_vision_info, init_logger, get_logger
 from xray_report_gen import utils
 utils.set_api_keys()
-import os
 print(len(os.environ["HUGGINGFACEHUB_API_TOKEN"] ))
 
 MODEL_PATH = '/xray_report_gen/data/models/'
 DATA_PATH = '/xray_report_gen/data/'
+TRAINING_DATASET = "/xray_report_gen/data/finetune_data_train.json"
 
 output_dir = os.path.join(MODEL_PATH, "Qwen/Qwen2-VL-2B-Instruct-finetuned")
 init_logger(output_dir)
@@ -170,10 +170,11 @@ def train():
     #   Unrecognized keys in `rope_scaling` for 'rope_type'='default': {'mrope_section'}"
     # It is a issue, see https://github.com/huggingface/transformers/issues/33401
     model = Qwen2VLForConditionalGeneration.from_pretrained(
-        "Qwen/Qwen2-VL-2B-Instruct", torch_dtype=torch.bfloat16, #attn_implementation="flash_attention_2",
+        "Qwen/Qwen2-VL-2B-Instruct", torch_dtype=torch.bfloat16, #attn_implementation="flash_attention_2", #mod
         device_map="auto"
-    )
-    #TEMP
+    ) #mod
+
+    #mod
     lora_config = LoraConfig(
     lora_alpha=16,
     lora_dropout=0.05,
@@ -184,97 +185,27 @@ def train():
 )
 
     model = get_peft_model(model, lora_config)
-
-    # (Pdb++) model
-    # Qwen2VLForConditionalGeneration(
-    #   (visual): Qwen2VisionTransformerPretrainedModel(
-    #     (patch_embed): PatchEmbed(
-    #       (proj): Conv3d(3, 1280, kernel_size=(2, 14, 14), stride=(2, 14, 14), bias=False)
-    #     )
-    #     (rotary_pos_emb): VisionRotaryEmbedding()
-    #     (blocks): ModuleList(
-    #       (0-31): 32 x Qwen2VLVisionBlock(
-    #         (norm1): LayerNorm((1280,), eps=1e-06, elementwise_affine=True)
-    #         (norm2): LayerNorm((1280,), eps=1e-06, elementwise_affine=True)
-    #         (attn): VisionSdpaAttention(
-    #           (qkv): Linear(in_features=1280, out_features=3840, bias=True)
-    #           (proj): Linear(in_features=1280, out_features=1280, bias=True)
-    #         )
-    #         (mlp): VisionMlp(
-    #           (fc1): Linear(in_features=1280, out_features=5120, bias=True)
-    #           (act): QuickGELUActivation()
-    #           (fc2): Linear(in_features=5120, out_features=1280, bias=True)
-    #         )
-    #       )
-    #     )
-    #     (merger): PatchMerger(
-    #       (ln_q): LayerNorm((1280,), eps=1e-06, elementwise_affine=True)
-    #       (mlp): Sequential(
-    #         (0): Linear(in_features=5120, out_features=5120, bias=True)
-    #         (1): GELU(approximate='none')
-    #         (2): Linear(in_features=5120, out_features=1536, bias=True)
-    #       )
-    #     )
-    #   )
-    #   (model): Qwen2VLModel(
-    #     (embed_tokens): Embedding(151936, 1536)
-    #     (layers): ModuleList(
-    #       (0-27): 28 x Qwen2VLDecoderLayer(
-    #         (self_attn): Qwen2VLSdpaAttention(
-    #           (q_proj): Linear(in_features=1536, out_features=1536, bias=True)
-    #           (k_proj): Linear(in_features=1536, out_features=256, bias=True)
-    #           (v_proj): Linear(in_features=1536, out_features=256, bias=True)
-    #           (o_proj): Linear(in_features=1536, out_features=1536, bias=False)
-    #           (rotary_emb): Qwen2RotaryEmbedding()
-    #         )
-    #         (mlp): Qwen2MLP(
-    #           (gate_proj): Linear(in_features=1536, out_features=8960, bias=False)
-    #           (up_proj): Linear(in_features=1536, out_features=8960, bias=False)
-    #           (down_proj): Linear(in_features=8960, out_features=1536, bias=False)
-    #           (act_fn): SiLU()
-    #         )
-    #         (input_layernorm): Qwen2RMSNorm((1536,), eps=1e-06)
-    #         (post_attention_layernorm): Qwen2RMSNorm((1536,), eps=1e-06)
-    #       )
-    #     )
-    #     (norm): Qwen2RMSNorm((1536,), eps=1e-06)
-    #   )
-    #   (lm_head): Linear(in_features=1536, out_features=151936, bias=False)
-    # )
-
-    # Load processor.
-    # The default range for the number of visual tokens per image in the model is 4-16384. You can set min_pixels and max_pixels according to your needs, such as a token count range of 256-1280, to balance speed and memory usage.
-    # min_pixels = 256*28*28
-    # max_pixels = 1280*28*28
-
-    # **Note:** About padding_side parameter, it default value is "left", here we set it as "right".
-    # For why, read below.
-    # Typically, in training, when batch size of training dataloader is > 1, it is often we need pad shorter inputs to the same length.
-    # To pad, we often add "padding_token_id" to the right side of shorter inputs to make them the same length and set 0 in attention_mask for those padding_token_id.
-    # It makes casual_mask easier to build by attention mask. for more detail, see *** notes.txt *** of this repo.
-    # BTW, in batching inference, we must use "padding_side" left, as generation usually uses the last token of output list of tokens.
-    #
-    # If you like to read more, here are more discussions about padding and padding side:
-    # https://github.com/huggingface/transformers/pull/26572
-    # https://github.com/pytorch/pytorch/issues/110213
-    # transformers/models/qwen2_vl/modeling_qwen2_vl.py: causal_mask = AttentionMaskConverter._unmask_unattended(causal_mask, min_dtype)
+    #model.gradient_checkpointing_enable() #mod
 
     processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-2B-Instruct", min_pixels=256 * 28 * 28,
-                                              max_pixels=512 * 28 * 28, padding_side="right")
+                                              max_pixels=512 * 600, padding_side="right")
 
     train_loader = DataLoader(
-        DataSet("../data/finetune_data_train.json"),
+        DataSet(TRAINING_DATASET),
         batch_size=1,
         collate_fn=partial(collate_fn, processor=processor, device=device)
     )
 
     model.train()
-    epochs = 10
-    # import pdb
-    # pdb.set_trace()
-    #TEMP optimizer = AdamW(model.parameters(), lr=1e-5)
-    optimizer = Adam8bit(model.parameters(), lr=1e-5)
-    NUM_ACCUMULATION_STEPS = 2
+    epochs = 1
+
+    optimizer = Adam8bit(model.parameters(), lr=1e-5) # mod
+    NUM_ACCUMULATION_STEPS = 5
+    # mod
+    # Directory to save checkpoints
+    os.makedirs(MODEL_PATH, exist_ok=True)
+    SAVE_FREQUENCY = 100
+
     for epoch in range(epochs):
         accumulated_avg_loss = 0
         steps = 0
@@ -295,6 +226,12 @@ def train():
                 accumulated_avg_loss = 0
                 optimizer.step()
                 optimizer.zero_grad()
+                # Save model checkpoint every `SAVE_FREQUENCY` steps
+            if steps % SAVE_FREQUENCY == 0:
+                checkpoint_path = os.path.join(output_dir, f"checkpoint_epoch_{epoch}_step_{steps}")
+                model.save_pretrained(checkpoint_path)
+                processor.save_pretrained(checkpoint_path)
+                logger.info(f"Model checkpoint saved at step {steps} in epoch {epoch + 1}")
 
     os.makedirs(output_dir, exist_ok=True)
     model.save_pretrained(output_dir)
