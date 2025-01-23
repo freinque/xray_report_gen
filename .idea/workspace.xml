@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da0eb1de-bc18-49f4-bc7c-0d6ba918ba6d" name="Changes" comment="added to report">
+    <list default="true" id="da0eb1de-bc18-49f4-bc7c-0d6ba918ba6d" name="Changes" comment="adjusted to report">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +228,7 @@
       <workItem from="1737341937192" duration="11290000" />
       <workItem from="1737391165329" duration="44285000" />
       <workItem from="1737514315377" duration="22938000" />
-      <workItem from="1737575966254" duration="14273000" />
+      <workItem from="1737575966254" duration="14359000" />
     </task>
     <task id="LOCAL-00001" summary="added readmes">
       <option name="closed" value="true" />
@@ -422,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737588369094</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="adjusted to report">
+      <option name="closed" value="true" />
+      <created>1737597420939</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1737597420939</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +456,8 @@
     <MESSAGE value="evaluating finetuned model 1 and 2" />
     <MESSAGE value="small refactor and report addition" />
     <MESSAGE value="added to report" />
-    <option name="LAST_COMMIT_MESSAGE" value="added to report" />
+    <MESSAGE value="adjusted to report" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted to report" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

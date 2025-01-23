@@ -1,3 +1,4 @@
 data/images/
 /oa_token.txt
 /notebooks/.ipynb_checkpoints/
+.idea
