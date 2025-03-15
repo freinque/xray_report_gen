@@ -17,35 +17,11 @@ from torch.utils.data import DataLoader
 from transformers import Qwen2VLForConditionalGeneration, AutoTokenizer, AutoProcessor
 
 from xray_report_gen import utils
+from xray_report_gen.config import DATA_PATH, MODEL_PATH, REPORT_GENERATION_PROMPT, OS_MODEL_NAME_1, OS_MODEL_NAME_2
 
 utils.set_api_keys()
 import os
 print(len(os.environ["HUGGINGFACEHUB_API_TOKEN"] ))
-
-DATA_PATH = '/xray_report_gen/data/'
-MODEL_PATH = '/xray_report_gen/data/models'
-MODEL_NAME_1 = "Qwen/Qwen2-VL-2B-Instruct"
-MODEL_NAME_2 = os.path.join(MODEL_PATH,"Qwen/Qwen2-VL-2B-Instruct-finetuned/checkpoint_epoch_0_step_100") #'allenai/MolmoE-1B-0924'
-
-REPORT_GENERATION_PROMPT = """
-You are an advanced medical assistant designed to analyze radiology report findings and chest x-ray images. Your task is to extract sentences from a chest X-Ray radiology report and a chest x-ray images into four predefined anatomical regions: lung, heart, mediastinal, and bone. If a finding cannot be confidently assigned to any of these regions, categorize it under others.
-
-### Instructions:
-1. Consider the input radiology report sentence by sentence, and the corresponding chest X-Ray images.
-2. Extract findings for the following categories:
-   - **lung**: Findings related to lungs, pulmonary vasculature, or pleura.
-   - **heart**: Findings related to the cardiac silhouette or heart size.
-   - **mediastinal**: Findings related to the mediastinum or its contours.
-   - **bone**: Findings related to bony structures such as the spine, ribs, or other skeletal elements.
-   - **others**: Findings or sentences that cannot be confidently classified under the above categories.
-3. If multiple findings belong to the same category, concatenate them into a single string within that category in the output.
-4. Format the output as a JSON object with the keys: "lung", "heart", "mediastinal", "bone", and "others". If no finding were found for a given category, the output value for its JSON key should be empty.
-
-Now, analyze the following X-ray images and report, and generate findings organized into these categories.
-
-**Input:**
-"""
-
 
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 torch.cuda.empty_cache()
@@ -55,11 +31,11 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 def get_model_name(version: int) -> str:
     if version == 1:
-        return MODEL_NAME_1
+        return OS_MODEL_NAME_1
     elif version == 2:
-        return MODEL_NAME_2
+        return OS_MODEL_NAME_2
     else:
-        return MODEL_NAME_1
+        return OS_MODEL_NAME_1
 
 
 class DataSet(Dataset):  # for toy demo

@@ -1,11 +1,7 @@
 import os
 import json
 from PIL import Image
-
-IMAGES_DIR = '../data/images'
-
-PATH_DOCKER = "/xray_report_gen"
-PATH_HOST = "/home/freinque/pycharm_projects/xray_report_gen"
+from .config import IMAGES_DIR, PATH_DOCKER, PATH_HOST, IMAGE_FACTOR, MIN_PIXELS, MAX_PIXELS, MAX_RATIO, VIDEO_MIN_PIXELS, VIDEO_MAX_PIXELS, VIDEO_TOTAL_PIXELS, FRAME_FACTOR, FPS_MIN_FRAMES, FPS_MAX_FRAMES
 
 def set_api_keys(path_docker=PATH_DOCKER, path_host=PATH_HOST):
     """
@@ -104,19 +100,6 @@ import torchvision
 from PIL import Image
 from torchvision import transforms
 from torchvision.transforms import InterpolationMode
-
-
-IMAGE_FACTOR = 28
-MIN_PIXELS = 4 * 28 * 28
-MAX_PIXELS = 16384 * 28 * 28
-MAX_RATIO = 200
-
-VIDEO_MIN_PIXELS = 128 * 28 * 28
-VIDEO_MAX_PIXELS = 768 / 4 * 28 * 28
-VIDEO_TOTAL_PIXELS = 24576 / 4 * 28 * 28
-FRAME_FACTOR = 2
-FPS_MIN_FRAMES = 4
-FPS_MAX_FRAMES = 768 / 4
 
 
 def round_by_factor(number: int, factor: int) -> int:
