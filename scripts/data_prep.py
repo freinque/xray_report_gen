@@ -14,6 +14,25 @@ import pandas as pd
 from xray_report_gen.config import DATA_PATH, IMAGES_DIR
 
 def write_base_dataset():
+    """
+    Reads data from various sources, processes and merges them, and writes the resulting dataset to a CSV file.
+
+    The function performs the following steps:
+    1. Reads report data and image metadata from CSV files.
+    2. Merges the report data and image metadata on the 'uid' column.
+    3. Standardizes the 'uid' and extracts parts of the filename to create new columns 'im_1' and 'im_2'.
+    4. Loads annotation data from a JSON file and concatenates train, test, and validation sets.
+    5. Merges the annotation data with the previously merged dataset on 'uid' and 'im_1'.
+    6. Fills null values in the 'original_report' column with values from the 'findings' column.
+    7. Creates new columns for image folder, image number, and image filename.
+    8. Checks if the image files exist and adds this information to the dataset.
+    9. Writes the final dataset to a CSV file.
+
+    The resulting dataset is saved as 'data_prep.csv' in the specified data path.
+
+    Returns:
+        None
+    """
     # reads data from reports in train and test in storage
     reports = pd.read_csv(os.path.join(DATA_PATH, 'indiana_reports.csv'))
     print("report data loaded, has shape ", reports.shape)
