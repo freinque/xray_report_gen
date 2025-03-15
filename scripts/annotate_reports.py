@@ -7,11 +7,7 @@ import pandas as pd
 import click
 
 from xray_report_gen import report_annotation
-
-DATA_PATH = '/xray_report_gen/data/'
-PROMPT_VERSIONS = [1,2]
-BEST_PROMPT_VERSION = 1
-N = 25
+from xray_report_gen.config import DATA_PATH, PROMPT_VERSIONS, BEST_PROMPT_VERSION, N
 
 @click.command()
 @click.argument('mode', type=str, default='train')

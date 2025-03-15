@@ -5,18 +5,13 @@ invocation of evaluation routines on
 using GREEN (https://stanford-aimi.github.io/green.html)
 """
 
-
 import os
 import pandas as pd
-import json
 import click
 
 from xray_report_gen import eval
 from xray_report_gen import utils
-
-DATA_PATH = '../data/'
-PROMPT_VERSIONS = [1, 2]
-REGIONS = ['bone', 'heart', 'lung', 'mediastinal']
+from xray_report_gen.config import DATA_PATH, PROMPT_VERSIONS, REGIONS
 
 @click.command()
 @click.argument('mode')

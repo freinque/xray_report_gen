@@ -18,40 +18,14 @@ from bitsandbytes.optim import Adam8bit
 from xray_report_gen.utils import process_vision_info, init_logger, get_logger
 from xray_report_gen import utils
 from xray_report_gen import rep_im_annotation
+from xray_report_gen.config import MODEL_PATH, DATA_PATH, TRAINING_DATASET, DEVICE, EPOCHS, NUM_ACCUMULATION_STEPS, SAVE_FREQUENCY, LEARNING_RATE, REPORT_GENERATION_PROMPT
 
 utils.set_api_keys()
 print(len(os.environ["HUGGINGFACEHUB_API_TOKEN"] ))
 
-MODEL_PATH = '/xray_report_gen/data/models/'
-DATA_PATH = '/xray_report_gen/data/'
-TRAINING_DATASET = "/xray_report_gen/data/finetune_data_train.json"
-
 output_dir = os.path.join(MODEL_PATH, "Qwen/Qwen2-VL-2B-Instruct-finetuned")
 init_logger(output_dir)
 logger = get_logger()
-
-device = "cuda"
-
-REPORT_GENERATION_PROMPT = """
-You are an advanced medical assistant designed to analyze radiology report findings and chest x-ray images. Your task is to extract sentences from a chest X-Ray radiology report and a chest x-ray images into four predefined anatomical regions: lung, heart, mediastinal, and bone. If a finding cannot be confidently assigned to any of these regions, categorize it under others.
-
-### Instructions:
-1. Consider the input radiology report sentence by sentence, and the corresponding chest X-Ray images.
-2. Extract findings for the following categories:
-   - **lung**: Findings related to lungs, pulmonary vasculature, or pleura.
-   - **heart**: Findings related to the cardiac silhouette or heart size.
-   - **mediastinal**: Findings related to the mediastinum or its contours.
-   - **bone**: Findings related to bony structures such as the spine, ribs, or other skeletal elements.
-   - **others**: Findings or sentences that cannot be confidently classified under the above categories.
-3. If multiple findings belong to the same category, concatenate them into a single string within that category in the output.
-4. Format the output as a JSON object with the keys: "lung", "heart", "mediastinal", "bone", and "others". If no finding were found for a given category, the output value for its JSON key should be empty.
-
-Now, analyze the following X-ray images and report, and generate findings organized into these categories.
-
-**Input:**
-"""
-
-
 
 def train():
     # Load the model on the available device(s)
@@ -90,20 +64,18 @@ def train():
     train_loader = DataLoader(
         rep_im_annotation.FinetuneDataSet(TRAINING_DATASET),
         batch_size=1,
-        collate_fn=partial(rep_im_annotation.collate_fn, processor=processor, device=device)
+        collate_fn=partial(rep_im_annotation.collate_fn, processor=processor, device=DEVICE)
     )
 
     model.train()
-    epochs = 1
 
-    optimizer = Adam8bit(model.parameters(), lr=1e-5) # mod
-    NUM_ACCUMULATION_STEPS = 5
+    optimizer = Adam8bit(model.parameters(), lr=LEARNING_RATE) # mod
+
     # mod
     # Directory to save checkpoints
     os.makedirs(MODEL_PATH, exist_ok=True)
-    SAVE_FREQUENCY = 100
 
-    for epoch in range(epochs):
+    for epoch in range(EPOCHS):
         accumulated_avg_loss = 0
         steps = 0
         for batch in train_loader:
@@ -119,7 +91,7 @@ def train():
 
             if steps % NUM_ACCUMULATION_STEPS == 0:
                 logger.info(
-                    f"Batch {steps} of epoch {epoch + 1}/{epochs}, average training loss of previous {NUM_ACCUMULATION_STEPS} batches: {accumulated_avg_loss}")
+                    f"Batch {steps} of epoch {epoch + 1}/{EPOCHS}, average training loss of previous {NUM_ACCUMULATION_STEPS} batches: {accumulated_avg_loss}")
                 accumulated_avg_loss = 0
                 optimizer.step()
                 optimizer.zero_grad()

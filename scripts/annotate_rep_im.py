@@ -7,15 +7,7 @@ import click
 import pandas as pd
 
 from xray_report_gen import utils, rep_im_annotation
-
-DATA_PATH = '../data/'
-MODEL_VERSION = 1
-TRAIN_DATASET = "/xray_report_gen/data/finetune_data_train.json"
-TEST_DATASET = "/xray_report_gen/data/finetune_data_test.json"
-VAL_DATASET = "/xray_report_gen/data/finetune_data_val.json"
-TRAIN_DATASET_N = 25
-TEST_DATASET_N = 25
-VAL_DATASET_N = 2500
+from xray_report_gen.config import DATA_PATH, MODEL_VERSION, TRAIN_DATASET, TEST_DATASET, VAL_DATASET, TRAIN_DATASET_N, TEST_DATASET_N, VAL_DATASET_N
 
 def get_dataset_path(mode) -> str:
     if mode == "train":

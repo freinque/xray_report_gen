@@ -6,8 +6,7 @@ import os
 import json
 import pandas as pd
 
-DATA_PATH = '/xray_report_gen/data/'
-IMAGES_DIR = '/xray_report_gen/data/images'
+from xray_report_gen.config import DATA_PATH, IMAGES_DIR
 
 def main():
     # reads data from reports in train and test in storage
