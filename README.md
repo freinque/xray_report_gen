@@ -37,9 +37,15 @@ docker run -it --rm --gpus device=0 -p 8080:8080 -v /home/ubuntu/xray_report_gen
 
 The overall dataset contains 2900+ chest X-Ray images, a report for each set of images from an exam. For four predifined anatomical regions: lung, heart, mediastinal, and bone, annotations are provided on train and test slices. A validation set of around 300 patients has those annotations missing.
 
+Base data files:
+
+- `data/indiana_reports.csv`: Set of anonymized chest x-ray reports.
+- `data/indiana_projections.csv`: Set of metadata associated with chest x-ray images.
+- `data/annotation_quiz_all.json`: Set of 'curated' image annotations. Also defines what splits are going to be used (for training, validation and testing).
+
 ## Preprocessing
 
-Running the data preprocessing code:
+Running the data preprocessing script:
 
 ```bash
 docker run -it --rm -p 8080:8080 -v /home/freinque/pycharm_projects/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 data_prep.py

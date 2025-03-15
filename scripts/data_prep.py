@@ -1,5 +1,10 @@
 """
-script that preprocesses data found in DATA_PATH for usage in annotation, evaluation and finetuning scripts
+This script preprocesses data found in DATA_PATH for usage in annotation, evaluation, and finetuning scripts.
+
+Functions:
+    main(): Preprocesses the data by reading, merging, and transforming datasets, then writes the processed data to a CSV file.
+    get_data_dict(images, reports, annotations, ids): Creates a list of dictionaries containing image paths, reports, and annotations for finetuning datasets.
+    write_finetuning_datasets(): Reads the processed data, creates finetuning datasets, and writes them to JSON files.
 
 """
 import os
@@ -8,14 +13,14 @@ import pandas as pd
 
 from xray_report_gen.config import DATA_PATH, IMAGES_DIR
 
-def main():
+def write_base_dataset():
     # reads data from reports in train and test in storage
     reports = pd.read_csv(os.path.join(DATA_PATH, 'indiana_reports.csv'))
-    print(reports.shape)
+    print("report data loaded, has shape ", reports.shape)
     ids = pd.read_csv(os.path.join(DATA_PATH, 'indiana_projections.csv'))
-    print(ids.shape)
+    print("image metadata loaded, has shape ", ids.shape)
 
-    # merging
+    # merging reports and metadata
     df = pd.merge(reports, ids, on=['uid'], how='left')
 
     # stardardizing ids
@@ -23,17 +28,17 @@ def main():
     df['im_1'] = df['filename'].apply(lambda x: x.split('-')[1])
     df['im_2'] = df['filename'].apply(lambda x: x.split('-')[2][:4])
 
-    # adding annotations provided
+    # adding 'curated' annotations provided
     annotations_json = json.load(open(os.path.join(DATA_PATH, 'annotation_quiz_all.json')))
     annotations_train = pd.DataFrame.from_records(annotations_json['train'])
-    print(annotations_train.shape)
+    print("annotation data loaded, train set has shape ",  annotations_train.shape)
     annotations_test = pd.DataFrame.from_records(annotations_json['test'])
-    print(annotations_test.shape)
+    print("annotation data loaded, test set has shape ",annotations_test.shape)
     annotations_val = pd.DataFrame.from_records(annotations_json['val'])
-    print(annotations_val.shape)
+    print("annotation data loaded, val set has shape ",annotations_val.shape)
     annotations = pd.concat([annotations_train, annotations_test, annotations_val], axis=0)
     annotations = annotations.rename(columns={'report':'annotation'})
-    print(annotations.shape)
+    print("annotation data concatenated, has shape ",annotations.shape)
 
     annotations['uid'] = annotations['id'].apply(lambda x: x.split('_')[0].replace('CXR','')).astype(int)
     annotations['im_1'] = annotations['id'].apply(lambda x: x.split("IM-")[-1][:4])
@@ -54,6 +59,7 @@ def main():
 
     # writing to storage
     df.to_csv(os.path.join(DATA_PATH, 'data_prep.csv'), index=False)
+    print("overall dataset concatenated and transformed, has shape ", df.shape)
 
 
 def get_data_dict(images, reports, annotations, ids):
@@ -85,6 +91,19 @@ def get_data_dict(images, reports, annotations, ids):
 
 
 def write_finetuning_datasets():
+    """
+    Reads a CSV file, processes the data, and writes fine-tuning datasets 
+    for training, testing, and validation splits to JSON files.
+
+    The function performs the following steps:
+    1. Reads the CSV file located at DATA_PATH/data_prep.csv.
+    2. Processes the data to extract image paths, original reports, and annotations.
+    3. Groups the data by 'id' and creates dictionaries for each split ('train', 'test', 'val').
+    4. Writes the processed data to JSON files for each split.
+
+    Returns:
+        None
+    """
     df = pd.read_csv(os.path.join(DATA_PATH, 'data_prep.csv'))
 
     df['image_path'] = df['image_filename']
@@ -104,8 +123,12 @@ def write_finetuning_datasets():
         output_file = os.path.join(DATA_PATH, f'finetune_data_{split}.json')
         with open(output_file, 'w') as f:
             json.dump(data, f, indent=4)
+        print("{} finetuning dataset written".format(split))
 
+
+def main():
+    write_base_dataset()
+    write_finetuning_datasets()
 
 if __name__ == '__main__':
     main()
-    write_finetuning_datasets()
