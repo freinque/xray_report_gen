@@ -58,16 +58,16 @@ Note: image folders with extra '-0001', etc. were trimmed prior to running that 
 Annotation of original reports, using OpenAI's gpt-4-mini (can be reconfigured).
 
 ```bash
-docker run -it --rm -p 8080:8080 -v /home/freinque/pycharm_projects/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 annotate_reports.py <mode>
+docker run -it --rm -p 8080:8080 -v /home/freinque/pycharm_projects/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 annotate_reports.py <split>
 ```
-where mode in ['train', 'test', 'val'].
+where split in ['train', 'test', 'val'].
 
-Evaluate annotations on train and test samples, using 2 prompts examples suggested by ChatGPT (defined in report_annotation.py).
+Evaluate annotations on train and test samples, using 2 prompts examples suggested by ChatGPT (defined in config.py).
 
 ```bash
-docker run -it --rm --gpus device=0 -p 8080:8080 -v /home/ubuntu/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 evaluate_report_annotation.py <mode>
+docker run -it --rm --gpus device=0 -p 8080:8080 -v /home/ubuntu/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 evaluate_report_annotation.py <split>
 ```
-where mode in ['train', 'test'].
+where split in ['train', 'test'].
 
 The scores are inspected with the evaluate_annotations.ipynb notebook. The following results are found:
 

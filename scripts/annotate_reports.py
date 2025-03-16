@@ -24,21 +24,21 @@ def process_split(df_split, split_name):
 
 
 @click.command()
-@click.argument('mode', type=str, default='train')
-def main(mode):
+@click.argument('split', type=str, default='train')
+def main(split):
     # reads data from reports in train and test in storage
     df = pd.read_csv(os.path.join(DATA_PATH, 'data_prep.csv'))
     df_train = df[df['split'] == 'train'].sample(n=REPORT_ANNOTATION_N)
     df_test = df[df['split'] == 'test'].sample(n=REPORT_ANNOTATION_N)
     df_val = df[df['split'] == 'val']
 
-    if mode == 'train':
+    if split == 'train':
         process_split(df_train, 'train')
 
-    if mode == 'test':
+    if split == 'test':
         process_split(df_test, 'test')
 
-    if mode == 'val':
+    if split == 'val':
         process_split(df_val, 'val')
 
 if __name__ == '__main__':
