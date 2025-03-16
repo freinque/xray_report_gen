@@ -1,184 +1,197 @@
 uid,MeSH,Problems,image,indication,comparison,findings,impression,filename,projection,im_1,im_2,id,annotation,split,original_report,image_folder,image_number,image_filename,image_found,annotation_1,annotation_2
-800,"Cardiomegaly;Aorta, Thoracic/tortuous/severe;Hernia, Hiatal/large;Bone Diseases, Metabolic/thoracic vertebrae/diffuse;Fractures, Bone/thoracic vertebrae;Deformity/thoracic vertebrae/multiple;Humerus/degenerative/severe;Technical Quality of Image Unsatisfactory ","Cardiomegaly;Aorta, Thoracic;Hernia, Hiatal;Bone Diseases, Metabolic;Fractures, Bone;Deformity;Humerus;Technical Quality of Image Unsatisfactory ",Xray Chest PA and Lateral,"XXXX, weakness",None.,"The lungs and pleural spaces show no acute abnormality. Heart size is enlarged, pulmonary vascularity within normal limits. Marked tortuosity of the thoracic aorta. There are advanced degenerative changes of the glenohumeral joints bilaterally with bone-on-bone articulation, remodeling of the glenoid, and extensive subchondral cystic change. No displaced rib fractures are visualized. Diffuse osteopenia of the thoracic spine with a mid thoracic and several lower thoracic XXXX deformities, age-indeterminate. There is an air-fluid level in the middle mediastinum, most XXXX secondary to a large hiatal hernia.","1. No acute thoracic abnormality. 2. Cardiomegaly with marked tortuosity of the thoracic aorta. 3. Probable large hiatal hernia. 4. Limited evaluation of the thoracic spine secondary to osteopenia, age-indeterminate XXXX fracture deformities.",800_IM-2334-4004-0001.dcm.png,Frontal,2334,4004,CXR800_IM-2334,"{'bone': 'Advanced degenerative changes of the glenohumeral joints bilaterally with bone-on-bone articulation, remodeling of the glenoid, and extensive subchondral cystic change. No displaced rib fractures. Diffuse osteopenia of the thoracic spine with a mid thoracic and several lower thoracic vertebral deformities, age-indeterminate.', 'heart': 'Heart size is enlarged.', 'lung': 'The lungs and pleural spaces show no acute abnormality.', 'mediastinal': 'There is an air-fluid level in the middle mediastinum, most likely secondary to a large hiatal hernia.', 'others': 'Marked tortuosity of the thoracic aorta.'}",test,"The lungs and pleural spaces show no acute abnormality. Heart size is enlarged, pulmonary vascularity within normal limits. Marked tortuosity of the thoracic aorta. There are advanced degenerative changes of the glenohumeral joints bilaterally with bone-on-bone articulation, remodeling of the glenoid, and extensive subchondral cystic change. No displaced rib fractures are visualized. Diffuse osteopenia of the thoracic spine with a mid thoracic and several lower thoracic XXXX deformities, age-indeterminate. There is an air-fluid level in the middle mediastinum, most XXXX secondary to a large hiatal hernia.",CXR800_IM-2334,0,/xray_report_gen/data/images/CXR800_IM-2334/0.png,True,"{
-  ""lung"": ""The lungs and pleural spaces show no acute abnormality."",
-  ""heart"": ""Heart size is enlarged."",
-  ""mediastinal"": ""Marked tortuosity of the thoracic aorta. There is an air-fluid level in the middle mediastinum, most XXXX secondary to a large hiatal hernia."",
-  ""bone"": ""Advanced degenerative changes of the glenohumeral joints bilaterally with bone-on-bone articulation, remodeling of the glenoid, and extensive subchondral cystic change. No displaced rib fractures are visualized. Diffuse osteopenia of the thoracic spine with a mid thoracic and several lower thoracic XXXX deformities, age-indeterminate."",
-  ""others"": ""Pulmonary vascularity within normal limits.""
+1765,Calcinosis/lung/lower lobe/left/round;Density/lung/lower lobe/left/round;Granuloma/lung/lower lobe/left/round,Calcinosis;Density;Granuloma,PA and lateral chest x-XXXX XXXX. ,"XXXX-year-old male, XXXX.",None.,The cardiomediastinal silhouette is within normal limits. There is rounded calcified density within the left lower lobe most consistent with granuloma. Remaining lungs are clear without evidence of focal opacification. No pneumothorax or large pleural effusion. No acute bone abnormality.,No acute cardiopulmonary process.,1765_IM-0499-1001.dcm.png,Frontal,499,1001,CXR1765_IM-0499,"{'bone': 'No acute bone abnormality.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'Rounded calcified density within the left lower lobe most consistent with granuloma. Remaining lungs are clear without evidence of focal opacification. No pneumothorax or large pleural effusion.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': ''}",test,The cardiomediastinal silhouette is within normal limits. There is rounded calcified density within the left lower lobe most consistent with granuloma. Remaining lungs are clear without evidence of focal opacification. No pneumothorax or large pleural effusion. No acute bone abnormality.,CXR1765_IM-0499,0,/xray_report_gen/data/images/CXR1765_IM-0499/0.png,True,"{
+  ""lung"": ""There is rounded calcified density within the left lower lobe most consistent with granuloma. Remaining lungs are clear without evidence of focal opacification. No pneumothorax or large pleural effusion."",
+  ""heart"": ""The cardiomediastinal silhouette is within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": ""No acute bone abnormality."",
+  ""others"": """"
 }","{
-  ""lung"": ""The lungs and pleural spaces show no acute abnormality."",
-  ""heart"": ""Heart size is enlarged, pulmonary vascularity within normal limits."",
-  ""mediastinal"": ""There is an air-fluid level in the middle mediastinum, most likely secondary to a large hiatal hernia."",
-  ""bone"": ""Marked tortuosity of the thoracic aorta. Advanced degenerative changes of the glenohumeral joints bilaterally with bone-on-bone articulation, remodeling of the glenoid, and extensive subchondral cystic change. Diffuse osteopenia of the thoracic spine with a mid thoracic and several lower thoracic deformities, age-indeterminate. No displaced rib fractures are visualized."",
+  ""lung"": ""Rounded calcified density within the left lower lobe most consistent with granuloma. Remaining lungs are clear without evidence of focal opacification. No pneumothorax or large pleural effusion."",
+  ""heart"": ""Cardiomediastinal silhouette is within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": ""No acute bone abnormality."",
   ""others"": """"
 }"
-2204,No Indexing,No Indexing,"CHEST 2V FRONTAL/LATERAL XXXX, XXXX XXXX PM ",XXXX,"XXXX, XXXX.",The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. Heart and mediastinum normal.,No active disease.,2204_IM-0813-1001.dcm.png,Frontal,813,1001,CXR2204_IM-0813,"{'bone': '', 'heart': 'Heart is normal.', 'lung': 'Lungs are clear and expanded.', 'mediastinal': 'Mediastinum is normal.', 'others': ''}",test,The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. Heart and mediastinum normal.,CXR2204_IM-0813,0,/xray_report_gen/data/images/CXR2204_IM-0813/0.png,True,"{
-  ""lung"": ""Both lungs are clear and expanded."",
-  ""heart"": ""Heart and mediastinum normal."",
+2915,normal,normal,"PA and lateral chest, XXXX, XXXX XXXX PM ",XXXX-year-old male with chest pain.,PA and lateral chest x-XXXX dated XXXX.,The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.,1. No acute radiographic cardiopulmonary process.,2915_IM-1317-3001.dcm.png,Frontal,1317,3001,CXR2915_IM-1317,"{'bone': '', 'heart': 'The heart size is normal.', 'lung': 'The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid.', 'mediastinal': 'The mediastinal contour is within normal limits.', 'others': 'There is no visible free intraperitoneal air under the diaphragm.'}",test,The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.,CXR2915_IM-1317,0,/xray_report_gen/data/images/CXR2915_IM-1317/0.png,True,"{
+  ""lung"": ""The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid."",
+  ""heart"": ""The heart size is normal."",
+  ""mediastinal"": ""The mediastinal contour is within normal limits."",
+  ""bone"": """",
+  ""others"": ""The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.""
+}","{
+  ""lung"": ""The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid."",
+  ""heart"": ""The heart size is normal."",
+  ""mediastinal"": ""The mediastinal contour is within normal limits."",
+  ""bone"": """",
+  ""others"": ""The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.""
+}"
+2077,"Catheters, Indwelling/right;Density/thorax;Cicatrix/lung/lingula;Pulmonary Atelectasis/lingula;Spine/degenerative/mild","Catheters, Indwelling;Density;Cicatrix;Pulmonary Atelectasis;Spine","Chest, 2 views, XXXX XXXX ","XXXX, history of breast cancer",,"Right jugular XXXX catheter present with tip overlying the lower SVC. Curvilinear density projecting over the upper chest appears external on the lateral projection. Correlate clinically. Normal heart size and mediastinal contour appear normal pulmonary vascularity. XXXX scar/subsegmental atelectasis in the lingula. No focal airspace consolidation, pleural effusion, or pneumothorax. No acute osseous findings. Mild degenerative changes of the spine.",No acute cardiopulmonary findings.,2077_IM-0710-1001.dcm.png,Frontal,710,1001,CXR2077_IM-0710,"{'bone': 'No acute osseous findings. Mild degenerative changes of the spine.', 'heart': 'Normal heart size.', 'lung': 'Normal pulmonary vascularity. Lingula scar/subsegmental atelectasis. No focal airspace consolidation. No pleural effusion. No pneumothorax.', 'mediastinal': 'Normal mediastinal contour.', 'others': 'Right jugular catheter present with tip overlying the lower SVC. Curvilinear density projecting over the upper chest appears external on the lateral projection. Correlate clinically.'}",test,"Right jugular XXXX catheter present with tip overlying the lower SVC. Curvilinear density projecting over the upper chest appears external on the lateral projection. Correlate clinically. Normal heart size and mediastinal contour appear normal pulmonary vascularity. XXXX scar/subsegmental atelectasis in the lingula. No focal airspace consolidation, pleural effusion, or pneumothorax. No acute osseous findings. Mild degenerative changes of the spine.",CXR2077_IM-0710,0,/xray_report_gen/data/images/CXR2077_IM-0710/0.png,True,"{
+  ""lung"": ""Normal pulmonary vascularity. XXXX scar/subsegmental atelectasis in the lingula. No focal airspace consolidation, pleural effusion, or pneumothorax."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""Mediastinal contour appears normal."",
+  ""bone"": ""Mild degenerative changes of the spine. No acute osseous findings."",
+  ""others"": ""Right jugular XXXX catheter present with tip overlying the lower SVC. Curvilinear density projecting over the upper chest appears external on the lateral projection. Correlate clinically.""
+}","{
+  ""lung"": ""XXXX scar/subsegmental atelectasis in the lingula. No focal airspace consolidation, pleural effusion, or pneumothorax. Normal pulmonary vascularity."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""Mediastinal contour appears normal."",
+  ""bone"": ""Mild degenerative changes of the spine. No acute osseous findings."",
+  ""others"": ""Right jugular XXXX catheter present with tip overlying the lower SVC. Curvilinear density projecting over the upper chest appears external on the lateral projection. Correlate clinically.""
+}"
+2285,Cardiomegaly;Markings/bronchovascular;Markings/lung/interstitial;Lung/hypoinflation;Technical Quality of Image Unsatisfactory ,Cardiomegaly;Markings;Markings;Lung;Technical Quality of Image Unsatisfactory ,XR AP and lateral views. ,Dyspnea.,"XXXX, XXXX.",XXXX sternotomy XXXX and mediastinal postsurgical changes. Stable cardiomegaly. Crowded bronchovascular and interstitial markings XXXX related to low lung volumes and technique. Grossly stable appearance of the lungs compared to prior exam without overt edema or gross airspace consolidation.,XXXX sternotomy XXXX and mediastinal postsurgical changes. Stable cardiomegaly. Crowded bronchovascular and interstitial markings XXXX related to low lung volumes and technique. Grossly stable appearance of the lungs compared to prior exam without overt edema or gross airspace consolidation.,2285_IM-0870-1001.dcm.png,Lateral,870,1001,CXR2285_IM-0870,"{'bone': '', 'heart': 'Stable cardiomegaly.', 'lung': 'Crowded bronchovascular and interstitial markings related to low lung volumes and technique. Grossly stable appearance of the lungs compared to prior exam without overt edema or gross airspace consolidation.', 'mediastinal': 'Mediastinal postsurgical changes.', 'others': 'Sternotomy.'}",test,XXXX sternotomy XXXX and mediastinal postsurgical changes. Stable cardiomegaly. Crowded bronchovascular and interstitial markings XXXX related to low lung volumes and technique. Grossly stable appearance of the lungs compared to prior exam without overt edema or gross airspace consolidation.,CXR2285_IM-0870,1,/xray_report_gen/data/images/CXR2285_IM-0870/1.png,True,"{
+  ""lung"": ""Crowded bronchovascular and interstitial markings related to low lung volumes and technique. Grossly stable appearance of the lungs compared to prior exam without overt edema or gross airspace consolidation."",
+  ""heart"": ""Stable cardiomegaly."",
+  ""mediastinal"": ""XXXX sternotomy XXXX and mediastinal postsurgical changes."",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""Crowded bronchovascular and interstitial markings related to low lung volumes and technique. Grossly stable appearance of the lungs compared to prior exam without overt edema or gross airspace consolidation."",
+  ""heart"": ""Stable cardiomegaly."",
+  ""mediastinal"": ""Mediastinal postsurgical changes."",
+  ""bone"": """",
+  ""others"": """"
+}"
+2197,Opacity/lung/upper lobe/right/anterior;Thickening/pleura/mild,Opacity;Thickening,"Chest x-XXXX, 2 views dated XXXX ",XXXX-year-old female with XXXX,,Heart size is normal. There are XXXX opacities which appear to XXXX XXXX above the right XXXX fissure. There is mild thickening in the fissure. No pneumothorax. No large pleural effusions.,XXXX opacities in the right upper lobe anterior segment which may represent atelectasis or infiltrate.,2197_IM-0807-2001.dcm.png,Lateral,807,2001,CXR2197_IM-0807,"{'bone': '', 'heart': 'Heart size is normal.', 'lung': 'No pneumothorax. No large pleural effusions.', 'mediastinal': '', 'others': 'There are XXXX opacities which appear to XXXX XXXX above the right XXXX fissure. There is mild thickening in the fissure.'}",test,Heart size is normal. There are XXXX opacities which appear to XXXX XXXX above the right XXXX fissure. There is mild thickening in the fissure. No pneumothorax. No large pleural effusions.,CXR2197_IM-0807,1,/xray_report_gen/data/images/CXR2197_IM-0807/1.png,True,"{
+  ""lung"": ""There are XXXX opacities which appear to XXXX XXXX above the right XXXX fissure. There is mild thickening in the fissure. No pneumothorax. No large pleural effusions."",
+  ""heart"": ""Heart size is normal."",
   ""mediastinal"": """",
   ""bone"": """",
-  ""others"": ""The heart and lungs have XXXX XXXX in the interval.""
+  ""others"": """"
 }","{
-  ""lung"": ""Both lungs are clear and expanded."",
-  ""heart"": ""The heart is normal."",
-  ""mediastinal"": ""Mediastinum normal."",
+  ""lung"": ""There are XXXX opacities which appear to XXXX XXXX above the right XXXX fissure. There is mild thickening in the fissure. No pneumothorax. No large pleural effusions."",
+  ""heart"": ""Heart size is normal."",
+  ""mediastinal"": """",
   ""bone"": """",
   ""others"": """"
 }"
-2743,Thoracic Vertebrae/degenerative;Calcinosis/aorta,Thoracic Vertebrae;Calcinosis,PA and lateral chest x-XXXX XXXX at XXXX hours. ,"XXXX-year-old woman, followed right middle lobe and right lower lobe pneumonia.",None available.,"There are no acute osseous abnormalities. Degenerative changes throughout the thoracic spine. Normal heart size. Calcific aorta. Normal vascular markings. No focal area of consolidation, pleural effusion, or pneumothorax.",1. No acute radiographic cardiopulmonary process.,2743_IM-1197-1001.dcm.png,Frontal,1197,1001,CXR2743_IM-1197,"{'bone': 'No acute osseous abnormalities. Degenerative changes throughout the thoracic spine.', 'heart': 'Normal heart size.', 'lung': 'No focal area of consolidation, pleural effusion, or pneumothorax.', 'mediastinal': 'Calcific aorta. Normal vascular markings.', 'others': ''}",test,"There are no acute osseous abnormalities. Degenerative changes throughout the thoracic spine. Normal heart size. Calcific aorta. Normal vascular markings. No focal area of consolidation, pleural effusion, or pneumothorax.",CXR2743_IM-1197,0,/xray_report_gen/data/images/CXR2743_IM-1197/0.png,True,"{
-  ""lung"": ""Normal vascular markings. No focal area of consolidation, pleural effusion, or pneumothorax."",
-  ""heart"": ""Normal heart size."",
-  ""mediastinal"": ""Calcific aorta."",
-  ""bone"": ""There are no acute osseous abnormalities. Degenerative changes throughout the thoracic spine."",
-  ""others"": """"
-}","{
-  ""lung"": ""No focal area of consolidation, pleural effusion, or pneumothorax. Normal vascular markings."",
-  ""heart"": ""Normal heart size."",
-  ""mediastinal"": ""Calcific aorta."",
-  ""bone"": ""Degenerative changes throughout the thoracic spine. There are no acute osseous abnormalities."",
-  ""others"": """"
-}"
-1812,normal,normal,"PA and Lateral Chest. XXXX, XXXX ",Chest pain,None available,"No focal consolidation, suspicious pulmonary opacity, pneumothorax or definite pleural effusion. Heart size and pulmonary vascularity within normal limits, visualized osseous structures appear intact.",No acute cardiopulmonary abnormality.,1812_IM-0525-2001.dcm.png,Lateral,525,2001,CXR1812_IM-0525,"{'bone': 'Visualized osseous structures appear intact.', 'heart': 'Heart size within normal limits.', 'lung': 'No focal consolidation, suspicious pulmonary opacity, pneumothorax or definite pleural effusion. Pulmonary vascularity within normal limits.', 'mediastinal': '', 'others': ''}",test,"No focal consolidation, suspicious pulmonary opacity, pneumothorax or definite pleural effusion. Heart size and pulmonary vascularity within normal limits, visualized osseous structures appear intact.",CXR1812_IM-0525,1,/xray_report_gen/data/images/CXR1812_IM-0525/1.png,True,"{
-  ""lung"": ""No focal consolidation, suspicious pulmonary opacity, pneumothorax or definite pleural effusion."",
-  ""heart"": ""Heart size and pulmonary vascularity within normal limits."",
-  ""mediastinal"": """",
-  ""bone"": ""visualized osseous structures appear intact."",
-  ""others"": """"
-}","{
-  ""lung"": ""No focal consolidation, suspicious pulmonary opacity, pneumothorax or definite pleural effusion."",
-  ""heart"": ""Heart size and pulmonary vascularity within normal limits."",
-  ""mediastinal"": """",
-  ""bone"": ""Visualized osseous structures appear intact."",
-  ""others"": """"
-}"
-3589,Lung/hypoinflation/mild;Opacity/lung/base/left/streaky,Lung;Opacity,"Chest, 2 views, XXXX XXXX ComparisXXXX/XXXX ",Abdominal pain,,Cardiomediastinal contour and pulmonary vascularity stable and within normal limits. Lung volumes are slightly low. There are streaky left basal opacities. No pleural effusion or pneumothorax. No acute osseous findings. No free air is demonstrated.,"Streaky left basilar airspace opacities, which could reflect atelectasis and/or infection.",3589_IM-1767-1001.dcm.png,Frontal,1767,1001,CXR3589_IM-1767,"{'bone': 'No acute osseous findings.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'Lung volumes are slightly low. There are streaky left basal opacities. No pleural effusion or pneumothorax.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': 'Pulmonary vascularity stable and within normal limits. No free air is demonstrated.'}",test,Cardiomediastinal contour and pulmonary vascularity stable and within normal limits. Lung volumes are slightly low. There are streaky left basal opacities. No pleural effusion or pneumothorax. No acute osseous findings. No free air is demonstrated.,CXR3589_IM-1767,0,/xray_report_gen/data/images/CXR3589_IM-1767/0.png,True,"{
-  ""lung"": ""Lung volumes are slightly low. There are streaky left basal opacities. No pleural effusion or pneumothorax."",
-  ""heart"": ""Cardiomediastinal contour and pulmonary vascularity stable and within normal limits."",
+3745,normal,normal,"Chest, 2 views, XXXX XXXX ",XXXX vehicle collision,,Cardiomediastinal silhouette and pulmonary vasculature are within normal limits. Lungs are clear. No pneumothorax or pleural effusion. No acute osseous findings.,No acute cardiopulmonary findings.,3745_IM-1872-1001.dcm.png,Frontal,1872,1001,CXR3745_IM-1872,"{'bone': 'No acute osseous findings.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'Lungs are clear. No pneumothorax or pleural effusion.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': ''}",test,Cardiomediastinal silhouette and pulmonary vasculature are within normal limits. Lungs are clear. No pneumothorax or pleural effusion. No acute osseous findings.,CXR3745_IM-1872,0,/xray_report_gen/data/images/CXR3745_IM-1872/0.png,True,"{
+  ""lung"": ""Lungs are clear. No pneumothorax or pleural effusion."",
+  ""heart"": ""Cardiomediastinal silhouette and pulmonary vasculature are within normal limits."",
   ""mediastinal"": """",
   ""bone"": ""No acute osseous findings."",
-  ""others"": ""No free air is demonstrated.""
-}","{
-  ""lung"": ""Lung volumes are slightly low. There are streaky left basal opacities. No pleural effusion or pneumothorax."",
-  ""heart"": ""Cardiomediastinal contour and pulmonary vascularity stable and within normal limits."",
-  ""mediastinal"": """",
-  ""bone"": ""No acute osseous findings."",
-  ""others"": ""No free air is demonstrated.""
-}"
-757,normal,normal,Frontal and lateral views of the chest dated XXXX ,Chest pain,XXXX,Heart size is normal. The lungs are clear. There are no focal air space consolidations. No pleural effusions or pneumothoraces. The hilar and mediastinal contours are unchanged. Normal pulmonary vascularity. Stable postsurgical changes of the lower cervical spine.,No acute abnormality.,757_IM-2308-1001.dcm.png,Frontal,2308,1001,CXR757_IM-2308,"{'bone': 'Stable postsurgical changes of the lower cervical spine.', 'heart': 'Heart size is normal.', 'lung': 'The lungs are clear. There are no focal air space consolidations. No pleural effusions or pneumothoraces. Normal pulmonary vascularity.', 'mediastinal': 'The hilar and mediastinal contours are unchanged.', 'others': ''}",test,Heart size is normal. The lungs are clear. There are no focal air space consolidations. No pleural effusions or pneumothoraces. The hilar and mediastinal contours are unchanged. Normal pulmonary vascularity. Stable postsurgical changes of the lower cervical spine.,CXR757_IM-2308,0,/xray_report_gen/data/images/CXR757_IM-2308/0.png,True,"{
-  ""lung"": ""The lungs are clear. There are no focal air space consolidations. No pleural effusions or pneumothoraces. Normal pulmonary vascularity."",
-  ""heart"": ""Heart size is normal."",
-  ""mediastinal"": ""The hilar and mediastinal contours are unchanged."",
-  ""bone"": ""Stable postsurgical changes of the lower cervical spine."",
-  ""others"": """"
-}","{
-  ""lung"": ""The lungs are clear. There are no focal air space consolidations. No pleural effusions or pneumothoraces. Normal pulmonary vascularity."",
-  ""heart"": ""Heart size is normal."",
-  ""mediastinal"": ""The hilar and mediastinal contours are unchanged."",
-  ""bone"": ""Stable postsurgical changes of the lower cervical spine."",
-  ""others"": """"
-}"
-869,normal,normal,"PA and Lateral Chest Radiograph XXXX, XXXX at XXXX p.m. ",XXXX-year-old female with chest tightness,,"The heart is normal size. The mediastinum is unremarkable. There is no pleural effusion, pneumothorax, or focal airspace disease. The XXXX are unremarkable.",No acute cardiopulmonary abnormality.,869_IM-2389-2001.dcm.png,Frontal,2389,2001,CXR869_IM-2389,"{'bone': '', 'heart': 'Normal size.', 'lung': 'No pleural effusion, pneumothorax, or focal airspace disease.', 'mediastinal': 'Unremarkable.', 'others': 'The XXXX are unremarkable.'}",test,"The heart is normal size. The mediastinum is unremarkable. There is no pleural effusion, pneumothorax, or focal airspace disease. The XXXX are unremarkable.",CXR869_IM-2389,0,/xray_report_gen/data/images/CXR869_IM-2389/0.png,True,"{
-  ""lung"": ""There is no pleural effusion, pneumothorax, or focal airspace disease."",
-  ""heart"": ""The heart is normal size."",
-  ""mediastinal"": ""The mediastinum is unremarkable."",
-  ""bone"": """",
-  ""others"": ""The XXXX are unremarkable.""
-}","{
-  ""lung"": ""There is no pleural effusion, pneumothorax, or focal airspace disease."",
-  ""heart"": ""The heart is normal size."",
-  ""mediastinal"": ""The mediastinum is unremarkable."",
-  ""bone"": """",
-  ""others"": ""The XXXX are unremarkable.""
-}"
-2136,normal,normal,PA and lateral views of the chest ,XXXX x6 months,,Mediastinal contours are normal. Lungs are clear. There is no pneumothorax or large pleural effusion.,No acute cardiopulmonary abnormality.,2136_IM-0758-2001.dcm.png,Lateral,758,2001,CXR2136_IM-0758,"{'bone': '', 'heart': '', 'lung': 'Lungs are clear. There is no pneumothorax or large pleural effusion.', 'mediastinal': 'Mediastinal contours are normal.', 'others': ''}",test,Mediastinal contours are normal. Lungs are clear. There is no pneumothorax or large pleural effusion.,CXR2136_IM-0758,1,/xray_report_gen/data/images/CXR2136_IM-0758/1.png,True,"{
-  ""lung"": ""Lungs are clear. There is no pneumothorax or large pleural effusion."",
-  ""heart"": """",
-  ""mediastinal"": ""Mediastinal contours are normal."",
-  ""bone"": """",
   ""others"": """"
 }","{
   ""lung"": ""Lungs are clear."",
-  ""heart"": """",
-  ""mediastinal"": ""Mediastinal contours are normal."",
-  ""bone"": """",
-  ""others"": ""There is no pneumothorax or large pleural effusion.""
-}"
-3192,"Lung/hilum/left/prominent/mild;Lucency/thorax/scattered/multiple;Emphysema;Calcified Granuloma/bilateral/scattered/multiple;Hernia, Hiatal/large","Lung;Lucency;Emphysema;Calcified Granuloma;Hernia, Hiatal","Chest PA and lateral dated XXXX, XXXX at XXXX hours. ",Dyspnea,Chest dated XXXX,"The heart is normal in size. Mild fullness of the left hilum, small interval change from prior exam. Lucencies throughout the chest XXXX representing emphysematous change. Scattered bilateral calcified granulomas. No pneumothorax. Large hiatal hernia, increased from prior exam.","1. Increased left hilar fullness. This may represent superimposed XXXX, adenopathy cannot be excluded on this exam. If there is clinical concern, suggest reference to prior exam or CT chest. 2. Large hiatal hernia, increased in size from prior exam.",3192_IM-1505-1001.dcm.png,Frontal,1505,1001,CXR3192_IM-1505,"{'bone': '', 'heart': 'The heart is normal in size.', 'lung': 'Lucencies throughout the chest representing emphysematous change. Scattered bilateral calcified granulomas. No pneumothorax.', 'mediastinal': 'Mild fullness of the left hilum, small interval change from prior exam.', 'others': 'Large hiatal hernia, increased from prior exam.'}",test,"The heart is normal in size. Mild fullness of the left hilum, small interval change from prior exam. Lucencies throughout the chest XXXX representing emphysematous change. Scattered bilateral calcified granulomas. No pneumothorax. Large hiatal hernia, increased from prior exam.",CXR3192_IM-1505,0,/xray_report_gen/data/images/CXR3192_IM-1505/0.png,True,"{
-  ""lung"": ""Lucencies throughout the chest XXXX representing emphysematous change. Scattered bilateral calcified granulomas. No pneumothorax."",
-  ""heart"": ""The heart is normal in size."",
-  ""mediastinal"": ""Mild fullness of the left hilum, small interval change from prior exam. Large hiatal hernia, increased from prior exam."",
-  ""bone"": """",
-  ""others"": """"
-}","{
-  ""lung"": ""Lucencies throughout the chest representing emphysematous change. Scattered bilateral calcified granulomas. No pneumothorax."",
-  ""heart"": ""The heart is normal in size."",
-  ""mediastinal"": ""Mild fullness of the left hilum, small interval change from prior exam. Large hiatal hernia, increased from prior exam."",
-  ""bone"": """",
-  ""others"": """"
-}"
-1205,normal,normal,"Chest radiographs, 2 images. ",XXXX-year-old with dyspnea. Preop for bariatric studies.,None.,Normal heart size. Clear lungs without pneumothorax or pleural effusion.,Normal chest exam.,1205_IM-0138-1002.dcm.png,Lateral,138,1002,CXR1205_IM-0138,"{'bone': '', 'heart': 'Normal heart size.', 'lung': 'Clear lungs without pneumothorax or pleural effusion.', 'mediastinal': '', 'others': ''}",test,Normal heart size. Clear lungs without pneumothorax or pleural effusion.,CXR1205_IM-0138,1,/xray_report_gen/data/images/CXR1205_IM-0138/1.png,True,"{
-  ""lung"": ""Clear lungs without pneumothorax or pleural effusion."",
-  ""heart"": ""Normal heart size."",
-  ""mediastinal"": """",
-  ""bone"": """",
-  ""others"": """"
-}","{
-  ""lung"": ""Clear lungs without pneumothorax or pleural effusion."",
-  ""heart"": ""Normal heart size."",
-  ""mediastinal"": """",
-  ""bone"": """",
-  ""others"": """"
-}"
-1434,normal,normal," XXXX CHEST 2V FRONTAL/LATERAL XXXX, XXXX XXXX PM. ",,None.,Both lungs are clear and expanded. Heart and mediastinum normal.,No active disease.,1434_IM-0279-1001.dcm.png,Frontal,279,1001,CXR1434_IM-0279,"{'bone': '', 'heart': 'Heart appears normal', 'lung': 'Lungs are clear and expanded', 'mediastinal': 'Mediastinum appears normal', 'others': ''}",test,Both lungs are clear and expanded. Heart and mediastinum normal.,CXR1434_IM-0279,0,/xray_report_gen/data/images/CXR1434_IM-0279/0.png,True,"{
-  ""lung"": ""Both lungs are clear and expanded."",
-  ""heart"": ""Heart and mediastinum normal."",
-  ""mediastinal"": ""Heart and mediastinum normal."",
-  ""bone"": """",
-  ""others"": """"
-}","{
-  ""lung"": ""Both lungs are clear and expanded."",
-  ""heart"": ""Heart and mediastinum normal."",
-  ""mediastinal"": """",
-  ""bone"": """",
-  ""others"": """"
-}"
-2983,Cicatrix/lung/lower lobe/right;Granuloma/multiple,Cicatrix;Granuloma,Xray Chest PA and Lateral,"XXXX, left rib pain, history of SDH, XXXX, hypokalemia.",,Cardiomediastinal silhouette is within normal limits. No focal consolidation. There is right lower lobe scarring. No pneumothorax or large pleural effusion. Granulomas present. No acute bony abnormalities.,1. No acute cardiopulmonary abnormalities. 2. No acute bony abnormalities. .,2983_IM-1371-1001.dcm.png,Lateral,1371,1001,CXR2983_IM-1371,"{'bone': 'No acute bony abnormalities.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'No focal consolidation. Right lower lobe scarring. No pneumothorax or large pleural effusion. Granulomas present.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': ''}",test,Cardiomediastinal silhouette is within normal limits. No focal consolidation. There is right lower lobe scarring. No pneumothorax or large pleural effusion. Granulomas present. No acute bony abnormalities.,CXR2983_IM-1371,1,/xray_report_gen/data/images/CXR2983_IM-1371/1.png,True,"{
-  ""lung"": ""No focal consolidation. There is right lower lobe scarring. Granulomas present."",
   ""heart"": ""Cardiomediastinal silhouette is within normal limits."",
   ""mediastinal"": """",
-  ""bone"": ""No acute bony abnormalities."",
-  ""others"": ""No pneumothorax or large pleural effusion.""
+  ""bone"": ""No acute osseous findings."",
+  ""others"": """"
+}"
+1004,"Aorta/tortuous;Shoulder/bilateral/degenerative;Spine/degenerative;Catheters, Indwelling","Aorta;Shoulder;Spine;Catheters, Indwelling",Xray Chest PA and Lateral,XXXX-year-old with XXXX for one month. History bronchitis.,Two views of the chest dated XXXX.,"The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. The aorta is tortuous and ectatic. There are degenerative changes of the acromioclavicular joints. There degenerative changes of the spine. There is an IVC XXXX identified.",No acute cardiopulmonary disease.,1004_IM-0005-2001.dcm.png,Lateral,5,2001,CXR1004_IM-0005,"{'bone': 'Degenerative changes of the acromioclavicular joints. Degenerative changes of the spine.', 'heart': 'Within normal limits.', 'lung': 'No pleural effusion or pneumothorax. No focal air space opacity to suggest pneumonia.', 'mediastinal': 'Within normal limits.', 'others': 'Aorta is tortuous and ectatic. IVC identified.'}",test,"The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. The aorta is tortuous and ectatic. There are degenerative changes of the acromioclavicular joints. There degenerative changes of the spine. There is an IVC XXXX identified.",CXR1004_IM-0005,1,/xray_report_gen/data/images/CXR1004_IM-0005/1.png,True,"{
+  ""lung"": ""There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia."",
+  ""heart"": ""The heart is within normal limits."",
+  ""mediastinal"": ""The mediastinum is within normal limits. The aorta is tortuous and ectatic."",
+  ""bone"": ""There are degenerative changes of the acromioclavicular joints. There are degenerative changes of the spine."",
+  ""others"": ""There is an IVC XXXX identified.""
 }","{
-  ""lung"": ""No focal consolidation. There is right lower lobe scarring. Granulomas present."",
+    ""lung"": ""No pleural effusion or pneumothorax. No focal air space opacity to suggest a pneumonia."",
+    ""heart"": ""Cardiac contours within normal limits."",
+    ""mediastinal"": ""Mediastinal contours within normal limits. Aorta is tortuous and ectatic."",
+    ""bone"": ""Degenerative changes of the acromioclavicular joints. Degenerative changes of the spine."",
+    ""others"": ""IVC XXXX identified.""
+}"
+3844,normal,normal,"PA and lateral views of the chest XXXX, XXXX XXXX PM ",chest pain,,Lungs are clear. No pleural effusions or pneumothoraces. heart size is upper limits of normal.,Heart size upper limits of normal with clear lungs.,3844_IM-1945-1001.dcm.png,Frontal,1945,1001,CXR3844_IM-1945,"{'bone': '', 'heart': 'Heart size is upper limits of normal.', 'lung': 'Lungs are clear. No pleural effusions or pneumothoraces.', 'mediastinal': '', 'others': ''}",test,Lungs are clear. No pleural effusions or pneumothoraces. heart size is upper limits of normal.,CXR3844_IM-1945,0,/xray_report_gen/data/images/CXR3844_IM-1945/0.png,True,"{
+  ""lung"": ""Lungs are clear. No pleural effusions or pneumothoraces."",
+  ""heart"": ""heart size is upper limits of normal."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""Lungs are clear. No pleural effusions or pneumothoraces."",
+  ""heart"": ""Heart size is upper limits of normal."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}"
+1588,normal,normal," PA and lateral chest XXXX, XXXX at XXXX. ",XXXX XXXX,,"Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.",Normal chest,1588_IM-0382-2001.dcm.png,Lateral,382,2001,CXR1588_IM-0382,"{'bone': '', 'heart': 'Heart size normal.', 'lung': 'Lungs are clear. No pneumonia, effusions, edema, pneumothorax, nodules or masses.', 'mediastinal': '', 'others': 'XXXX are normal.'}",test,"Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.",CXR1588_IM-0382,1,/xray_report_gen/data/images/CXR1588_IM-0382/1.png,True,"{
+  ""lung"": ""Lungs are clear. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses."",
+  ""heart"": ""Heart size normal."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""XXXX are normal.""
+}","{
+  ""lung"": ""Lungs are clear. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses."",
+  ""heart"": ""Heart size normal."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""XXXX are normal.""
+}"
+2797,normal,normal,Xray Chest PA and Lateral,The patient is a XXXX-year-old XXXX with chest pain and shortness of breath for one XXXX.,None available.,"The trachea is midline. The cardiomediastinal silhouette is normal. The lungs are clear, without evidence of acute infiltrate or effusion. There is no pneumothorax. Visualized bony structures reveal no acute abnormalities.",No acute cardiopulmonary abnormalities. .,2797_IM-1229-2001.dcm.png,Lateral,1229,2001,CXR2797_IM-1229,"{'bone': 'Visualized bony structures reveal no acute abnormalities.', 'heart': 'Cardiac contours are normal.', 'lung': 'Lungs are clear without evidence of acute infiltrate or effusion. No pneumothorax.', 'mediastinal': 'Mediastinal contours are normal. Trachea is midline.', 'others': ''}",test,"The trachea is midline. The cardiomediastinal silhouette is normal. The lungs are clear, without evidence of acute infiltrate or effusion. There is no pneumothorax. Visualized bony structures reveal no acute abnormalities.",CXR2797_IM-1229,1,/xray_report_gen/data/images/CXR2797_IM-1229/1.png,True,"{
+  ""lung"": ""The lungs are clear, without evidence of acute infiltrate or effusion. There is no pneumothorax."",
+  ""heart"": ""The cardiomediastinal silhouette is normal."",
+  ""mediastinal"": ""The trachea is midline."",
+  ""bone"": ""Visualized bony structures reveal no acute abnormalities."",
+  ""others"": """"
+}","{
+  ""lung"": ""The lungs are clear, without evidence of acute infiltrate or effusion."",
+  ""heart"": ""The cardiomediastinal silhouette is normal."",
+  ""mediastinal"": ""The trachea is midline."",
+  ""bone"": ""Visualized bony structures reveal no acute abnormalities."",
+  ""others"": """"
+}"
+2590,normal,normal,Xray Chest PA and Lateral,"Cervical cancer, preop",XXXX,The heart is normal in size. The mediastinum is unremarkable. The lungs are clear.,No acute disease.,2590_IM-1083-1001.dcm.png,Frontal,1083,1001,CXR2590_IM-1083,"{'bone': '', 'heart': 'The heart is normal in size.', 'lung': 'The lungs are clear.', 'mediastinal': 'The mediastinum is unremarkable.', 'others': ''}",test,The heart is normal in size. The mediastinum is unremarkable. The lungs are clear.,CXR2590_IM-1083,0,/xray_report_gen/data/images/CXR2590_IM-1083/0.png,True,"{
+  ""lung"": ""The lungs are clear."",
+  ""heart"": ""The heart is normal in size."",
+  ""mediastinal"": ""The mediastinum is unremarkable."",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""The lungs are clear."",
+  ""heart"": ""The heart is normal in size."",
+  ""mediastinal"": ""The mediastinum is unremarkable."",
+  ""bone"": """",
+  ""others"": """"
+}"
+745,Atherosclerosis/aorta;Arthritis,Atherosclerosis;Arthritis,Xray Chest PA and Lateral,Right-sided pain,,The lungs are clear. There is no pleural effusion or pneumothorax. The heart is not significantly enlarged. There are atherosclerotic changes of the aorta. Arthritic changes of the skeletal structures are noted.,No acute pulmonary disease.,745_IM-2299-2001.dcm.png,Lateral,2299,2001,CXR745_IM-2299,"{'bone': 'Arthritic changes of the skeletal structures are noted.', 'heart': 'The heart is not significantly enlarged.', 'lung': 'The lungs are clear. There is no pleural effusion or pneumothorax.', 'mediastinal': 'There are atherosclerotic changes of the aorta.', 'others': ''}",test,The lungs are clear. There is no pleural effusion or pneumothorax. The heart is not significantly enlarged. There are atherosclerotic changes of the aorta. Arthritic changes of the skeletal structures are noted.,CXR745_IM-2299,1,/xray_report_gen/data/images/CXR745_IM-2299/1.png,True,"{
+  ""lung"": ""The lungs are clear. There is no pleural effusion or pneumothorax."",
+  ""heart"": ""The heart is not significantly enlarged."",
+  ""mediastinal"": ""There are atherosclerotic changes of the aorta."",
+  ""bone"": ""Arthritic changes of the skeletal structures are noted."",
+  ""others"": """"
+}","{
+  ""lung"": ""The lungs are clear. There is no pleural effusion or pneumothorax."",
+  ""heart"": ""The heart is not significantly enlarged."",
+  ""mediastinal"": ""Atherosclerotic changes of the aorta."",
+  ""bone"": ""Arthritic changes of the skeletal structures are noted."",
+  ""others"": """"
+}"
+850,normal,normal,CHEST (PA AND LATERAL),"XXXX-year-old female, followup asthma exacerbation.","XXXX, XXXX.","Stable appearance of the cardiomediastinal silhouette. There is no pneumothorax, pleural effusion, or focal airspace consolidation.",No acute cardiopulmonary findings.,850_IM-2373-0001-0001.dcm.png,Frontal,2373,1,CXR850_IM-2373-0001,"{'bone': '', 'heart': 'Stable appearance of the cardiac silhouette.', 'lung': 'No pneumothorax, pleural effusion, or focal airspace consolidation.', 'mediastinal': 'Stable appearance of the mediastinal silhouette.', 'others': ''}",test,"Stable appearance of the cardiomediastinal silhouette. There is no pneumothorax, pleural effusion, or focal airspace consolidation.",CXR850_IM-2373,0,/xray_report_gen/data/images/CXR850_IM-2373/0.png,True,"{
+  ""lung"": ""There is no pneumothorax, pleural effusion, or focal airspace consolidation."",
+  ""heart"": ""Stable appearance of the cardiomediastinal silhouette."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""No pneumothorax, pleural effusion, or focal airspace consolidation."",
+  ""heart"": ""Stable appearance of the cardiomediastinal silhouette."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}"
+699,Cardiomegaly;Cardiac Shadow/enlarged;Opacity/lung/interstitial;Markings/lung/base/bilateral/interstitial;Markings/lung/middle lobe/bilateral/interstitial,Cardiomegaly;Cardiac Shadow;Opacity;Markings;Markings,AP and lateral chest,"XXXX-year-old male, chest pain",XXXX,"Stable enlargement of the cardiac silhouette, stable mediastinal contours. Increased interstitial markings in the central lungs and bases, right greater than left. XXXX opacity on the lateral view over the heart also present on the previous exam suggesting chronic subsegmental atelectasis or scarring. No definite pleural effusion seen.","Cardiomegaly and increased interstitial opacities which may be compatible with mild pulmonary edema, differential diagnosis includes infection, inflammation, aspiration",699_IM-2263-1001.dcm.png,Frontal,2263,1001,CXR699_IM-2263,"{'bone': '', 'heart': 'Stable enlargement of the cardiac silhouette. XXXX opacity on the lateral view over the heart also present on the previous exam suggesting chronic subsegmental atelectasis or scarring.', 'lung': 'Increased interstitial markings in the central lungs and bases, right greater than left. No definite pleural effusion seen.', 'mediastinal': 'Stable mediastinal contours.', 'others': ''}",test,"Stable enlargement of the cardiac silhouette, stable mediastinal contours. Increased interstitial markings in the central lungs and bases, right greater than left. XXXX opacity on the lateral view over the heart also present on the previous exam suggesting chronic subsegmental atelectasis or scarring. No definite pleural effusion seen.",CXR699_IM-2263,0,/xray_report_gen/data/images/CXR699_IM-2263/0.png,True,"{
+  ""lung"": ""Increased interstitial markings in the central lungs and bases, right greater than left. XXXX opacity on the lateral view over the heart also present on the previous exam suggesting chronic subsegmental atelectasis or scarring. No definite pleural effusion seen."",
+  ""heart"": ""Stable enlargement of the cardiac silhouette."",
+  ""mediastinal"": ""Stable mediastinal contours."",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""Increased interstitial markings in the central lungs and bases, right greater than left. XXXX opacity on the lateral view over the heart suggesting chronic subsegmental atelectasis or scarring. No definite pleural effusion seen."",
+  ""heart"": ""Stable enlargement of the cardiac silhouette."",
+  ""mediastinal"": ""Stable mediastinal contours."",
+  ""bone"": """",
+  ""others"": """"
+}"
+663,normal,normal,Xray Chest PA and Lateral,XXXX-year-old male with chest pain,Chest XXXX,"Lungs are clear bilaterally with no focal infiltrate, pleural effusion, or pneumothoraces. Cardiomediastinal silhouette is within normal limits. No acute bony or soft tissue abnormality.",No acute cardiopulmonary abnormality. .,663_IM-2239-2001.dcm.png,Lateral,2239,2001,CXR663_IM-2239,"{'bone': 'No acute bony abnormality.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'Lungs are clear bilaterally with no focal infiltrate, pleural effusion, or pneumothoraces.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': 'No acute soft tissue abnormality.'}",test,"Lungs are clear bilaterally with no focal infiltrate, pleural effusion, or pneumothoraces. Cardiomediastinal silhouette is within normal limits. No acute bony or soft tissue abnormality.",CXR663_IM-2239,1,/xray_report_gen/data/images/CXR663_IM-2239/1.png,True,"{
+  ""lung"": ""Lungs are clear bilaterally with no focal infiltrate, pleural effusion, or pneumothoraces."",
   ""heart"": ""Cardiomediastinal silhouette is within normal limits."",
   ""mediastinal"": """",
-  ""bone"": ""No acute bony abnormalities."",
-  ""others"": """"
-}"
-2865,Implanted Medical Device/heart/right,Implanted Medical Device,"PA and lateral views of the chest dated XXXX, XXXX.",Post XXXX closure.,None.,"The cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size. The lungs are clear of focal airspace disease, pneumothorax, or pleural effusion. XXXX closure device demonstrated projecting over the right heart. There are no acute bony findings.",No acute cardiopulmonary findings.,2865_IM-1273-1001.dcm.png,Frontal,1273,1001,CXR2865_IM-1273,"{'bone': 'No acute bony findings.', 'heart': 'Cardiomediastinal silhouette within normal limits in size.', 'lung': 'Lungs are clear of focal airspace disease, pneumothorax, or pleural effusion.', 'mediastinal': 'Mediastinal contour within normal limits in size.', 'others': 'XXXX closure device demonstrated projecting over the right heart.'}",test,"The cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size. The lungs are clear of focal airspace disease, pneumothorax, or pleural effusion. XXXX closure device demonstrated projecting over the right heart. There are no acute bony findings.",CXR2865_IM-1273,0,/xray_report_gen/data/images/CXR2865_IM-1273/0.png,True,"{
-  ""lung"": ""The lungs are clear of focal airspace disease, pneumothorax, or pleural effusion."",
-  ""heart"": ""The cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size. XXXX closure device demonstrated projecting over the right heart."",
-  ""mediastinal"": """",
-  ""bone"": ""There are no acute bony findings."",
+  ""bone"": ""No acute bony or soft tissue abnormality."",
   ""others"": """"
 }","{
-  ""lung"": ""The lungs are clear of focal airspace disease, pneumothorax, or pleural effusion."",
-  ""heart"": ""XXXX closure device demonstrated projecting over the right heart. The cardiomediastinal silhouette is within normal limits in size."",
+  ""lung"": ""Lungs are clear bilaterally with no focal infiltrate, pleural effusion, or pneumothoraces."",
+  ""heart"": ""Cardiomediastinal silhouette is within normal limits."",
   ""mediastinal"": """",
-  ""bone"": ""There are no acute bony findings."",
-  ""others"": """"
-}"
-1582,normal,normal, CHEST 2V FRONTAL/LATERAL. ,"PRE-OP VENTRAL HERNIA REPAIR, OBESITY, XXXX APNEA, XXXX",None.,Both lungs are clear and expanded. Heart and mediastinum normal.,No active disease.,1582_IM-0378-1002.dcm.png,Lateral,378,1002,CXR1582_IM-0378,"{'bone': '', 'heart': 'Heart normal.', 'lung': 'Both lungs are clear and expanded.', 'mediastinal': 'Mediastinum normal.', 'others': ''}",test,Both lungs are clear and expanded. Heart and mediastinum normal.,CXR1582_IM-0378,1,/xray_report_gen/data/images/CXR1582_IM-0378/1.png,True,"{
-  ""lung"": ""Both lungs are clear and expanded."",
-  ""heart"": ""Heart and mediastinum normal."",
-  ""mediastinal"": ""Heart and mediastinum normal."",
-  ""bone"": """",
-  ""others"": """"
-}","{
-  ""lung"": ""Both lungs are clear and expanded."",
-  ""heart"": ""Heart and mediastinum normal."",
-  ""mediastinal"": """",
-  ""bone"": """",
+  ""bone"": ""No acute bony or soft tissue abnormality."",
   ""others"": """"
 }"
 1319,normal,normal,PA lateral chest x-XXXX XXXX,"Transplant, XXXX evaluation",,The heart size and pulmonary vascularity appear within normal limits. The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.,No evidence of active disease.,1319_IM-0205-3001.dcm.png,Lateral,205,3001,CXR1319_IM-0205,"{'bone': '', 'heart': 'Heart size appears within normal limits.', 'lung': 'The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.', 'mediastinal': '', 'others': ''}",test,The heart size and pulmonary vascularity appear within normal limits. The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.,CXR1319_IM-0205,1,/xray_report_gen/data/images/CXR1319_IM-0205/1.png,True,"{
@@ -194,133 +207,445 @@ uid,MeSH,Problems,image,indication,comparison,findings,impression,filename,proje
   ""bone"": """",
   ""others"": ""No pleural effusion or pneumothorax is seen.""
 }"
-30,normal,normal,"Chest x-XXXX XXXX and lateral, XXXX ",XXXX-year-old male with chest pain.,,"Lungs are clear without focal consolidation, effusion, or pneumothorax. Normal heart size. Negative for pneumoperitoneum. Bony thorax and soft tissue grossly unremarkable",Negative acute cardiopulmonary abnormality.,30_IM-1385-2001.dcm.png,Lateral,1385,2001,CXR30_IM-1385,"{'bone': 'Bony thorax and soft tissue grossly unremarkable', 'heart': 'Normal heart size.', 'lung': 'Lungs are clear without focal consolidation, effusion, or pneumothorax.', 'mediastinal': '', 'others': 'Negative for pneumoperitoneum.'}",test,"Lungs are clear without focal consolidation, effusion, or pneumothorax. Normal heart size. Negative for pneumoperitoneum. Bony thorax and soft tissue grossly unremarkable",CXR30_IM-1385,1,/xray_report_gen/data/images/CXR30_IM-1385/1.png,True,"{
-  ""lung"": ""Lungs are clear without focal consolidation, effusion, or pneumothorax."",
-  ""heart"": ""Normal heart size."",
-  ""mediastinal"": """",
-  ""bone"": ""Bony thorax and soft tissue grossly unremarkable."",
-  ""others"": ""Negative for pneumoperitoneum.""
-}","{
-  ""lung"": ""Lungs are clear without focal consolidation, effusion, or pneumothorax."",
-  ""heart"": ""Normal heart size."",
-  ""mediastinal"": """",
-  ""bone"": ""Bony thorax and soft tissue grossly unremarkable."",
-  ""others"": ""Negative for pneumoperitoneum.""
-}"
-1410,normal,normal,"PA and lateral chest, XXXX, XXXX XXXX PM ",XXXX-year-old female with history of XXXX.,None.,The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.,1. No acute radiographic cardiopulmonary process.,1410_IM-0260-1001.dcm.png,Frontal,260,1001,CXR1410_IM-0260,"{'bone': '', 'heart': 'Heart size is normal.', 'lung': 'No focal infiltrates. No nodules or masses. No visible pneumothorax. No visible pleural fluid.', 'mediastinal': 'Mediastinal contour is within normal limits.', 'others': 'No visible free intraperitoneal air under the diaphragm.'}",test,The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.,CXR1410_IM-0260,0,/xray_report_gen/data/images/CXR1410_IM-0260/0.png,True,"{
+1410,normal,normal,"PA and lateral chest, XXXX, XXXX XXXX PM ",XXXX-year-old female with history of XXXX.,None.,The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.,1. No acute radiographic cardiopulmonary process.,1410_IM-0260-1002.dcm.png,Lateral,260,1002,CXR1410_IM-0260,"{'bone': '', 'heart': 'Heart size is normal.', 'lung': 'No focal infiltrates. No nodules or masses. No visible pneumothorax. No visible pleural fluid.', 'mediastinal': 'Mediastinal contour is within normal limits.', 'others': 'No visible free intraperitoneal air under the diaphragm.'}",test,The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.,CXR1410_IM-0260,1,/xray_report_gen/data/images/CXR1410_IM-0260/1.png,True,"{
   ""lung"": ""The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid."",
   ""heart"": ""The heart size is normal."",
   ""mediastinal"": ""The mediastinal contour is within normal limits."",
   ""bone"": """",
   ""others"": ""The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.""
 }","{
-  ""lung"": ""The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid."",
+  ""lung"": ""The lungs are free of any focal infiltrates. No nodules or masses. No visible pneumothorax. No visible pleural fluid."",
   ""heart"": ""The heart size is normal."",
   ""mediastinal"": ""The mediastinal contour is within normal limits."",
   ""bone"": """",
   ""others"": ""The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.""
 }"
-3085,No Indexing,No Indexing,"Chest x-XXXX, 2 views, XXXX, XXXX XXXX PM","XXXX, XXXX vehicle XXXX 2 XXXX ago",none,"Normal cardiomediastinal contours. Marrow pneumothorax, focal lung consolidation or pleural effusions.",No acute cardiopulmonary abnormality.,3085_IM-1444-1001.dcm.png,Frontal,1444,1001,CXR3085_IM-1444,"{'bone': '', 'heart': 'Normal cardiac contours.', 'lung': 'Pneumothorax, focal lung consolidation or pleural effusions.', 'mediastinal': 'Normal mediastinal contours.', 'others': ''}",test,"Normal cardiomediastinal contours. Marrow pneumothorax, focal lung consolidation or pleural effusions.",CXR3085_IM-1444,0,/xray_report_gen/data/images/CXR3085_IM-1444/0.png,True,"{
-  ""lung"": ""Marrow pneumothorax, focal lung consolidation or pleural effusions."",
+3118,Density/thorax/round/multiple;Granulomatous Disease/chronic,Density;Granulomatous Disease,Chest XXXX and lateral ,XXXX-year-old female with arthritis and dyspnea,Chest radiograph XXXX,"No pneumothorax, pleural effusion, or focal airspace disease. Heart size normal. Cardiomediastinal silhouette stable. Nodular densities consistent with chronic granulomatous disease. Bony structures appear intact.",Negative for acute cardiopulmonary disease.,3118_IM-1466-1001.dcm.png,Frontal,1466,1001,CXR3118_IM-1466,"{'bone': 'Bony structures appear intact.', 'heart': 'Heart size normal.', 'lung': 'No pneumothorax, pleural effusion, or focal airspace disease. Nodular densities consistent with chronic granulomatous disease.', 'mediastinal': 'Cardiomediastinal silhouette stable.', 'others': ''}",test,"No pneumothorax, pleural effusion, or focal airspace disease. Heart size normal. Cardiomediastinal silhouette stable. Nodular densities consistent with chronic granulomatous disease. Bony structures appear intact.",CXR3118_IM-1466,0,/xray_report_gen/data/images/CXR3118_IM-1466/0.png,True,"{
+  ""lung"": ""No pneumothorax, pleural effusion, or focal airspace disease. Nodular densities consistent with chronic granulomatous disease."",
+  ""heart"": ""Heart size normal. Cardiomediastinal silhouette stable."",
+  ""mediastinal"": """",
+  ""bone"": ""Bony structures appear intact."",
+  ""others"": """"
+}","{
+  ""lung"": ""No pneumothorax, pleural effusion, or focal airspace disease. Nodular densities consistent with chronic granulomatous disease."",
+  ""heart"": ""Heart size normal. Cardiomediastinal silhouette stable."",
+  ""mediastinal"": """",
+  ""bone"": ""Bony structures appear intact."",
+  ""others"": """"
+}"
+3388,Calcinosis/lung/upper lobe/left;Granuloma/lung/upper lobe/left,Calcinosis;Granuloma,"PA and lateral chest x-XXXX XXXX, XXXX XXXX hours ","XXXX-year-old male, history of T4 supraglottic squamous cell carcinoma.","Chest x-XXXX XXXX, XXXX","Normal heart size and mediastinal contours. Stable calcification in the left upper lobe, XXXX representing a granuloma. No focal airspace opacities. No pleural effusion or pneumothorax. Visualized osseous structures are unremarkable in appearance.",No acute cardiopulmonary abnormalities. No radiographic evidence of metastatic disease.,3388_IM-1633-1002.dcm.png,Lateral,1633,1002,CXR3388_IM-1633,"{'bone': 'Visualized osseous structures are unremarkable in appearance.', 'heart': 'Normal heart size.', 'lung': 'Stable calcification in the left upper lobe, representing a granuloma. No focal airspace opacities. No pleural effusion or pneumothorax.', 'mediastinal': 'Normal mediastinal contours.', 'others': ''}",test,"Normal heart size and mediastinal contours. Stable calcification in the left upper lobe, XXXX representing a granuloma. No focal airspace opacities. No pleural effusion or pneumothorax. Visualized osseous structures are unremarkable in appearance.",CXR3388_IM-1633,1,/xray_report_gen/data/images/CXR3388_IM-1633/1.png,True,"{
+  ""lung"": ""Stable calcification in the left upper lobe, XXXX representing a granuloma. No focal airspace opacities. No pleural effusion or pneumothorax."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""Normal mediastinal contours."",
+  ""bone"": ""Visualized osseous structures are unremarkable in appearance."",
+  ""others"": """"
+}","{
+  ""lung"": ""Stable calcification in the left upper lobe, representing a granuloma. No focal airspace opacities. No pleural effusion or pneumothorax."",
+  ""heart"": ""Normal heart size."",
+  ""mediastinal"": ""Mediastinal contours within normal limits."",
+  ""bone"": ""Visualized osseous structures are unremarkable in appearance."",
+  ""others"": """"
+}"
+2354,normal,normal,"PA and lateral chest radiographs XXXX, XXXX. ",Chest pain.,Chest radiograph XXXX.,Lungs are clear. No pneumothorax or pleural effusion. Normal heart and mediastinal contours. Normal pulmonary vasculature. Bony thorax intact.,No acute cardiopulmonary abnormality.,2354_IM-0918-1001.dcm.png,Frontal,918,1001,CXR2354_IM-0918,"{'bone': 'Bony thorax intact.', 'heart': 'Normal heart contours.', 'lung': 'Lungs are clear. No pneumothorax or pleural effusion. Normal pulmonary vasculature.', 'mediastinal': 'Normal mediastinal contours.', 'others': ''}",test,Lungs are clear. No pneumothorax or pleural effusion. Normal heart and mediastinal contours. Normal pulmonary vasculature. Bony thorax intact.,CXR2354_IM-0918,0,/xray_report_gen/data/images/CXR2354_IM-0918/0.png,True,"{
+  ""lung"": ""Lungs are clear. No pneumothorax or pleural effusion. Normal pulmonary vasculature."",
+  ""heart"": ""Normal heart."",
+  ""mediastinal"": ""Normal mediastinal contours."",
+  ""bone"": ""Bony thorax intact."",
+  ""others"": """"
+}","{
+  ""lung"": ""Lungs are clear. No pneumothorax or pleural effusion. Normal pulmonary vasculature."",
+  ""heart"": ""Normal heart."",
+  ""mediastinal"": ""Normal mediastinal contours."",
+  ""bone"": ""Bony thorax intact."",
+  ""others"": """"
+}"
+751,normal,normal,Xray Chest PA and Lateral,"XXXX-year-old female, pain",,"Heart size within normal limits. No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema. No pneumothorax.",No acute cardiopulmonary findings,751_IM-2305-2001.dcm.png,Lateral,2305,2001,CXR751_IM-2305,"{'bone': '', 'heart': 'Heart size within normal limits.', 'lung': 'No focal alveolar consolidation. No definite pleural effusion seen. No typical findings of pulmonary edema. No pneumothorax.', 'mediastinal': '', 'others': ''}",test,"Heart size within normal limits. No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema. No pneumothorax.",CXR751_IM-2305,1,/xray_report_gen/data/images/CXR751_IM-2305/1.png,True,"{
+  ""lung"": ""No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema. No pneumothorax."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema. No pneumothorax."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}"
+261,normal,normal,Xray Chest PA and Lateral,"XXXX-year-old male, dyspnea.",Chest x-XXXX dated XXXX.,No focal areas of consolidation. Heart size within normal limits. No pleural effusions. No evidence of pneumothorax. Osseous structures appear intact.,No acute cardiopulmonary abnormality. .,261_IM-1100-1001.dcm.png,Frontal,1100,1001,CXR261_IM-1100,"{'bone': 'Osseous structures appear intact.', 'heart': 'Heart size within normal limits.', 'lung': 'No focal areas of consolidation. No pleural effusions. No evidence of pneumothorax.', 'mediastinal': '', 'others': ''}",test,No focal areas of consolidation. Heart size within normal limits. No pleural effusions. No evidence of pneumothorax. Osseous structures appear intact.,CXR261_IM-1100,0,/xray_report_gen/data/images/CXR261_IM-1100/0.png,True,"{
+  ""lung"": ""No focal areas of consolidation. No pleural effusions. No evidence of pneumothorax."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": ""Osseous structures appear intact."",
+  ""others"": """"
+}","{
+  ""lung"": ""No focal areas of consolidation. No pleural effusions. No evidence of pneumothorax."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": ""Osseous structures appear intact."",
+  ""others"": """"
+}"
+3265,normal,normal,"Chest radiographs, 2 XXXX and lateral ",XXXX-year-old female with XXXX,None available,"The heart size and mediastinal contours appear within normal limits. No focal airspace consolidation, pleural effusion or pneumothorax. No acute bony abnormalities.",No acute cardiopulmonary findings.,3265_IM-1551-1001.dcm.png,Frontal,1551,1001,CXR3265_IM-1551,"{'bone': 'No acute bony abnormalities.', 'heart': 'Heart size within normal limits.', 'lung': 'No focal airspace consolidation, pleural effusion or pneumothorax.', 'mediastinal': 'Mediastinal contours appear within normal limits.', 'others': ''}",test,"The heart size and mediastinal contours appear within normal limits. No focal airspace consolidation, pleural effusion or pneumothorax. No acute bony abnormalities.",CXR3265_IM-1551,0,/xray_report_gen/data/images/CXR3265_IM-1551/0.png,True,"{
+  ""lung"": ""No focal airspace consolidation, pleural effusion or pneumothorax."",
+  ""heart"": ""The heart size appears within normal limits."",
+  ""mediastinal"": ""The mediastinal contours appear within normal limits."",
+  ""bone"": ""No acute bony abnormalities."",
+  ""others"": """"
+}","{
+  ""lung"": ""No focal airspace consolidation, pleural effusion or pneumothorax."",
+  ""heart"": ""Heart size appears within normal limits."",
+  ""mediastinal"": ""Mediastinal contours appear within normal limits."",
+  ""bone"": ""No acute bony abnormalities."",
+  ""others"": """"
+}"
+2910,normal,normal,"PA and lateral chest, XXXX, XXXX XXXX PM ",XXXX-year-old male with chest pain.,None.,The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.,1. No acute radiographic cardiopulmonary process.,2910_IM-1314-1001.dcm.png,Frontal,1314,1001,CXR2910_IM-1314,"{'bone': '', 'heart': 'The heart size is normal.', 'lung': 'The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid.', 'mediastinal': 'The mediastinal contour is within normal limits.', 'others': 'The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.'}",test,The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.,CXR2910_IM-1314,0,/xray_report_gen/data/images/CXR2910_IM-1314/0.png,True,"{
+  ""lung"": ""The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid."",
+  ""heart"": ""The heart size is normal."",
+  ""mediastinal"": ""The mediastinal contour is within normal limits."",
+  ""bone"": """",
+  ""others"": ""The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.""
+}","{
+  ""lung"": ""The lungs are free of any focal infiltrates. No nodules or masses. No visible pneumothorax. No visible pleural fluid."",
+  ""heart"": ""The heart size is normal."",
+  ""mediastinal"": ""The mediastinal contour is within normal limits."",
+  ""bone"": """",
+  ""others"": ""The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.""
+}"
+2099,normal,normal,"PA and lateral chest x-XXXX dated XXXX, XXXX at XXXX p.m.. ",XXXX-year-old woman with pleurisy and positive PPD..,"Two-view chest radiograph dated XXXX, XXXX.","The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion.. Cardio mediastinal silhouette is unremarkable. Visualized osseous structures of the thorax are without acute abnormality.",No acute cardiopulmonary abnormality.,2099_IM-0729-1002.dcm.png,Lateral,729,1002,CXR2099_IM-0729,"{'bone': 'Visualized osseous structures of the thorax without acute abnormality.', 'heart': 'Cardiac contours unremarkable.', 'lung': 'Lungs clear bilaterally. No focal consolidation, pneumothorax, or pleural effusion.', 'mediastinal': 'Mediastinal contours unremarkable.', 'others': ''}",test,"The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion.. Cardio mediastinal silhouette is unremarkable. Visualized osseous structures of the thorax are without acute abnormality.",CXR2099_IM-0729,1,/xray_report_gen/data/images/CXR2099_IM-0729/1.png,True,"{
+  ""lung"": ""The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion."",
+  ""heart"": ""Cardio mediastinal silhouette is unremarkable."",
+  ""mediastinal"": """",
+  ""bone"": ""Visualized osseous structures of the thorax are without acute abnormality."",
+  ""others"": """"
+}","{
+  ""lung"": ""The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion."",
+  ""heart"": ""Cardio mediastinal silhouette is unremarkable."",
+  ""mediastinal"": """",
+  ""bone"": ""Visualized osseous structures of the thorax are without acute abnormality."",
+  ""others"": """"
+}"
+2433,Lung/hypoinflation;Pulmonary Atelectasis/base/bilateral;Thoracic Vertebrae/degenerative,Lung;Pulmonary Atelectasis;Thoracic Vertebrae,"Chest Two views PA and lateral XXXX, XXXX XXXX a.m. ",Chest pain,,"Low lung volumes with bibasilar subsegmental atelectasis. No focal consolidations, pleural effusions, or pneumothoraces. Cardiomediastinal silhouette is within normal limits. Degenerative changes of the thoracic spine.",No acute cardiopulmonary abnormality.,2433_IM-0975-2001.dcm.png,Frontal,975,2001,CXR2433_IM-0975,"{'bone': 'Degenerative changes of the thoracic spine.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'Low lung volumes with bibasilar subsegmental atelectasis. No focal consolidations, pleural effusions, or pneumothoraces.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': ''}",test,"Low lung volumes with bibasilar subsegmental atelectasis. No focal consolidations, pleural effusions, or pneumothoraces. Cardiomediastinal silhouette is within normal limits. Degenerative changes of the thoracic spine.",CXR2433_IM-0975,0,/xray_report_gen/data/images/CXR2433_IM-0975/0.png,True,"{
+  ""lung"": ""Low lung volumes with bibasilar subsegmental atelectasis. No focal consolidations, pleural effusions, or pneumothoraces."",
+  ""heart"": ""Cardiomediastinal silhouette is within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": ""Degenerative changes of the thoracic spine."",
+  ""others"": """"
+}","{
+  ""lung"": ""Low lung volumes with bibasilar subsegmental atelectasis. No focal consolidations, pleural effusions, or pneumothoraces."",
+  ""heart"": ""Cardiomediastinal silhouette is within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": ""Degenerative changes of the thoracic spine."",
+  ""others"": """"
+}"
+1855,Airspace Disease/lung/base/left/focal;Opacity/lung/middle lobe/right/round;Deformity/humerus/right,Airspace Disease;Opacity;Deformity,PA and Lateral Chest ,XXXX-year-old male with pneumonia.,PA and lateral views of the chest from XXXX.,Heart size within normal limits. There is focal left lateral base airspace disease. There is a 6 mm nodular opacity in the right midlung. No pneumothorax. No pleural effusion. No displaced rib fractures. There is an apparent deformity of the right humeral surgical neck. This is not seen on the comparison. Correlate clinically with history of fracture.,Left base airspace disease and nodular opacity in the right midlung.,1855_IM-0555-1001.dcm.png,Frontal,555,1001,CXR1855_IM-0555,"{'bone': 'No displaced rib fractures. Apparent deformity of the right humeral surgical neck. Correlate clinically with history of fracture.', 'heart': 'Heart size within normal limits.', 'lung': 'Focal left lateral base airspace disease. 6 mm nodular opacity in the right midlung. No pneumothorax. No pleural effusion.', 'mediastinal': '', 'others': 'This is not seen on the comparison.'}",test,Heart size within normal limits. There is focal left lateral base airspace disease. There is a 6 mm nodular opacity in the right midlung. No pneumothorax. No pleural effusion. No displaced rib fractures. There is an apparent deformity of the right humeral surgical neck. This is not seen on the comparison. Correlate clinically with history of fracture.,CXR1855_IM-0555,0,/xray_report_gen/data/images/CXR1855_IM-0555/0.png,True,"{
+  ""lung"": ""There is focal left lateral base airspace disease. There is a 6 mm nodular opacity in the right midlung. No pneumothorax. No pleural effusion."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": ""No displaced rib fractures. There is an apparent deformity of the right humeral surgical neck. This is not seen on the comparison."",
+  ""others"": ""Correlate clinically with history of fracture.""
+}","{
+  ""lung"": ""Focal left lateral base airspace disease. 6 mm nodular opacity in the right midlung. No pneumothorax. No pleural effusion."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": ""Apparent deformity of the right humeral surgical neck. No displaced rib fractures."",
+  ""others"": ""This is not seen on the comparison. Correlate clinically with history of fracture.""
+}"
+2008,normal,normal,PA and lateral of the chest ,XXXX-year-old chest pain.,,No focal consolidation. No visualized pneumothorax. No pleural effusions. Heart size normal. The cardiomediastinal silhouette is unremarkable.,1. No acute cardiopulmonary findings.,2008_IM-0658-1001.dcm.png,Frontal,658,1001,CXR2008_IM-0658,"{'bone': '', 'heart': 'Heart size normal.', 'lung': 'No focal consolidation. No visualized pneumothorax. No pleural effusions.', 'mediastinal': 'Cardiomediastinal silhouette is unremarkable.', 'others': ''}",test,No focal consolidation. No visualized pneumothorax. No pleural effusions. Heart size normal. The cardiomediastinal silhouette is unremarkable.,CXR2008_IM-0658,0,/xray_report_gen/data/images/CXR2008_IM-0658/0.png,True,"{
+  ""lung"": ""No focal consolidation. No visualized pneumothorax. No pleural effusions."",
+  ""heart"": ""Heart size normal."",
+  ""mediastinal"": ""The cardiomediastinal silhouette is unremarkable."",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""No focal consolidation. No visualized pneumothorax. No pleural effusions."",
+  ""heart"": ""Heart size normal. The cardiomediastinal silhouette is unremarkable."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}"
+1158,Cardiomegaly/mild;Aorta/tortuous,Cardiomegaly;Aorta," CHEST 2V FRONTAL/LATERAL XXXX, XXXX XXXX PM ",dyspnea,"XXXX, XXXX.",Heart size remains slightly large. Aorta remains tortuous. Pulmonary XXXX remain normal. No infiltrates or masses in the lungs.,Continued slight cardiomegaly with no evidence for failure or pneumonia.,1158_IM-0107-2001.dcm.png,Lateral,107,2001,CXR1158_IM-0107,"{'bone': '', 'heart': 'Heart size remains slightly large.', 'lung': 'No infiltrates or masses in the lungs.', 'mediastinal': 'Aorta remains tortuous.', 'others': ''}",test,Heart size remains slightly large. Aorta remains tortuous. Pulmonary XXXX remain normal. No infiltrates or masses in the lungs.,CXR1158_IM-0107,1,/xray_report_gen/data/images/CXR1158_IM-0107/1.png,True,"{
+  ""lung"": ""Pulmonary XXXX remain normal. No infiltrates or masses in the lungs."",
+  ""heart"": ""Heart size remains slightly large."",
+  ""mediastinal"": ""Aorta remains tortuous."",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""No infiltrates or masses in the lungs. Pulmonary XXXX remain normal."",
+  ""heart"": ""Heart size remains slightly large."",
+  ""mediastinal"": ""Aorta remains tortuous."",
+  ""bone"": """",
+  ""others"": """"
+}"
+301,normal,normal,"Chest x-XXXX, 2 views, XXXX, XXXX XXXX PM",XXXX,XXXX,Normal cardiomediastinal contours. Clear lungs bilaterally. No pneumothorax or large effusion.,No acute cardiopulmonary abnormality.,301_IM-1389-2001.dcm.png,Lateral,1389,2001,CXR301_IM-1389,"{'bone': '', 'heart': 'Normal cardiac contours.', 'lung': 'Clear lungs bilaterally. No pneumothorax or large effusion.', 'mediastinal': 'Normal mediastinal contours.', 'others': ''}",test,Normal cardiomediastinal contours. Clear lungs bilaterally. No pneumothorax or large effusion.,CXR301_IM-1389,1,/xray_report_gen/data/images/CXR301_IM-1389/1.png,True,"{
+  ""lung"": ""Clear lungs bilaterally. No pneumothorax or large effusion."",
   ""heart"": ""Normal cardiomediastinal contours."",
   ""mediastinal"": """",
   ""bone"": """",
   ""others"": """"
 }","{
-  ""lung"": ""Marrow pneumothorax, focal lung consolidation or pleural effusions."",
+  ""lung"": ""Clear lungs bilaterally. No pneumothorax or large effusion."",
   ""heart"": ""Normal cardiomediastinal contours."",
   ""mediastinal"": """",
   ""bone"": """",
   ""others"": """"
 }"
-1210,Deformity/thoracic vertebrae/mild;Thoracic Vertebrae/degenerative/mild,Deformity;Thoracic Vertebrae,PA and lateral chest radiographs dated XXXX at XXXX hours.,XXXX-year-old with scheduled hip replacement. Surgical XXXX radiographs.,None.,"The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. There mild degenerative changes of the thoracic spine. There is a slight XXXX deformity of the lower thoracic body which is age-indeterminate.",Age-indeterminate lower thoracic slight XXXX deformity otherwise negative exam.,1210_IM-0142-1001.dcm.png,Frontal,142,1001,CXR1210_IM-0142,"{'bone': 'Mild degenerative changes of the thoracic spine. Slight deformity of the lower thoracic body which is age-indeterminate.', 'heart': 'Normal cardiac contours.', 'lung': 'No pleural effusion or pneumothorax. No focal air space opacity to suggest a pneumonia.', 'mediastinal': 'Normal mediastinal contours.', 'others': ''}",test,"The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. There mild degenerative changes of the thoracic spine. There is a slight XXXX deformity of the lower thoracic body which is age-indeterminate.",CXR1210_IM-0142,0,/xray_report_gen/data/images/CXR1210_IM-0142/0.png,True,"{
-  ""lung"": ""There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia."",
-  ""heart"": ""The heart is within normal limits."",
-  ""mediastinal"": ""The mediastinum is within normal limits."",
-  ""bone"": ""There are mild degenerative changes of the thoracic spine. There is a slight deformity of the lower thoracic body which is age-indeterminate."",
+1472,Lung/bilateral/hyperdistention,Lung,Chest radiograph PA and lateral XXXX/XXXX at XXXX. ,XXXX-year-old male with shortness of breath and XXXX.,Chest radiograph XXXX/XXXX.,Normal cardiac contour. Clear hyperexpanded lungs bilaterally with no pneumothorax or pleural effusion.,1. No acute cardiopulmonary abnormalities.,1472_IM-0305-2001.dcm.png,Lateral,305,2001,CXR1472_IM-0305,"{'bone': '', 'heart': 'Normal cardiac contour.', 'lung': 'Clear hyperexpanded lungs bilaterally with no pneumothorax or pleural effusion.', 'mediastinal': '', 'others': ''}",test,Normal cardiac contour. Clear hyperexpanded lungs bilaterally with no pneumothorax or pleural effusion.,CXR1472_IM-0305,1,/xray_report_gen/data/images/CXR1472_IM-0305/1.png,True,"{
+  ""lung"": ""Clear hyperexpanded lungs bilaterally with no pneumothorax or pleural effusion."",
+  ""heart"": ""Normal cardiac contour."",
+  ""mediastinal"": """",
+  ""bone"": """",
   ""others"": """"
 }","{
-  ""lung"": ""There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia."",
-  ""heart"": ""The heart is within normal limits."",
-  ""mediastinal"": ""The mediastinum is within normal limits."",
-  ""bone"": ""There are mild degenerative changes of the thoracic spine. There is a slight deformity of the lower thoracic body which is age-indeterminate."",
+  ""lung"": ""Clear hyperexpanded lungs bilaterally with no pneumothorax or pleural effusion."",
+  ""heart"": ""Normal cardiac contour."",
+  ""mediastinal"": """",
+  ""bone"": """",
   ""others"": """"
 }"
-3378,"Pneumothorax/apex/right/moderate;Fractures, Bone/ribs/right/multiple","Pneumothorax;Fractures, Bone",PA and lateral chest x-XXXX XXXX at XXXX hours. ,XXXX,None available,There is a moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. There is a minimally displaced right lateral 8th rib fracture and probable nondisplaced right lateral 7th rib fracture. Cardiomediastinal silhouette is within normal limits. Left lung is clear.,1. Moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. 2. Minimally displaced right lateral 8th rib fracture probable nondisplaced right lateral 7th rib fracture.,3378_IM-1627-1001.dcm.png,Frontal,1627,1001,CXR3378_IM-1627,"{'bone': 'Minimally displaced right lateral 8th rib fracture. Probable nondisplaced right lateral 7th rib fracture.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'Moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. Left lung is clear.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': ''}",test,There is a moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. There is a minimally displaced right lateral 8th rib fracture and probable nondisplaced right lateral 7th rib fracture. Cardiomediastinal silhouette is within normal limits. Left lung is clear.,CXR3378_IM-1627,0,/xray_report_gen/data/images/CXR3378_IM-1627/0.png,True,"{
-  ""lung"": ""There is a moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. Left lung is clear."",
+2074,"Lung/hypoinflation;Aorta, Thoracic/tortuous;Pleural Effusion/bilateral/small;Opacity/lung/base/bilateral;Deformity/thoracic vertebrae/anterior;Pulmonary Atelectasis/bilateral;Opacity/mediastinum/right","Lung;Aorta, Thoracic;Pleural Effusion;Opacity;Deformity;Pulmonary Atelectasis;Opacity",Chest x-XXXX AP and lateral on XXXX ,XXXX-year-old female with chest pain persistent vomiting.,Chest x-XXXX on XXXX,Low lung volumes. Stable ectasia of the thoracic aorta. Stable right upper mediastinal Bilateral small pleural effusions and bibasilar airspace opacities. The heart size and mediastinal silhouette are within normal limits for contour. No pneumothorax. Stable wedging of the anterior thoracic vertebral bodies.,Bilateral small pleural effusions and associated atelectasis. Stable right upper mediastinal opacity consistent with XXXX goiter.,2074_IM-0708-2001.dcm.png,Lateral,708,2001,CXR2074_IM-0708,"{'bone': 'Stable wedging of the anterior thoracic vertebral bodies.', 'heart': 'Heart size is within normal limits for contour.', 'lung': 'Low lung volumes. Bilateral small pleural effusions. Bibasilar airspace opacities. No pneumothorax.', 'mediastinal': 'Stable ectasia of the thoracic aorta. Right upper mediastinal silhouette is within normal limits for contour.', 'others': ''}",test,Low lung volumes. Stable ectasia of the thoracic aorta. Stable right upper mediastinal Bilateral small pleural effusions and bibasilar airspace opacities. The heart size and mediastinal silhouette are within normal limits for contour. No pneumothorax. Stable wedging of the anterior thoracic vertebral bodies.,CXR2074_IM-0708,1,/xray_report_gen/data/images/CXR2074_IM-0708/1.png,True,"{
+  ""lung"": ""Low lung volumes. Bilateral small pleural effusions and bibasilar airspace opacities. No pneumothorax."",
+  ""heart"": ""The heart size and mediastinal silhouette are within normal limits for contour."",
+  ""mediastinal"": ""Stable ectasia of the thoracic aorta."",
+  ""bone"": ""Stable wedging of the anterior thoracic vertebral bodies."",
+  ""others"": """"
+}","{
+  ""lung"": ""Low lung volumes. Bilateral small pleural effusions and bibasilar airspace opacities. No pneumothorax."",
+  ""heart"": ""Heart size is within normal limits for contour."",
+  ""mediastinal"": ""Stable ectasia of the thoracic aorta. Mediastinal silhouette is within normal limits."",
+  ""bone"": ""Stable wedging of the anterior thoracic vertebral bodies."",
+  ""others"": """"
+}"
+1117,Opacity/lung/lower lobe/left/posterior;Opacity/lung/upper lobe/right/focal;Airspace Disease/lung/lower lobe/left/patchy,Opacity;Opacity;Airspace Disease,Xray Chest PA and Lateral,"XXXX, XXXX, XXXX.",None.,The cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size. There is ill-defined airspace opacity in the posterior left lower lobe. There is focal opacity in the right upper lobe which suggests scar and/or granulomatous calcification. There is no pneumothorax or pleural effusion.,"1. Patchy left lower lobe airspace disease, concerning for pneumonia. 2. Right upper lobe opacity, favoring scarring and/or granulomas. .",1117_IM-0079-1001.dcm.png,Frontal,79,1001,CXR1117_IM-0079,"{'bone': '', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'There is ill-defined airspace opacity in the posterior left lower lobe. There is focal opacity in the right upper lobe which suggests scar and/or granulomatous calcification. There is no pneumothorax or pleural effusion.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': ''}",test,The cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size. There is ill-defined airspace opacity in the posterior left lower lobe. There is focal opacity in the right upper lobe which suggests scar and/or granulomatous calcification. There is no pneumothorax or pleural effusion.,CXR1117_IM-0079,0,/xray_report_gen/data/images/CXR1117_IM-0079/0.png,True,"{
+  ""lung"": ""There is ill-defined airspace opacity in the posterior left lower lobe. There is focal opacity in the right upper lobe which suggests scar and/or granulomatous calcification. There is no pneumothorax or pleural effusion."",
+  ""heart"": ""The cardiomediastinal silhouette is within normal limits in size."",
+  ""mediastinal"": ""The cardiomediastinal silhouette is within normal limits in size."",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""There is ill-defined airspace opacity in the posterior left lower lobe. There is focal opacity in the right upper lobe which suggests scar and/or granulomatous calcification. There is no pneumothorax or pleural effusion."",
+  ""heart"": ""The cardiomediastinal silhouette is within normal limits in size."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}"
+3845,normal,normal,Xray Chest PA and Lateral,Chest pain.,None.,"The cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size. The lungs are clear of focal airspace disease, pneumothorax, or pleural effusion. There are no acute bony findings.",No acute cardiopulmonary findings. .,3845_IM-1945-2001.dcm.png,Lateral,1945,2001,CXR3845_IM-1945,"{'bone': 'There are no acute bony findings.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'The lungs are clear of focal airspace disease, pneumothorax, or pleural effusion.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': ''}",test,"The cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size. The lungs are clear of focal airspace disease, pneumothorax, or pleural effusion. There are no acute bony findings.",CXR3845_IM-1945,1,/xray_report_gen/data/images/CXR3845_IM-1945/1.png,True,"{
+  ""lung"": ""The lungs are clear of focal airspace disease, pneumothorax, or pleural effusion."",
+  ""heart"": ""The cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size."",
+  ""mediastinal"": """",
+  ""bone"": ""There are no acute bony findings."",
+  ""others"": """"
+}","{
+  ""lung"": ""The lungs are clear of focal airspace disease, pneumothorax, or pleural effusion."",
+  ""heart"": ""The cardiomediastinal silhouette is within normal limits in size."",
+  ""mediastinal"": """",
+  ""bone"": ""There are no acute bony findings."",
+  ""others"": """"
+}"
+2433,Lung/hypoinflation;Pulmonary Atelectasis/base/bilateral;Thoracic Vertebrae/degenerative,Lung;Pulmonary Atelectasis;Thoracic Vertebrae,"Chest Two views PA and lateral XXXX, XXXX XXXX a.m. ",Chest pain,,"Low lung volumes with bibasilar subsegmental atelectasis. No focal consolidations, pleural effusions, or pneumothoraces. Cardiomediastinal silhouette is within normal limits. Degenerative changes of the thoracic spine.",No acute cardiopulmonary abnormality.,2433_IM-0975-1001.dcm.png,Lateral,975,1001,CXR2433_IM-0975,"{'bone': 'Degenerative changes of the thoracic spine.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'Low lung volumes with bibasilar subsegmental atelectasis. No focal consolidations, pleural effusions, or pneumothoraces.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': ''}",test,"Low lung volumes with bibasilar subsegmental atelectasis. No focal consolidations, pleural effusions, or pneumothoraces. Cardiomediastinal silhouette is within normal limits. Degenerative changes of the thoracic spine.",CXR2433_IM-0975,2,/xray_report_gen/data/images/CXR2433_IM-0975/2.png,True,"{
+  ""lung"": ""Low lung volumes with bibasilar subsegmental atelectasis. No focal consolidations, pleural effusions, or pneumothoraces."",
   ""heart"": ""Cardiomediastinal silhouette is within normal limits."",
   ""mediastinal"": """",
-  ""bone"": ""There is a minimally displaced right lateral 8th rib fracture and probable nondisplaced right lateral 7th rib fracture."",
+  ""bone"": ""Degenerative changes of the thoracic spine."",
   ""others"": """"
 }","{
-  ""lung"": ""There is a moderate right-sided pneumothorax measuring approximately 3.3 cm in the right apex. Left lung is clear."",
+  ""lung"": ""Low lung volumes with bibasilar subsegmental atelectasis. No focal consolidations, pleural effusions, or pneumothoraces."",
   ""heart"": ""Cardiomediastinal silhouette is within normal limits."",
   ""mediastinal"": """",
-  ""bone"": ""There is a minimally displaced right lateral 8th rib fracture and probable nondisplaced right lateral 7th rib fracture."",
+  ""bone"": ""Degenerative changes of the thoracic spine."",
   ""others"": """"
 }"
-539,normal,normal,Xray Chest PA and Lateral,MVC. Back pain.,None.,"2 images. Heart size and pulmonary vascular engorgement appear within limits of normal. Mediastinal contour is unremarkable. No focal consolidation, pleural effusion, or pneumothorax identified. No convincing acute bony findings.",No acute cardiopulmonary abnormality identified.,539_IM-2145-2001.dcm.png,Lateral,2145,2001,CXR539_IM-2145,"{'bone': 'No convincing acute bony findings.', 'heart': 'Heart size and pulmonary vascular engorgement appear within limits of normal.', 'lung': 'No focal consolidation, pleural effusion, or pneumothorax identified.', 'mediastinal': 'Mediastinal contour is unremarkable.', 'others': ''}",test,"2 images. Heart size and pulmonary vascular engorgement appear within limits of normal. Mediastinal contour is unremarkable. No focal consolidation, pleural effusion, or pneumothorax identified. No convincing acute bony findings.",CXR539_IM-2145,1,/xray_report_gen/data/images/CXR539_IM-2145/1.png,True,"{
-  ""lung"": ""No focal consolidation, pleural effusion, or pneumothorax identified."",
-  ""heart"": ""Heart size and pulmonary vascular engorgement appear within limits of normal."",
-  ""mediastinal"": ""Mediastinal contour is unremarkable."",
-  ""bone"": ""No convincing acute bony findings."",
+891,normal,normal,PA and Lateral Chest X-XXXX dated XXXX.,Pre- bone marrow transplant XXXX.,None.,The heart size and pulmonary vascularity appear within normal limits. The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.,1. No evidence of active disease.,891_IM-2403-1001.dcm.png,Frontal,2403,1001,CXR891_IM-2403,"{'bone': '', 'heart': 'The heart size appears within normal limits.', 'lung': 'The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.', 'mediastinal': 'Pulmonary vascularity appears within normal limits.', 'others': ''}",test,The heart size and pulmonary vascularity appear within normal limits. The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen.,CXR891_IM-2403,0,/xray_report_gen/data/images/CXR891_IM-2403/0.png,True,"{
+  ""lung"": ""The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen."",
+  ""heart"": ""The heart size and pulmonary vascularity appear within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": """",
   ""others"": """"
 }","{
-  ""lung"": ""No focal consolidation, pleural effusion, or pneumothorax identified."",
-  ""heart"": ""Heart size and pulmonary vascular engorgement appear within limits of normal."",
-  ""mediastinal"": ""Mediastinal contour is unremarkable."",
-  ""bone"": ""No convincing acute bony findings."",
-  ""others"": """"
+  ""lung"": ""The lungs are free of focal airspace disease."",
+  ""heart"": ""Heart size and pulmonary vascularity appear within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""No pleural effusion or pneumothorax is seen.""
 }"
-613,No Indexing,No Indexing,"Two views chest. XXXX hours XXXX, XXXX. ",Chest pain.,"XXXX, XXXX.",The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. Heart and mediastinum normal.,No active disease.,613_IM-2200-2001.dcm.png,Frontal,2200,2001,CXR613_IM-2200,"{'bone': '', 'heart': 'Heart normal.', 'lung': 'Both lungs are clear and expanded.', 'mediastinal': 'Mediastinum normal.', 'others': ''}",test,The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. Heart and mediastinum normal.,CXR613_IM-2200,0,/xray_report_gen/data/images/CXR613_IM-2200/0.png,True,"{
+1190,normal,normal, Two-view chest. ,XXXX and dyspnea.,None.,Both lungs are clear and expanded. Heart and mediastinum normal.,No active disease.,1190_IM-0128-1002.dcm.png,Frontal,128,1002,CXR1190_IM-0128,"{'bone': '', 'heart': 'Heart is normal.', 'lung': 'Lungs are clear and expanded.', 'mediastinal': 'Mediastinum is normal.', 'others': ''}",test,Both lungs are clear and expanded. Heart and mediastinum normal.,CXR1190_IM-0128,1,/xray_report_gen/data/images/CXR1190_IM-0128/1.png,True,"{
   ""lung"": ""Both lungs are clear and expanded."",
   ""heart"": ""Heart and mediastinum normal."",
   ""mediastinal"": ""Heart and mediastinum normal."",
   ""bone"": """",
-  ""others"": ""The heart and lungs have XXXX XXXX in the interval.""
+  ""others"": """"
 }","{
   ""lung"": ""Both lungs are clear and expanded."",
-  ""heart"": ""The heart is normal."",
+  ""heart"": ""Heart normal."",
   ""mediastinal"": ""Mediastinum normal."",
   ""bone"": """",
   ""others"": """"
 }"
-1608,normal,normal,Two-view chest radiograph dated from today ,History of nodule,,"The cardiac silhouette, upper mediastinum and pulmonary vasculature are within normal limits. There is no acute air space infiltrate, pleural effusion or pneumothorax. No pulmonary nodules are identified.","No acute process. No definite pulmonary nodules are seen. If clinically indicated, further evaluation with CT of the thorax can be performed to identify a small nodule. Correlation with prior radiographs would be helpful to identify the location of the previously described nodule.",1608_IM-0394-1001.dcm.png,Frontal,394,1001,CXR1608_IM-0394,"{'bone': '', 'heart': 'Cardiac silhouette is within normal limits.', 'lung': 'No acute air space infiltrate, pleural effusion, pneumothorax, or pulmonary nodules are identified.', 'mediastinal': 'Upper mediastinum is within normal limits.', 'others': ''}",test,"The cardiac silhouette, upper mediastinum and pulmonary vasculature are within normal limits. There is no acute air space infiltrate, pleural effusion or pneumothorax. No pulmonary nodules are identified.",CXR1608_IM-0394,0,/xray_report_gen/data/images/CXR1608_IM-0394/0.png,True,"{
-  ""lung"": ""There is no acute air space infiltrate, pleural effusion or pneumothorax. No pulmonary nodules are identified."",
-  ""heart"": ""The cardiac silhouette is within normal limits."",
-  ""mediastinal"": ""The upper mediastinum is within normal limits."",
-  ""bone"": """",
-  ""others"": ""Pulmonary vasculature are within normal limits.""
-}","{
-  ""lung"": ""There is no acute air space infiltrate, pleural effusion or pneumothorax. No pulmonary nodules are identified."",
-  ""heart"": ""The cardiac silhouette is within normal limits."",
-  ""mediastinal"": ""The upper mediastinum is within normal limits."",
-  ""bone"": """",
-  ""others"": """"
-}"
-2799,normal,normal,PA and lateral chest radiograph (2 views) (2 images) ,Dyspnea,"PA and lateral views of the chest on XXXX, XXXX.",Lungs are clear bilaterally. Cardiac and mediastinal silhouettes are normal. Pulmonary vasculature is normal. No pneumothorax or pleural effusion. No acute bony abnormality.,No acute cardiopulmonary abnormality.,2799_IM-1231-2001.dcm.png,Lateral,1231,2001,CXR2799_IM-1231,"{'bone': 'No acute bony abnormality.', 'heart': 'Cardiac silhouette is normal.', 'lung': 'Lungs are clear bilaterally. No pneumothorax or pleural effusion.', 'mediastinal': 'Mediastinal silhouette is normal. Pulmonary vasculature is normal.', 'others': ''}",test,Lungs are clear bilaterally. Cardiac and mediastinal silhouettes are normal. Pulmonary vasculature is normal. No pneumothorax or pleural effusion. No acute bony abnormality.,CXR2799_IM-1231,1,/xray_report_gen/data/images/CXR2799_IM-1231/1.png,True,"{
-  ""lung"": ""Lungs are clear bilaterally. Pulmonary vasculature is normal. No pneumothorax or pleural effusion."",
-  ""heart"": ""Cardiac silhouettes are normal."",
+3139,normal,normal,Xray Chest PA and Lateral,"XXXX-year-old male, history of tobacco use.",,No focal areas of consolidation. No pleural effusions. No evidence of pneumothorax. Heart size within normal limits. Osseous structures intact.,No acute cardiopulmonary abnormality. .,3139_IM-1476-2001.dcm.png,Lateral,1476,2001,CXR3139_IM-1476,"{'bone': 'Osseous structures intact.', 'heart': 'Heart size within normal limits.', 'lung': 'No focal areas of consolidation. No pleural effusions. No evidence of pneumothorax.', 'mediastinal': '', 'others': ''}",test,No focal areas of consolidation. No pleural effusions. No evidence of pneumothorax. Heart size within normal limits. Osseous structures intact.,CXR3139_IM-1476,1,/xray_report_gen/data/images/CXR3139_IM-1476/1.png,True,"{
+  ""lung"": ""No focal areas of consolidation. No pleural effusions. No evidence of pneumothorax."",
+  ""heart"": ""Heart size within normal limits."",
   ""mediastinal"": """",
-  ""bone"": ""No acute bony abnormality."",
+  ""bone"": ""Osseous structures intact."",
   ""others"": """"
 }","{
-  ""lung"": ""Lungs are clear bilaterally. Pulmonary vasculature is normal. No pneumothorax or pleural effusion."",
-  ""heart"": ""Cardiac silhouette is normal."",
-  ""mediastinal"": ""Mediastinal silhouette is normal."",
-  ""bone"": ""No acute bony abnormality."",
+  ""lung"": ""No focal areas of consolidation. No pleural effusions. No evidence of pneumothorax."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": ""Osseous structures intact."",
   ""others"": """"
 }"
-2743,Thoracic Vertebrae/degenerative;Calcinosis/aorta,Thoracic Vertebrae;Calcinosis,PA and lateral chest x-XXXX XXXX at XXXX hours. ,"XXXX-year-old woman, followed right middle lobe and right lower lobe pneumonia.",None available.,"There are no acute osseous abnormalities. Degenerative changes throughout the thoracic spine. Normal heart size. Calcific aorta. Normal vascular markings. No focal area of consolidation, pleural effusion, or pneumothorax.",1. No acute radiographic cardiopulmonary process.,2743_IM-1197-1002.dcm.png,Lateral,1197,1002,CXR2743_IM-1197,"{'bone': 'No acute osseous abnormalities. Degenerative changes throughout the thoracic spine.', 'heart': 'Normal heart size.', 'lung': 'No focal area of consolidation, pleural effusion, or pneumothorax.', 'mediastinal': 'Calcific aorta. Normal vascular markings.', 'others': ''}",test,"There are no acute osseous abnormalities. Degenerative changes throughout the thoracic spine. Normal heart size. Calcific aorta. Normal vascular markings. No focal area of consolidation, pleural effusion, or pneumothorax.",CXR2743_IM-1197,1,/xray_report_gen/data/images/CXR2743_IM-1197/1.png,True,"{
-  ""lung"": ""Normal vascular markings. No focal area of consolidation, pleural effusion, or pneumothorax."",
-  ""heart"": ""Normal heart size."",
-  ""mediastinal"": ""Calcific aorta."",
-  ""bone"": ""There are no acute osseous abnormalities. Degenerative changes throughout the thoracic spine."",
+2378,"Calcified Granuloma/lung/lower lobe/left;Fractures, Bone/clavicle/left","Calcified Granuloma;Fractures, Bone",PA and lateral chest x-XXXX ,XXXX-year-old male with XXXX loss and history of tobacco use.,CT thorax dated XXXX,"Cardiomediastinal silhouettes are within normal limits. Lungs are clear without focal consolidation, pneumothorax, or pleural effusion. Stable left lower lobe calcified granuloma. Remote left clavicle fracture.",No acute cardiopulmonary abnormalities.,2378_IM-0938-1001.dcm.png,Frontal,938,1001,CXR2378_IM-0938,"{'bone': 'Remote left clavicle fracture.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'Lungs are clear without focal consolidation, pneumothorax, or pleural effusion. Stable left lower lobe calcified granuloma.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': ''}",test,"Cardiomediastinal silhouettes are within normal limits. Lungs are clear without focal consolidation, pneumothorax, or pleural effusion. Stable left lower lobe calcified granuloma. Remote left clavicle fracture.",CXR2378_IM-0938,0,/xray_report_gen/data/images/CXR2378_IM-0938/0.png,True,"{
+  ""lung"": ""Lungs are clear without focal consolidation, pneumothorax, or pleural effusion. Stable left lower lobe calcified granuloma."",
+  ""heart"": ""Cardiomediastinal silhouettes are within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": ""Remote left clavicle fracture."",
   ""others"": """"
 }","{
-  ""lung"": ""No focal area of consolidation, pleural effusion, or pneumothorax. Normal vascular markings."",
-  ""heart"": ""Normal heart size."",
-  ""mediastinal"": ""Calcific aorta."",
-  ""bone"": ""Degenerative changes throughout the thoracic spine. There are no acute osseous abnormalities."",
+  ""lung"": ""Lungs are clear without focal consolidation, pneumothorax, or pleural effusion. Stable left lower lobe calcified granuloma."",
+  ""heart"": ""Cardiomediastinal silhouettes are within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": ""Remote left clavicle fracture."",
+  ""others"": """"
+}"
+3705,Atherosclerosis/aorta;Arthritis,Atherosclerosis;Arthritis,Xray Chest PA and Lateral,Leukocytosis,"XXXX, XXXX",The lungs are clear. There is no pleural effusion or pneumothorax. There has been a XXXX XXXX sternotomy. The heart is not significantly enlarged. There are atherosclerotic changes of the aorta. Arthritic changes of the skeletal structures are noted.,No acute pulmonary disease.,3705_IM-1851-1001-0001.dcm.png,Frontal,1851,1001,CXR3705_IM-1851-1001,"{'bone': 'Arthritic changes of the skeletal structures.', 'heart': 'Heart is not significantly enlarged.', 'lung': 'Lungs are clear. No pleural effusion or pneumothorax.', 'mediastinal': 'Atherosclerotic changes of the aorta.', 'others': 'There has been a XXXX XXXX sternotomy.'}",test,The lungs are clear. There is no pleural effusion or pneumothorax. There has been a XXXX XXXX sternotomy. The heart is not significantly enlarged. There are atherosclerotic changes of the aorta. Arthritic changes of the skeletal structures are noted.,CXR3705_IM-1851,0,/xray_report_gen/data/images/CXR3705_IM-1851/0.png,True,"{
+  ""lung"": ""The lungs are clear. There is no pleural effusion or pneumothorax."",
+  ""heart"": ""The heart is not significantly enlarged."",
+  ""mediastinal"": ""There are atherosclerotic changes of the aorta."",
+  ""bone"": ""Arthritic changes of the skeletal structures are noted."",
+  ""others"": ""There has been a XXXX XXXX sternotomy.""
+}","{
+  ""lung"": ""The lungs are clear. There is no pleural effusion or pneumothorax."",
+  ""heart"": ""The heart is not significantly enlarged."",
+  ""mediastinal"": ""Atherosclerotic changes of the aorta."",
+  ""bone"": ""Arthritic changes of the skeletal structures are noted."",
+  ""others"": ""There has been a XXXX XXXX sternotomy.""
+}"
+3691,Atherosclerosis/aorta;Thoracic Vertebrae/degenerative,Atherosclerosis;Thoracic Vertebrae,Xray Chest PA and Lateral,"Previous XXXX,shortness of breath x2 months",XXXX,"The heart is normal in size. The mediastinum is stable. Atherosclerotic calcifications of the aorta identified. There is no focal consolidation, pleural effusion or pneumothorax. Degenerative changes of the thoracic spine are noted.",No acute disease.,3691_IM-1842-1001.dcm.png,Frontal,1842,1001,CXR3691_IM-1842,"{'bone': 'Degenerative changes of the thoracic spine are noted.', 'heart': 'Normal in size.', 'lung': 'No focal consolidation, pleural effusion, or pneumothorax.', 'mediastinal': 'Stable. Atherosclerotic calcifications of the aorta identified.', 'others': ''}",test,"The heart is normal in size. The mediastinum is stable. Atherosclerotic calcifications of the aorta identified. There is no focal consolidation, pleural effusion or pneumothorax. Degenerative changes of the thoracic spine are noted.",CXR3691_IM-1842,0,/xray_report_gen/data/images/CXR3691_IM-1842/0.png,True,"{
+  ""lung"": ""There is no focal consolidation, pleural effusion or pneumothorax."",
+  ""heart"": ""The heart is normal in size."",
+  ""mediastinal"": ""The mediastinum is stable. Atherosclerotic calcifications of the aorta identified."",
+  ""bone"": ""Degenerative changes of the thoracic spine are noted."",
+  ""others"": """"
+}","{
+  ""lung"": ""No focal consolidation, pleural effusion or pneumothorax."",
+  ""heart"": ""The heart is normal in size."",
+  ""mediastinal"": ""The mediastinum is stable. Atherosclerotic calcifications of the aorta identified."",
+  ""bone"": ""Degenerative changes of the thoracic spine are noted."",
+  ""others"": """"
+}"
+3294,"Aorta, Thoracic/tortuous;Calcified Granuloma/lung/middle lobe/right","Aorta, Thoracic;Calcified Granuloma","Chest radiograph examination 2 views performed XXXX, XXXX at XXXX. ",XXXX-year-old female chest pain.,Comparison is XXXX to chest radiograph examination dated XXXX.,The cardiomediastinal silhouette is within normal limits for appearance. The thoracic aorta is tortuous. A calcified granuloma is identified in the right middle lobe. No focal areas of pulmonary consolidation. No pneumothorax. No pleural effusion. The thoracic spine appears intact. No acute displaced rib fractures.,1. No acute intrathoracic abnormality.,3294_IM-1573-2001.dcm.png,Lateral,1573,2001,CXR3294_IM-1573,"{'bone': 'The thoracic spine appears intact. No acute displaced rib fractures.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'A calcified granuloma is identified in the right middle lobe. No focal areas of pulmonary consolidation. No pneumothorax. No pleural effusion.', 'mediastinal': 'Mediastinal contours are within normal limits. The thoracic aorta is tortuous.', 'others': ''}",test,The cardiomediastinal silhouette is within normal limits for appearance. The thoracic aorta is tortuous. A calcified granuloma is identified in the right middle lobe. No focal areas of pulmonary consolidation. No pneumothorax. No pleural effusion. The thoracic spine appears intact. No acute displaced rib fractures.,CXR3294_IM-1573,1,/xray_report_gen/data/images/CXR3294_IM-1573/1.png,True,"{
+  ""lung"": ""A calcified granuloma is identified in the right middle lobe. No focal areas of pulmonary consolidation. No pneumothorax. No pleural effusion."",
+  ""heart"": ""The cardiomediastinal silhouette is within normal limits for appearance."",
+  ""mediastinal"": ""The thoracic aorta is tortuous."",
+  ""bone"": ""The thoracic spine appears intact. No acute displaced rib fractures."",
+  ""others"": """"
+}","{
+  ""lung"": ""A calcified granuloma is identified in the right middle lobe. No focal areas of pulmonary consolidation. No pneumothorax. No pleural effusion."",
+  ""heart"": ""Cardiomediastinal silhouette is within normal limits for appearance."",
+  ""mediastinal"": ""Thoracic aorta is tortuous."",
+  ""bone"": ""The thoracic spine appears intact. No acute displaced rib fractures."",
+  ""others"": """"
+}"
+1425,normal,normal,"PA and lateral chest x-XXXX dated XXXX, XXXX at XXXX p.m.. ","XXXX-year-old female, XXXX onto wheelchair..","Two-view chest radiograph dated XXXX, XXXX.","The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion.. Cardio mediastinal silhouette is unremarkable. Visualized osseous structures of the thorax are without acute abnormality.",No acute cardiopulmonary abnormality..,1425_IM-0272-1001.dcm.png,Frontal,272,1001,CXR1425_IM-0272,"{'bone': 'Visualized osseous structures of the thorax are without acute abnormality.', 'heart': 'Cardiac contours are within normal limits.', 'lung': 'The lungs are clear bilaterally. No evidence of focal consolidation, pneumothorax, or pleural effusion.', 'mediastinal': 'Mediastinal contours are within normal limits.', 'others': ''}",test,"The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion.. Cardio mediastinal silhouette is unremarkable. Visualized osseous structures of the thorax are without acute abnormality.",CXR1425_IM-0272,0,/xray_report_gen/data/images/CXR1425_IM-0272/0.png,True,"{
+  ""lung"": ""The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion."",
+  ""heart"": ""Cardio mediastinal silhouette is unremarkable."",
+  ""mediastinal"": """",
+  ""bone"": ""Visualized osseous structures of the thorax are without acute abnormality."",
+  ""others"": """"
+}","{
+  ""lung"": ""The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion."",
+  ""heart"": ""Cardio mediastinal silhouette is unremarkable."",
+  ""mediastinal"": """",
+  ""bone"": ""Visualized osseous structures of the thorax are without acute abnormality."",
+  ""others"": """"
+}"
+458,No Indexing,No Indexing,"PA and lateral views of the chest, XXXX, XXXX XXXX PM",XXXX H/O SMOKING XXXX FOR CAUSES. PAIN IN NECK AND XXXX.,,The lungs are clear. The heart and pulmonary XXXX are normal. The pleural spaces are clear. Mediastinal contours are normal. Bony overlap in the lung apices could obscure a small pulmonary nodule.,No acute cardiopulmonary disease,458_IM-2089-3001.dcm.png,Lateral,2089,3001,CXR458_IM-2089,"{'bone': '', 'heart': 'The heart is normal.', 'lung': 'The lungs are clear. The pleural spaces are clear. Bony overlap in the lung apices could obscure a small pulmonary nodule.', 'mediastinal': 'Mediastinal contours are normal.', 'others': ''}",test,The lungs are clear. The heart and pulmonary XXXX are normal. The pleural spaces are clear. Mediastinal contours are normal. Bony overlap in the lung apices could obscure a small pulmonary nodule.,CXR458_IM-2089,1,/xray_report_gen/data/images/CXR458_IM-2089/1.png,True,"{
+  ""lung"": ""The lungs are clear. The pleural spaces are clear. Bony overlap in the lung apices could obscure a small pulmonary nodule."",
+  ""heart"": ""The heart and pulmonary XXXX are normal."",
+  ""mediastinal"": ""Mediastinal contours are normal."",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""The lungs are clear. Bony overlap in the lung apices could obscure a small pulmonary nodule."",
+  ""heart"": ""The heart is normal."",
+  ""mediastinal"": ""Mediastinal contours are normal."",
+  ""bone"": """",
+  ""others"": ""Pleural spaces are clear.""
+}"
+1972,Opacity/lung/upper lobe/left;Calcinosis/aorta,Opacity;Calcinosis,PA and lateral chest. ,A XXXX-year-old female follow-up XXXX acquired pneumonia.,PA and lateral chest from XXXX 73,There is a XXXX airspace opacity in the left upper lung. Heart size within normal limits. Mild calcification of the aortic XXXX. No pneumothorax or pleural effusions.,XXXX airspace opacity in the left upper lung which may represent streaky atelectasis or resolving pneumonia.,1972_IM-0633-1001.dcm.png,Frontal,633,1001,CXR1972_IM-0633,"{'bone': '', 'heart': 'Heart size within normal limits.', 'lung': 'Airspace opacity in the left upper lung. No pneumothorax or pleural effusions.', 'mediastinal': 'Mild calcification of the aortic arch.', 'others': ''}",test,There is a XXXX airspace opacity in the left upper lung. Heart size within normal limits. Mild calcification of the aortic XXXX. No pneumothorax or pleural effusions.,CXR1972_IM-0633,0,/xray_report_gen/data/images/CXR1972_IM-0633/0.png,True,"{
+  ""lung"": ""There is a XXXX airspace opacity in the left upper lung. No pneumothorax or pleural effusions."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": ""Mild calcification of the aortic XXXX."",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""There is a XXXX airspace opacity in the left upper lung. No pneumothorax or pleural effusions."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""Mild calcification of the aortic XXXX.""
+}"
+2204,No Indexing,No Indexing,"CHEST 2V FRONTAL/LATERAL XXXX, XXXX XXXX PM ",XXXX,"XXXX, XXXX.",The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. Heart and mediastinum normal.,No active disease.,2204_IM-0813-1001.dcm.png,Frontal,813,1001,CXR2204_IM-0813,"{'bone': '', 'heart': 'Heart is normal.', 'lung': 'Lungs are clear and expanded.', 'mediastinal': 'Mediastinum is normal.', 'others': ''}",test,The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. Heart and mediastinum normal.,CXR2204_IM-0813,0,/xray_report_gen/data/images/CXR2204_IM-0813/0.png,True,"{
+  ""lung"": ""Both lungs are clear and expanded."",
+  ""heart"": ""The heart and mediastinum normal."",
+  ""mediastinal"": ""The heart and mediastinum normal."",
+  ""bone"": """",
+  ""others"": ""The heart and lungs have XXXX XXXX in the interval.""
+}","{
+  ""lung"": ""Both lungs are clear and expanded."",
+  ""heart"": ""Heart normal."",
+  ""mediastinal"": ""Mediastinum normal."",
+  ""bone"": """",
+  ""others"": """"
+}"
+3173,normal,normal,Xray Chest PA and Lateral,XXXX-year-old female with pleuritic chest pain,Chest 2 views. XXXX.,Lungs are clear. Heart size normal. No pneumothorax.,Clear lungs. No acute cardiopulmonary abnormality. .,3173_IM-1495-2002.dcm.png,Frontal,1495,2002,CXR3173_IM-1495,"{'bone': '', 'heart': 'Heart size normal.', 'lung': 'Lungs are clear. No pneumothorax.', 'mediastinal': '', 'others': ''}",test,Lungs are clear. Heart size normal. No pneumothorax.,CXR3173_IM-1495,0,/xray_report_gen/data/images/CXR3173_IM-1495/0.png,True,"{
+  ""lung"": ""Lungs are clear."",
+  ""heart"": ""Heart size normal."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""No pneumothorax.""
+}","{
+  ""lung"": ""Lungs are clear."",
+  ""heart"": ""Heart size normal."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""No pneumothorax.""
+}"
+2686,normal,normal,PA and lateral views of the chest. ,XXXX-year-old female with chest pain.,None available.,Heart size within normal limits. No focal airspace disease. No pneumothorax or effusions.,No acute cardiopulmonary findings.,2686_IM-1158-1001.dcm.png,Frontal,1158,1001,CXR2686_IM-1158,"{'bone': '', 'heart': 'Heart size within normal limits.', 'lung': 'No focal airspace disease. No pneumothorax or effusions.', 'mediastinal': '', 'others': ''}",test,Heart size within normal limits. No focal airspace disease. No pneumothorax or effusions.,CXR2686_IM-1158,0,/xray_report_gen/data/images/CXR2686_IM-1158/0.png,True,"{
+  ""lung"": ""No focal airspace disease. No pneumothorax or effusions."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""No focal airspace disease."",
+  ""heart"": ""Heart size within normal limits."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""No pneumothorax or effusions.""
+}"
+2866,normal,normal, PA lateral chest. ,XXXX XXXX,None.,"Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.",Normal chest,2866_IM-1273-1001.dcm.png,Frontal,1273,1001,CXR2866_IM-1273,"{'bone': '', 'heart': 'Heart size normal.', 'lung': 'Lungs are clear. No pneumonia, effusions, edema, pneumothorax, nodules or masses.', 'mediastinal': '', 'others': 'XXXX are normal.'}",test,"Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.",CXR2866_IM-1273,0,/xray_report_gen/data/images/CXR2866_IM-1273/0.png,True,"{
+  ""lung"": ""Lungs are clear. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses."",
+  ""heart"": ""Heart size normal."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""XXXX are normal.""
+}","{
+  ""lung"": ""Lungs are clear. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses."",
+  ""heart"": ""Heart size normal."",
+  ""mediastinal"": """",
+  ""bone"": """",
+  ""others"": ""XXXX are normal.""
+}"
+2336,Lung/hyperdistention;Calcinosis/mediastinum,Lung;Calcinosis,PA AND LATERAL CHEST X-XXXX at XXXX XXXX/XXXX ,XXXX-year-old male with dyspnea,,Lungs are hyperinflated but clear. No focal infiltrate or effusion. Heart and mediastinal contours within normal limits. Calcified mediastinal XXXX identified.,Hyperinflated but clear lungs.,2336_IM-0903-3001.dcm.png,Frontal,903,3001,CXR2336_IM-0903,"{'bone': '', 'heart': 'Heart contours within normal limits.', 'lung': 'Lungs are hyperinflated but clear. No focal infiltrate or effusion.', 'mediastinal': 'Mediastinal contours within normal limits. Calcified mediastinal XXXX identified.', 'others': ''}",test,Lungs are hyperinflated but clear. No focal infiltrate or effusion. Heart and mediastinal contours within normal limits. Calcified mediastinal XXXX identified.,CXR2336_IM-0903,1,/xray_report_gen/data/images/CXR2336_IM-0903/1.png,True,"{
+  ""lung"": ""Lungs are hyperinflated but clear. No focal infiltrate or effusion."",
+  ""heart"": ""Heart and mediastinal contours within normal limits."",
+  ""mediastinal"": ""Calcified mediastinal XXXX identified."",
+  ""bone"": """",
+  ""others"": """"
+}","{
+  ""lung"": ""Lungs are hyperinflated but clear. No focal infiltrate or effusion."",
+  ""heart"": ""Heart contours within normal limits."",
+  ""mediastinal"": ""Mediastinal contours within normal limits. Calcified mediastinal XXXX identified."",
+  ""bone"": """",
   ""others"": """"
 }"
