@@ -62,7 +62,7 @@ docker run -it --rm -p 8080:8080 -v /home/freinque/pycharm_projects/xray_report_
 ```
 where split in ['train', 'test', 'val'].
 
-Evaluate annotations on train and test samples, using 2 prompts examples suggested by ChatGPT (defined in config.py).
+Evaluate annotations on train and test samples, using 2 prompts examples defined in config.py.
 
 ```bash
 docker run -it --rm --gpus device=0 -p 8080:8080 -v /home/ubuntu/xray_report_gen/data/:/xray_report_gen/data -v /home/ubuntu/xray_report_gen/data/huggingface/:/root/.cache/huggingface xray_app python3 evaluate_report_annotation.py <split>
@@ -72,32 +72,32 @@ where split in ['train', 'test'].
 The scores are inspected with the evaluate_annotations.ipynb notebook. The following results are found:
 
 
-**average GREEN scores on sample (N=25) of training set**
+**average GREEN scores on sample (N=50) of training set**
 
 prompt_version  | region    |  score   
 :----:          |:----:     |:--------:|
-1               | bone       | 0.800000 
-1               | heart       | 0.900000    
-1                | lung        | 1.000000    
-1                | mediastinal  | 0.300000    
-2               | bone           | 0.800000 
-2                | heart          | 0.900000    
-2                | lung           | 0.866667    
-2                | mediastinal    | 0.300000    
+1               | bone       | 0.430000 
+1               | heart       | 0.956667    
+1                | lung        | 0.961667    
+1                | mediastinal  | 0.433333    
+2               | bone           | 0.410000 
+2                | heart          | 1.000000    
+2                | lung           | 0.877000    
+2                | mediastinal    | 0.510000    
 
 
-**average GREEN scores on samples (N=25) of test set**
+**average GREEN scores on samples (N=50) of test set**
 
 prompt_version  | region    |  score   
 :----:          |:----:     |:--------:|
-1               | bone       |  0.520000
-1               | heart       | 0.900000    
-1                | lung        |  0.955333   
-1                | mediastinal  |  0.440000   
-2               | bone           |  0.512000
-2                | heart          | 0.920000    
-2                | lung           |  0.908667   
-2                | mediastinal    |  0.440000   
+1               | bone       |  0.470000
+1               | heart       | 0.930000    
+1                | lung        |  0.961667   
+1                | mediastinal  |  0.430000   
+2               | bone           |  0.480000
+2                | heart          | 0.960000    
+2                | lung           |  0.902667  
+2                | mediastinal    |  0.400000   
 
 
 Prompt version 1 is then chosen, and annotations on the validation set are put in data/reports_annotations_val.csv.
