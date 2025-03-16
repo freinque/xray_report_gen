@@ -3,9 +3,6 @@ DATA_PATH = '/xray_report_gen/data/'
 MODEL_PATH = '/xray_report_gen/data/models/'
 IMAGES_DIR = '/xray_report_gen/data/images'
 MODEL_VERSION = 1
-N = 25
-PROMPT_VERSIONS = [1, 2]
-BEST_PROMPT_VERSION = 1
 REGIONS = ['bone', 'heart', 'lung', 'mediastinal']
 
 # Dataset paths
@@ -25,27 +22,14 @@ NUM_ACCUMULATION_STEPS = 5
 SAVE_FREQUENCY = 100
 LEARNING_RATE = 1e-5
 
-# Report generation prompt
-REPORT_GENERATION_PROMPT = """
-You are an advanced medical assistant designed to analyze radiology report findings and chest x-ray images. Your task is to extract sentences from a chest X-Ray radiology report and a chest x-ray images into four predefined anatomical regions: lung, heart, mediastinal, and bone. If a finding cannot be confidently assigned to any of these regions, categorize it under others.
+######################################################################################
+# annotation generation prompt used on reports
+REPORT_ANNOTATION_N = 50
+REPORT_ANNOTATION_PROMPT_VERSIONS = [1, 2]
+REPORT_ANNOTATION_BEST_PROMPT_VERSION = 1
 
-### Instructions:
-1. Consider the input radiology report sentence by sentence, and the corresponding chest X-Ray images.
-2. Extract findings for the following categories:
-   - **lung**: Findings related to lungs, pulmonary vasculature, or pleura.
-   - **heart**: Findings related to the cardiac silhouette or heart size.
-   - **mediastinal**: Findings related to the mediastinum or its contours.
-   - **bone**: Findings related to bony structures such as the spine, ribs, or other skeletal elements.
-   - **others**: Findings or sentences that cannot be confidently classified under the above categories.
-3. If multiple findings belong to the same category, concatenate them into a single string within that category in the output.
-4. Format the output as a JSON object with the keys: "lung", "heart", "mediastinal", "bone", and "others". If no finding were found for a given category, the output value for its JSON key should be empty.
-
-Now, analyze the following X-ray images and report, and generate findings organized into these categories.
-
-**Input:**
-"""
-
-SYSTEM_PROMPT_1 = """
+# version 1, simpler prompt
+REPORT_ANNOTATION_SYSTEM_PROMPT_1 = """
 You are an advanced medical assistant designed to analyze radiology report findings. Your task is to categorize sentences from a chest X-Ray radiology report into four predefined anatomical regions: lung, heart, mediastinal, and bone. If a sentence cannot be confidently assigned to any of these regions, categorize it under others.
 
 ### Instructions:
@@ -62,7 +46,7 @@ You are an advanced medical assistant designed to analyze radiology report findi
 Now, categorize the following radiology report findings:
 """
 
-USER_PROMPT_1 = """ 
+REPORT_ANNOTATION_USER_PROMPT_1 = """ 
 **Input:**
 {report}
 
@@ -70,7 +54,8 @@ USER_PROMPT_1 = """
 {{ "lung": "...", "heart": "...", "mediastinal": "...", "bone": "...", "others": "..." }}
 """
 
-SYSTEM_PROMPT_2= """
+# version 2, prompt that includes examples
+REPORT_ANNOTATION_SYSTEM_PROMPT_2= """
 You are a highly intelligent assistant specializing in processing radiology reports. Your task is to categorize sentences or findings from chest X-ray radiology reports into one of five categories: lung, heart, mediastinal, bone, and others. Follow these instructions:
 
     1) Read the input radiology report carefully.
@@ -96,11 +81,45 @@ Expected Output:
   "others": ""
 }
 
+Input:
+
+The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. There are degenerative changes of the thoracic spine. There is a calcified granuloma identified in the right suprahilar region. The aorta is mildly tortuous and ectatic. There is asymmetric right apical smooth pleural thickening. There are severe degenerative changes of the XXXX.
+
+Expected Output:
+{
+    "lung": "No pleural effusion or pneumothorax. No focal air space opacity to suggest a pneumonia. Calcified granuloma in the right suprahilar region. Asymmetric right apical smooth pleural thickening.",
+    "heart": "Cardiac contours within normal limits.",
+    "bone": "Degenerative changes of the thoracic spine. Severe degenerative changes of the XXXX.",
+    "mediastinal": "Mediastinal contours within normal limits. Aorta is mildly tortuous and ectatic.",
+    "others": ""
+}
+
 Now process the following radiology report and provide the categorized findings in the same JSON format:
 
 """
 
-USER_PROMPT_2 = '{report}'
+REPORT_ANNOTATION_USER_PROMPT_2 = '{report}'
+
+######################################################################################
+# annotation generation prompt used on images+reports
+REPORT_IMAGE_ANNOTATION_GENERATION_PROMPT = """
+You are an advanced medical assistant designed to analyze radiology report findings and chest x-ray images. Your task is to extract sentences from a chest X-Ray radiology report and a chest x-ray images into four predefined anatomical regions: lung, heart, mediastinal, and bone. If a finding cannot be confidently assigned to any of these regions, categorize it under others.
+
+### Instructions:
+1. Consider the input radiology report sentence by sentence, and the corresponding chest X-Ray images.
+2. Extract findings for the following categories:
+   - **lung**: Findings related to lungs, pulmonary vasculature, or pleura.
+   - **heart**: Findings related to the cardiac silhouette or heart size.
+   - **mediastinal**: Findings related to the mediastinum or its contours.
+   - **bone**: Findings related to bony structures such as the spine, ribs, or other skeletal elements.
+   - **others**: Findings or sentences that cannot be confidently classified under the above categories.
+3. If multiple findings belong to the same category, concatenate them into a single string within that category in the output.
+4. Format the output as a JSON object with the keys: "lung", "heart", "mediastinal", "bone", and "others". If no finding were found for a given category, the output value for its JSON key should be empty.
+
+Now, analyze the following X-ray images and report, and generate findings organized into these categories.
+
+**Input:**
+"""
 
 # Constants from utils.py
 PATH_DOCKER = "/xray_report_gen"

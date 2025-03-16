@@ -11,7 +11,7 @@ import click
 
 from xray_report_gen import eval
 from xray_report_gen import utils
-from xray_report_gen.config import DATA_PATH, PROMPT_VERSIONS, REGIONS
+from xray_report_gen.config import DATA_PATH, REPORT_ANNOTATION_PROMPT_VERSIONS, REGIONS
 
 @click.command()
 @click.argument('mode')
@@ -22,7 +22,7 @@ def main(mode, multi):
 
     if multi == 0:
         # evaluation on train set
-        for prompt_version in PROMPT_VERSIONS:
+        for prompt_version in REPORT_ANNOTATION_PROMPT_VERSIONS:
             for region in REGIONS:
                 # load the processed data from storage
                 df_mode = pd.read_csv(os.path.join(DATA_PATH, 'reports_annotations_{mode}.csv'.format(mode=mode)))
@@ -39,7 +39,7 @@ def main(mode, multi):
                 res_df.to_csv(os.path.join(DATA_PATH, 'reports_annotations_{mode}_eval_{prompt_version}_{region}.csv'.format(mode=mode, prompt_version=prompt_version, region=region)), index=False)
     else:
         # evaluation on train set
-        for prompt_version in PROMPT_VERSIONS:
+        for prompt_version in REPORT_ANNOTATION_PROMPT_VERSIONS:
             for region in REGIONS:
                 # load the processed data from storage
                 df_mode = pd.read_csv(os.path.join(DATA_PATH,

@@ -7,7 +7,7 @@ import os
 from openai import OpenAI
 
 from xray_report_gen import utils
-from .config import GPT_MODEL_NAME, SYSTEM_PROMPT_1, SYSTEM_PROMPT_2, USER_PROMPT_1, USER_PROMPT_2
+from .config import GPT_MODEL_NAME, REPORT_ANNOTATION_SYSTEM_PROMPT_1, REPORT_ANNOTATION_SYSTEM_PROMPT_2, REPORT_ANNOTATION_USER_PROMPT_1, REPORT_ANNOTATION_USER_PROMPT_2
 
 utils.set_api_keys()
 
@@ -15,19 +15,19 @@ client = OpenAI()
 
 def get_system_prompt(version: int) -> str:
     if version == 1:
-        return SYSTEM_PROMPT_1
+        return REPORT_ANNOTATION_SYSTEM_PROMPT_1
     elif version == 2:
-        return SYSTEM_PROMPT_2
+        return REPORT_ANNOTATION_SYSTEM_PROMPT_2
     else:
-        return SYSTEM_PROMPT_1
+        return REPORT_ANNOTATION_SYSTEM_PROMPT_1
 
 def get_user_prompt(version: int) -> str:
     if version == 1:
-        return USER_PROMPT_1
+        return REPORT_ANNOTATION_USER_PROMPT_1
     elif version == 2:
-        return USER_PROMPT_2
+        return REPORT_ANNOTATION_USER_PROMPT_2
     else:
-        return USER_PROMPT_1
+        return REPORT_ANNOTATION_USER_PROMPT_1
 
 def annotate_report(report, prompt_version=1):
 

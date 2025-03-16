@@ -18,7 +18,7 @@ from bitsandbytes.optim import Adam8bit
 from xray_report_gen.utils import process_vision_info, init_logger, get_logger
 from xray_report_gen import utils
 from xray_report_gen import rep_im_annotation
-from xray_report_gen.config import MODEL_PATH, DATA_PATH, TRAINING_DATASET, DEVICE, EPOCHS, NUM_ACCUMULATION_STEPS, SAVE_FREQUENCY, LEARNING_RATE, REPORT_GENERATION_PROMPT
+from xray_report_gen.config import MODEL_PATH, DATA_PATH, TRAINING_DATASET, DEVICE, EPOCHS, NUM_ACCUMULATION_STEPS, SAVE_FREQUENCY, LEARNING_RATE, REPORT_IMAGE_ANNOTATION_GENERATION_PROMPT
 
 utils.set_api_keys()
 print(len(os.environ["HUGGINGFACEHUB_API_TOKEN"] ))

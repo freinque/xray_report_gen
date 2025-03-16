@@ -17,7 +17,7 @@ from torch.utils.data import DataLoader
 from transformers import Qwen2VLForConditionalGeneration, AutoTokenizer, AutoProcessor
 
 from xray_report_gen import utils
-from xray_report_gen.config import DATA_PATH, MODEL_PATH, REPORT_GENERATION_PROMPT, OS_MODEL_NAME_1, OS_MODEL_NAME_2
+from xray_report_gen.config import DATA_PATH, MODEL_PATH, REPORT_IMAGE_ANNOTATION_GENERATION_PROMPT, OS_MODEL_NAME_1, OS_MODEL_NAME_2
 
 utils.set_api_keys()
 import os
@@ -44,7 +44,7 @@ class DataSet(Dataset):  # for toy demo
         with open(data_path, "r") as f:
             self.data = json.load(f)
         for p in self.data:
-            p['messages'][0]['content'] = REPORT_GENERATION_PROMPT
+            p['messages'][0]['content'] = REPORT_IMAGE_ANNOTATION_GENERATION_PROMPT
 
     def __len__(self):
         return len(self.data)
@@ -58,7 +58,7 @@ class FinetuneDataSet(Dataset):  # for toy demo
         with open(data_path, "r") as f:
             self.data = json.load(f)
         for p in self.data:
-            p['messages'][0]['content'] = REPORT_GENERATION_PROMPT
+            p['messages'][0]['content'] = REPORT_IMAGE_ANNOTATION_GENERATION_PROMPT
 
     def __len__(self):
         return len(self.data)
