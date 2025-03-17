@@ -18,7 +18,7 @@ from bitsandbytes.optim import Adam8bit
 from xray_report_gen.utils import process_vision_info, init_logger, get_logger
 from xray_report_gen import utils
 from xray_report_gen import rep_im_annotation
-from xray_report_gen.config import MODEL_PATH, DATA_PATH, TRAINING_DATASET, DEVICE, EPOCHS, NUM_ACCUMULATION_STEPS, SAVE_FREQUENCY, LEARNING_RATE, REPORT_IMAGE_ANNOTATION_GENERATION_PROMPT
+from xray_report_gen.config import MODEL_PATH, DATA_PATH, TRAIN_DATASET, DEVICE, EPOCHS, NUM_ACCUMULATION_STEPS, SAVE_FREQUENCY, LEARNING_RATE, REPORT_IMAGE_ANNOTATION_GENERATION_PROMPT, REPORT_IMAGE_ANNOTATION_BATCH_SIZE
 
 utils.set_api_keys()
 print(len(os.environ["HUGGINGFACEHUB_API_TOKEN"] ))
@@ -62,8 +62,8 @@ def train():
                                               max_pixels=512 * 600, padding_side="right")
 
     train_loader = DataLoader(
-        rep_im_annotation.FinetuneDataSet(TRAINING_DATASET),
-        batch_size=1,
+        rep_im_annotation.FinetuneDataSet(TRAIN_DATASET),
+        batch_size=REPORT_IMAGE_ANNOTATION_BATCH_SIZE,
         collate_fn=partial(rep_im_annotation.collate_fn, processor=processor, device=DEVICE)
     )
 

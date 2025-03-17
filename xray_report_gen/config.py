@@ -2,7 +2,6 @@
 DATA_PATH = '/xray_report_gen/data/'
 MODEL_PATH = '/xray_report_gen/data/models/'
 IMAGES_DIR = '/xray_report_gen/data/images'
-MODEL_VERSION = 1
 REGIONS = ['bone', 'heart', 'lung', 'mediastinal']
 
 # Dataset paths
@@ -11,8 +10,8 @@ TEST_DATASET = "/xray_report_gen/data/finetune_data_test.json"
 VAL_DATASET = "/xray_report_gen/data/finetune_data_val.json"
 
 # Dataset sizes
-TRAIN_DATASET_N = 25
-TEST_DATASET_N = 25
+TRAIN_DATASET_N = 50
+TEST_DATASET_N = 50
 VAL_DATASET_N = 2500
 
 # Training configuration
@@ -24,6 +23,9 @@ LEARNING_RATE = 1e-5
 
 ######################################################################################
 # annotation generation prompt used on reports
+# Constants from report_annotation.py
+GPT_MODEL_NAME = "gpt-4o-mini"
+
 REPORT_ANNOTATION_N = 50
 REPORT_ANNOTATION_PROMPT_VERSIONS = [1, 2]
 REPORT_ANNOTATION_BEST_PROMPT_VERSION = 1
@@ -121,6 +123,16 @@ Now, analyze the following X-ray images and report, and generate findings organi
 **Input:**
 """
 
+REPORT_IMAGE_ANNOTATION_DEFAULT_MODEL_VERSION = 1
+
+# Constants from rep_im_annotation.py
+REPORT_IMAGE_ANNOTATION_BATCH_SIZE = 5
+REPORT_IMAGE_ANNOTATION_OS_MODEL_NAME_1 = "Qwen/Qwen2-VL-2B-Instruct"
+REPORT_IMAGE_ANNOTATION_OS_MODEL_NAME_2 = MODEL_PATH + "Qwen/Qwen2-VL-2B-Instruct-finetuned/checkpoint_epoch_0_step_100"
+
+# Constants from eval.py
+EVAL_MODEL_NAME = "StanfordAIMI/GREEN-radllama2-7b"
+
 # Constants from utils.py
 PATH_DOCKER = "/xray_report_gen"
 PATH_HOST = "/home/freinque/pycharm_projects/xray_report_gen"
@@ -134,13 +146,3 @@ VIDEO_TOTAL_PIXELS = 24576 / 4 * 28 * 28
 FRAME_FACTOR = 2
 FPS_MIN_FRAMES = 4
 FPS_MAX_FRAMES = 768 / 4
-
-# Constants from report_annotation.py
-GPT_MODEL_NAME = "gpt-4o-mini"
-
-# Constants from rep_im_annotation.py
-OS_MODEL_NAME_1 = "Qwen/Qwen2-VL-2B-Instruct"
-OS_MODEL_NAME_2 = MODEL_PATH + "Qwen/Qwen2-VL-2B-Instruct-finetuned/checkpoint_epoch_0_step_100"
-
-# Constants from eval.py
-EVAL_MODEL_NAME = "StanfordAIMI/GREEN-radllama2-7b"

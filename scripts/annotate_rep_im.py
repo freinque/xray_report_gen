@@ -7,7 +7,7 @@ import click
 import pandas as pd
 
 from xray_report_gen import utils, rep_im_annotation
-from xray_report_gen.config import DATA_PATH, MODEL_VERSION, TRAIN_DATASET, TEST_DATASET, VAL_DATASET, TRAIN_DATASET_N, TEST_DATASET_N, VAL_DATASET_N
+from xray_report_gen.config import DATA_PATH, REPORT_IMAGE_ANNOTATION_DEFAULT_MODEL_VERSION, TRAIN_DATASET, TEST_DATASET, VAL_DATASET, TRAIN_DATASET_N, TEST_DATASET_N, VAL_DATASET_N
 
 def get_dataset_path(mode) -> str:
     if mode == "train":
@@ -27,7 +27,7 @@ def get_n(mode) -> int:
 
 @click.command()
 @click.argument('mode')
-@click.option('--version', type=int, default=MODEL_VERSION)
+@click.option('--version', type=int, default=REPORT_IMAGE_ANNOTATION_DEFAULT_MODEL_VERSION)
 def main(mode, version):
 
     dataset = get_dataset_path(mode)

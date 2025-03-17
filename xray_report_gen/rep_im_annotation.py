@@ -17,7 +17,7 @@ from torch.utils.data import DataLoader
 from transformers import Qwen2VLForConditionalGeneration, AutoTokenizer, AutoProcessor
 
 from xray_report_gen import utils
-from xray_report_gen.config import DATA_PATH, MODEL_PATH, REPORT_IMAGE_ANNOTATION_GENERATION_PROMPT, OS_MODEL_NAME_1, OS_MODEL_NAME_2
+from xray_report_gen.config import DATA_PATH, MODEL_PATH, REPORT_IMAGE_ANNOTATION_GENERATION_PROMPT, REPORT_IMAGE_ANNOTATION_OS_MODEL_NAME_1, REPORT_IMAGE_ANNOTATION_OS_MODEL_NAME_2, REPORT_IMAGE_ANNOTATION_BATCH_SIZE
 
 utils.set_api_keys()
 import os
@@ -31,11 +31,11 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 def get_model_name(version: int) -> str:
     if version == 1:
-        return OS_MODEL_NAME_1
+        return REPORT_IMAGE_ANNOTATION_OS_MODEL_NAME_1
     elif version == 2:
-        return OS_MODEL_NAME_2
+        return REPORT_IMAGE_ANNOTATION_OS_MODEL_NAME_2
     else:
-        return OS_MODEL_NAME_1
+        return REPORT_IMAGE_ANNOTATION_OS_MODEL_NAME_1
 
 
 class DataSet(Dataset):  # for toy demo
@@ -179,7 +179,7 @@ def run_inference(dataset, n=1000, version=1):
 
         inference_loader = DataLoader(
             DataSet(dataset),
-            batch_size=1,
+            batch_size=REPORT_IMAGE_ANNOTATION_BATCH_SIZE,
             collate_fn=partial(collate_fn, processor=processor, device=device, inference=True)
         )
         generated_reports = []
