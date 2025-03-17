@@ -18,7 +18,7 @@ VAL_DATASET_N = 2500
 DEVICE = "cuda"
 EPOCHS = 1
 NUM_ACCUMULATION_STEPS = 5
-SAVE_FREQUENCY = 100
+SAVE_FREQUENCY = 500
 LEARNING_RATE = 1e-5
 
 ######################################################################################
