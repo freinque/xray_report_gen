@@ -21,7 +21,6 @@ from xray_report_gen.config import DATA_PATH, MODEL_PATH, REPORT_IMAGE_ANNOTATIO
 
 utils.set_api_keys()
 import os
-print(len(os.environ["HUGGINGFACEHUB_API_TOKEN"] ))
 
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 torch.cuda.empty_cache()
@@ -83,7 +82,7 @@ def write_chat_template(processor, output_dir):
     chat_template_json_string = json.dumps({"chat_template": processor.chat_template}, indent=2, sort_keys=True) + "\n"
     with open(output_chat_template_file, "w", encoding="utf-8") as writer:
         writer.write(chat_template_json_string)
-        print.info(f"chat template saved in {output_chat_template_file}")
+        print(f"chat template saved in {output_chat_template_file}")
 
 
 def find_assistant_content_sublist_indexes(l):
