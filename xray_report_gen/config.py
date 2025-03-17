@@ -126,7 +126,7 @@ Now, analyze the following X-ray images and report, and generate findings organi
 REPORT_IMAGE_ANNOTATION_DEFAULT_MODEL_VERSION = 1
 
 # Constants from rep_im_annotation.py
-REPORT_IMAGE_ANNOTATION_BATCH_SIZE = 5
+REPORT_IMAGE_ANNOTATION_BATCH_SIZE = 1
 REPORT_IMAGE_ANNOTATION_OS_MODEL_NAME_1 = "Qwen/Qwen2-VL-2B-Instruct"
 REPORT_IMAGE_ANNOTATION_OS_MODEL_NAME_2 = MODEL_PATH + "Qwen/Qwen2-VL-2B-Instruct-finetuned/checkpoint_epoch_0_step_100"
 
